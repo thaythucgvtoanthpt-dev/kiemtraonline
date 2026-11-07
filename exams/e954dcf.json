@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "id": "exam_mw6fiwykibfm",
+    "title": "Đề kiểm tra định kỳ môn Toán lớp 12 (Chuẩn GDPT 2025)",
+    "durationMinutes": 50,
+    "shuffleMode": "none",
+    "passcode": "",
+    "showSolutionAfterSubmit": true,
+    "allowRetake": false,
+    "createdAt": "2026-11-07T13:18:38.684Z",
+    "totalQuestions": {
+      "part1": 4,
+      "part2": 2,
+      "part3": 3,
+      "total": 9
+    },
+    "partScores": {
+      "part1Total": 3,
+      "part2Total": 4,
+      "part3Total": 3
+    }
+  },
+  "part1": [
+    {
+      "id": "p1_q1_mw6fiwy6_0",
+      "number": 1,
+      "part": "part1",
+      "rawText": "Câu 1: Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên hàm số $y = f'(x)$ như hình dưới:\n<img src=\"/assets/aistudio/image_7d0cab89.png\" alt=\"Bảng biến thiên hàm số y = f'(x)\" />\nSố điểm cực trị của hàm số $y = f(x)$ là\nA. 4.\nB. 1.\n<u>C.</u> 2.\nD. 3.\nLời giải\nDựa vào bảng biến thiên ta có phương trình $f'(x) = 0$ có hai nghiệm đơn nên hàm số $y = f(x)$ có 2 điểm cực trị.",
+      "prompt": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên hàm số $y = f'(x)$ như hình dưới:\n<img src=\"/assets/aistudio/image_7d0cab89.png\" alt=\"Bảng biến thiên hàm số y = f'(x)\" />\nSố điểm cực trị của hàm số $y = f(x)$ là",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dựa vào bảng biến thiên ta có phương trình $f'(x) = 0$ có hai nghiệm đơn nên hàm số $y = f(x)$ có 2 điểm cực trị."
+    },
+    {
+      "id": "p1_q2_mw6fiwy7_1",
+      "number": 2,
+      "part": "part1",
+      "rawText": "Câu 2: Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $B$, $SA$ vuông góc với mặt phẳng $(ABC)$. Khẳng định nào sau đây là đúng?\n<u>A.</u> $BC \\perp (SAB)$.\nB. $AB \\perp (SBC)$.\nC. $AC \\perp (SAB)$.\nD. $SA \\perp SB$.\nLời giải\nTa có $BC \\perp AB$ (do tam giác $ABC$ vuông tại $B$) và $BC \\perp SA$ (do $SA \\perp (ABC)$). Suy ra $BC \\perp (SAB)$.",
+      "prompt": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $B$, $SA$ vuông góc với mặt phẳng $(ABC)$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "$BC \\perp (SAB)$"
+        },
+        {
+          "key": "B",
+          "text": "$AB \\perp (SBC)$"
+        },
+        {
+          "key": "C",
+          "text": "$AC \\perp (SAB)$"
+        },
+        {
+          "key": "D",
+          "text": "$SA \\perp SB$"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ta có $BC \\perp AB$ (do tam giác $ABC$ vuông tại $B$) và $BC \\perp SA$ (do $SA \\perp (ABC)$). Suy ra $BC \\perp (SAB)$."
+    },
+    {
+      "id": "p1_q3_mw6fiwyb_2",
+      "number": 3,
+      "part": "part1",
+      "rawText": "Câu 3: Tập nghiệm của bất phương trình $\\log_2(x - 1) < 3$ là\nA. $(-\\infty; 9)$.\nB. $(1; 8)$.\n<u>C.</u> $(1; 9)$.\nD. $(9; +\\infty)$.\nLời giải\nĐiều kiện xác định: $x - 1 > 0 \\Leftrightarrow x > 1$.\nKhi đó $\\log_2(x - 1) < 3 \\Leftrightarrow x - 1 < 2^3 = 8 \\Leftrightarrow x < 9$.\nKết hợp điều kiện suy ra tập nghiệm là $S = (1; 9)$.",
+      "prompt": "Tập nghiệm của bất phương trình $\\log_2(x - 1) < 3$ là",
+      "options": [
+        {
+          "key": "A",
+          "text": "$(-\\infty; 9)$"
+        },
+        {
+          "key": "B",
+          "text": "$(1; 8)$"
+        },
+        {
+          "key": "C",
+          "text": "$(1; 9)$"
+        },
+        {
+          "key": "D",
+          "text": "$(9; +\\infty)$"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Điều kiện xác định: $x - 1 > 0 \\Leftrightarrow x > 1$.\nKhi đó $\\log_2(x - 1) < 3 \\Leftrightarrow x - 1 < 2^3 = 8 \\Leftrightarrow x < 9$.\nKết hợp điều kiện suy ra tập nghiệm là $S = (1; 9)$."
+    },
+    {
+      "id": "p1_q4_mw6fiwyc_3",
+      "number": 4,
+      "part": "part1",
+      "rawText": "Câu 4: Họ nguyên hàm của hàm số $f(x) = 3x^2 + 2x$ là\nA. $x^3 + x^2$.\n<u>B.</u> $x^3 + x^2 + C$.\nC. $6x + 2 + C$.\nD. $x^3 + 2x^2 + C$.\nLời giải\nTa có $\\int (3x^2 + 2x)dx = x^3 + x^2 + C$.",
+      "prompt": "Họ nguyên hàm của hàm số $f(x) = 3x^2 + 2x$ là",
+      "options": [
+        {
+          "key": "A",
+          "text": "$x^3 + x^2$"
+        },
+        {
+          "key": "B",
+          "text": "$x^3 + x^2 + C$"
+        },
+        {
+          "key": "C",
+          "text": "$6x + 2 + C$"
+        },
+        {
+          "key": "D",
+          "text": "$x^3 + 2x^2 + C$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ta có $\\int (3x^2 + 2x)dx = x^3 + x^2 + C$."
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2_q1_mw6fiwyh_0",
+      "number": 1,
+      "part": "part2",
+      "rawText": "Câu 1: Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên của đạo hàm $y = f'(x)$ như hình dưới:\n<img src=\"/assets/aistudio/image_7d0cab89.png\" alt=\"Bảng biến thiên hàm số y = f'(x)\" />\nXét tính đúng sai của các mệnh đề sau:\n<u>a)</u> Hàm số $y = f(x)$ có đúng 2 điểm cực trị.\nb) Đạo hàm $f'(x)$ đổi dấu khi đi qua điểm $x = 0$.\n<u>c)</u> Phương trình $f'(x) = 0$ có 3 nghiệm thực phân biệt.\nd) Trên khoảng $(0; 2)$, hàm số $y = f(x)$ đồng biến.\nLời giải\nDựa vào bảng biến thiên của $f'(x)$:\n- Đường thẳng $y = 0$ cắt đồ thị $f'(x)$ tại 2 điểm đơn (trên $(-\\infty; -3)$ và $(2; +\\infty)$) và tiếp xúc tại $x = 0$ ($f'(0) = 0$).\n- Vì $f'(x)$ chỉ đổi dấu qua 2 nghiệm đơn và không đổi dấu qua $x = 0$, nên hàm số $y = f(x)$ có 2 điểm cực trị. Trên khoảng $(0; 2)$, $f'(x) < 0$ nên hàm số nghịch biến.",
+      "prompt": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên của đạo hàm $y = f'(x)$ như hình dưới:\n<img src=\"/assets/aistudio/image_7d0cab89.png\" alt=\"Bảng biến thiên hàm số y = f'(x)\" />\nXét tính đúng sai của các mệnh đề sau:",
+      "items": [
+        {
+          "key": "a",
+          "text": "Hàm số $y = f(x)$ có đúng 2 điểm cực trị",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "Đạo hàm $f'(x)$ đổi dấu khi đi qua điểm $x = 0$",
+          "correctAnswer": false
+        },
+        {
+          "key": "c",
+          "text": "hương trình $f'(x) = 0$ có 3 nghiệm thực phân biệt",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "Trên khoảng $(0; 2)$, hàm số $y = f(x)$ đồng biến",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "Dựa vào bảng biến thiên của $f'(x)$:\n- Đường thẳng $y = 0$ cắt đồ thị $f'(x)$ tại 2 điểm đơn (trên $(-\\infty; -3)$ và $(2; +\\infty)$) và tiếp xúc tại $x = 0$ ($f'(0) = 0$).\n- Vì $f'(x)$ chỉ đổi dấu qua 2 nghiệm đơn và không đổi dấu qua $x = 0$, nên hàm số $y = f(x)$ có 2 điểm cực trị. Trên khoảng $(0; 2)$, $f'(x) < 0$ nên hàm số nghịch biến."
+    },
+    {
+      "id": "p2_q2_mw6fiwyj_1",
+      "number": 2,
+      "part": "part2",
+      "rawText": "Câu 2: Trong không gian $Oxyz$, cho bốn điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$ và $D(1; 2; 3)$.\n<u>a)</u> Mặt phẳng $(ABC)$ có phương trình đoạn chắn là $\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 1$.\n<u>b)</u> Tọa độ trọng tâm tam giác $ABC$ là $G\\left(\\frac{1}{3}; \\frac{2}{3}; 1\\right)$.\nc) Bốn điểm $A, B, C, D$ tạo thành một tứ diện đều.\n<u>d)</u> Khoảng cách từ gốc tọa độ $O$ đến mặt phẳng $(ABC)$ bằng $\\frac{6}{7}$.\nLời giải\na) Đúng theo công thức phương trình mặt phẳng theo đoạn chắn.\nb) Đúng vì $x_G = \\frac{1+0+0}{3} = \\frac{1}{3}, y_G = \\frac{2}{3}, z_G = 1$.\nc) Sai vì các cạnh $AB, BC, CA$ có độ dài đôi một khác nhau.\nd) Đúng vì phương trình $(ABC): 6x + 3y + 2z - 6 = 0 \\Rightarrow d(O, (ABC)) = \\frac{|-6|}{\\sqrt{36 + 9 + 4}} = \\frac{6}{7}$.",
+      "prompt": "Trong không gian $Oxyz$, cho bốn điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$ và $D(1; 2; 3)$.",
+      "items": [
+        {
+          "key": "a",
+          "text": "Mặt phẳng $(ABC)$ có phương trình đoạn chắn là $\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 1$",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "Tọa độ trọng tâm tam giác $ABC$ là $G\\left(\\frac{1}{3}; \\frac{2}{3}; 1\\right)$",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "ốn điểm $A, B, C, D$ tạo thành một tứ diện đều",
+          "correctAnswer": false
+        },
+        {
+          "key": "d",
+          "text": "Khoảng cách từ gốc tọa độ $O$ đến mặt phẳng $(ABC)$ bằng $\\frac{6}{7}$",
+          "correctAnswer": true
+        }
+      ],
+      "explanation": "a) Đúng theo công thức phương trình mặt phẳng theo đoạn chắn.\nb) Đúng vì $x_G = \\frac{1+0+0}{3} = \\frac{1}{3}, y_G = \\frac{2}{3}, z_G = 1$.\nc) Sai vì các cạnh $AB, BC, CA$ có độ dài đôi một khác nhau.\nd) Đúng vì phương trình $(ABC): 6x + 3y + 2z - 6 = 0 \\Rightarrow d(O, (ABC)) = \\frac{|-6|}{\\sqrt{36 + 9 + 4}} = \\frac{6}{7}$."
+    }
+  ],
+  "part3": [
+    {
+      "id": "p3_q1_mw6fiwyk_0",
+      "number": 1,
+      "part": "part3",
+      "rawText": "Câu 1: Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên của hàm số $y = f'(x)$ như hình vẽ ở Phần I. Số điểm cực trị của hàm số $y = f(x)$ là bao nhiêu?\nĐáp án: 2\nLời giải\nPhương trình $f'(x) = 0$ có 2 nghiệm đơn làm $f'(x)$ đổi dấu và 1 nghiệm kép $x = 0$ không làm $f'(x)$ đổi dấu. Vậy hàm số $y = f(x)$ có 2 điểm cực trị.",
+      "prompt": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng biến thiên của hàm số $y = f'(x)$ như hình vẽ ở Phần I. Số điểm cực trị của hàm số $y = f(x)$ là bao nhiêu?",
+      "correctAnswer": "2",
+      "acceptableAnswers": [
+        "2"
+      ],
+      "explanation": "Phương trình $f'(x) = 0$ có 2 nghiệm đơn làm $f'(x)$ đổi dấu và 1 nghiệm kép $x = 0$ không làm $f'(x)$ đổi dấu. Vậy hàm số $y = f(x)$ có 2 điểm cực trị."
+    },
+    {
+      "id": "p3_q2_mw6fiwyk_1",
+      "number": 2,
+      "part": "part3",
+      "rawText": "Câu 2: Một vật chuyển động theo quy luật $s(t) = -t^3 + 6t^2 + 9t$ với $t$ là thời gian tính bằng giây và $s$ tính bằng mét. Vận tốc lớn nhất của vật đạt được bằng bao nhiêu m/s?\nĐáp án: 21\nLời giải\nVận tốc tức thời $v(t) = s'(t) = -3t^2 + 12t + 9 = -3(t - 2)^2 + 21 \\le 21$. Vậy vận tốc lớn nhất là 21 m/s tại $t = 2$ giây.",
+      "prompt": "Một vật chuyển động theo quy luật $s(t) = -t^3 + 6t^2 + 9t$ với $t$ là thời gian tính bằng giây và $s$ tính bằng mét. Vận tốc lớn nhất của vật đạt được bằng bao nhiêu m/s?",
+      "correctAnswer": "21",
+      "acceptableAnswers": [
+        "21"
+      ],
+      "explanation": "Vận tốc tức thời $v(t) = s'(t) = -3t^2 + 12t + 9 = -3(t - 2)^2 + 21 \\le 21$. Vậy vận tốc lớn nhất là 21 m/s tại $t = 2$ giây."
+    },
+    {
+      "id": "p3_q3_mw6fiwyk_2",
+      "number": 3,
+      "part": "part3",
+      "rawText": "Câu 3: Một hình nón có bán kính đáy $r = 3$ và chiều cao $h = 4$. Tính diện tích xung quanh của hình nón chia cho $\\pi$ (tức là tính $\\frac{S_{xq}}{\\pi}$).\nĐáp án: 15\nLời giải\nĐường sinh $l = \\sqrt{r^2 + h^2} = \\sqrt{9 + 16} = 5$. Diện tích xung quanh $S_{xq} = \\pi r l = 15\\pi \\Rightarrow \\frac{S_{xq}}{\\pi} = 15$.",
+      "prompt": "Một hình nón có bán kính đáy $r = 3$ và chiều cao $h = 4$. Tính diện tích xung quanh của hình nón chia cho $\\pi$ (tức là tính $\\frac{S_{xq}}{\\pi}$).",
+      "correctAnswer": "15",
+      "acceptableAnswers": [
+        "15"
+      ],
+      "explanation": "Đường sinh $l = \\sqrt{r^2 + h^2} = \\sqrt{9 + 16} = 5$. Diện tích xung quanh $S_{xq} = \\pi r l = 15\\pi \\Rightarrow \\frac{S_{xq}}{\\pi} = 15$."
+    }
+  ],
+  "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec"
+}
