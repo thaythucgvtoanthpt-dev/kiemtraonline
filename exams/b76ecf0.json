@@ -1,0 +1,548 @@
+{
+  "metadata": {
+    "id": "exam_mw6h3c3ben0p",
+    "title": "KHẢO-SÁT-CHẤT-LƯỢNG-LẦN-1-TOÁN-12-KHTN-TPHCM",
+    "durationMinutes": 50,
+    "shuffleMode": "none",
+    "passcode": "",
+    "showSolutionAfterSubmit": true,
+    "allowRetake": false,
+    "createdAt": "2026-11-07T14:02:31.032Z",
+    "totalQuestions": {
+      "part1": 12,
+      "part2": 4,
+      "part3": 6,
+      "total": 22
+    },
+    "partScores": {
+      "part1Total": 3,
+      "part2Total": 4,
+      "part3Total": 3
+    }
+  },
+  "part1": [
+    {
+      "id": "p1_q1_mw6h3c17_0",
+      "number": 1,
+      "part": "part1",
+      "rawText": "Câu 1: [Mức độ 1] Cho hàm số $f(x)$ có bảng biến thiên như sau:\n\\begin{center}\n\\begin{tikzpicture}\n\\end{tikzpicture}\n\\end{center}\n$$\\begin{array}{c|ccccccc}\nx & -\\infty & & 0 & & 2 & & +\\infty \\\\\n\\hline\nf'(x) & & + & 0 & - & 0 & + & \\\\\n\\hline\nf(x) & & & 1 & & & & +\\infty \\\\\n& & \\nearrow & & \\searrow & & \\nearrow & \\\\\n& -\\infty & & & & -2 & & \n\\end{array}$$\nHàm số đã cho nghịch biến trên khoảng\n<u>A.</u> $(0;2)$.\nB. $(-2;1)$.\nC. $(-\\infty;0)$.\nD. $(2;+\\infty)$.\n\nLời giải\nTrong khoảng $(0;2)$, đạo hàm của hàm số mang dấu âm nên hàm số nghịch biến trong khoảng $(0;2)$.",
+      "prompt": "[Mức độ 1] Cho hàm số $f(x)$ có bảng biến thiên như sau:\n\\begin{center}\n\\begin{tikzpicture}\n\\end{tikzpicture}\n\\end{center}\n$$\\begin{array}{c|ccccccc}\nx & -\\infty & & 0 & & 2 & & +\\infty \\\\\n\\hline\nf'(x) & & + & 0 & - & 0 & + & \\\\\n\\hline\nf(x) & & & 1 & & & & +\\infty \\\\\n& & \\nearrow & & \\searrow & & \\nearrow & \\\\\n& -\\infty & & & & -2 & & \n\\end{array}$$\nHàm số đã cho nghịch biến trên khoảng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$(0;2)$"
+        },
+        {
+          "key": "B",
+          "text": "$(-2;1)$"
+        },
+        {
+          "key": "C",
+          "text": "$(-\\infty;0)$"
+        },
+        {
+          "key": "D",
+          "text": "$(2;+\\infty)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Trong khoảng $(0;2)$, đạo hàm của hàm số mang dấu âm nên hàm số nghịch biến trong khoảng $(0;2)$."
+    },
+    {
+      "id": "p1_q2_mw6h3c1n_1",
+      "number": 2,
+      "part": "part1",
+      "rawText": "Câu 2: [Mức độ 1] Thống kê chiều cao (đơn vị: $\\text{cm}$) của các học sinh trong một lớp học ta có bảng số liệu sau:\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nChiều cao & $[150;155)$ & $[155;160)$ & $[160;165)$ & $[165;170)$ & $[170;175)$ & $[175;180)$ \\\\\n\\hline\nSố học sinh & $1$ & $4$ & $10$ & $9$ & $4$ & $2$ \\\\\n\\hline\n\\end{tabular}\n\\end{center}\nĐộ lệch chuẩn của mẫu số liệu trên bằng bao nhiêu? (kết quả làm tròn đến hàng phần trăm)\nA. $35{,}66$.\n<u>B.</u> $5{,}87$.\nC. $34{,}47$.\nD. $5{,}97$.\n\nLời giải\nTa có bảng giá trị đại diện:\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nChiều cao & $[150;155)$ & $[155;160)$ & $[160;165)$ & $[165;170)$ & $[170;175)$ & $[175;180)$ \\\\\n\\hline\nSố học sinh & $1$ & $4$ & $10$ & $9$ & $4$ & $2$ \\\\\n\\hline\nGiá trị đại diện & $152{,}5$ & $157{,}5$ & $162{,}5$ & $167{,}5$ & $172{,}5$ & $177{,}5$ \\\\\n\\hline\n\\end{tabular}\n\\end{center}\nCỡ mẫu: $n = 1 + 4 + 10 + 9 + 4 + 2 = 30$.\nSố trung bình:\n$$\\bar{x} = \\frac{1 \\cdot 152{,}5 + 4 \\cdot 157{,}5 + 10 \\cdot 162{,}5 + 9 \\cdot 167{,}5 + 4 \\cdot 172{,}5 + 2 \\cdot 177{,}5}{30} = \\frac{496}{3}.$$\nPhương sai:\n$$s^2 = \\frac{1}{n}\\left(m_1 x_1^2 + \\dots + m_k x_k^2\\right) - (\\bar{x})^2$$\n$$s^2 = \\frac{1 \\cdot 152{,}5^2 + 4 \\cdot 157{,}5^2 + 10 \\cdot 162{,}5^2 + 9 \\cdot 167{,}5^2 + 4 \\cdot 172{,}5^2 + 2 \\cdot 177{,}5^2}{30} - \\left(\\frac{496}{3}\\right)^2 \\approx 34{,}45.$$\nSuy ra độ lệch chuẩn: $s = \\sqrt{s^2} \\approx 5{,}87$.",
+      "prompt": "[Mức độ 1] Thống kê chiều cao (đơn vị: $\\text{cm}$) của các học sinh trong một lớp học ta có bảng số liệu sau:\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nChiều cao & $[150;155)$ & $[155;160)$ & $[160;165)$ & $[165;170)$ & $[170;175)$ & $[175;180)$ \\\\\n\\hline\nSố học sinh & $1$ & $4$ & $10$ & $9$ & $4$ & $2$ \\\\\n\\hline\n\\end{tabular}\n\\end{center}\nĐộ lệch chuẩn của mẫu số liệu trên bằng bao nhiêu? (kết quả làm tròn đến hàng phần trăm)",
+      "options": [
+        {
+          "key": "A",
+          "text": "$35{,}66$"
+        },
+        {
+          "key": "B",
+          "text": "$5{,}87$"
+        },
+        {
+          "key": "C",
+          "text": "$34{,}47$"
+        },
+        {
+          "key": "D",
+          "text": "$5{,}97$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ta có bảng giá trị đại diện:\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nChiều cao & $[150;155)$ & $[155;160)$ & $[160;165)$ & $[165;170)$ & $[170;175)$ & $[175;180)$ \\\\\n\\hline\nSố học sinh & $1$ & $4$ & $10$ & $9$ & $4$ & $2$ \\\\\n\\hline\nGiá trị đại diện & $152{,}5$ & $157{,}5$ & $162{,}5$ & $167{,}5$ & $172{,}5$ & $177{,}5$ \\\\\n\\hline\n\\end{tabular}\n\\end{center}\nCỡ mẫu: $n = 1 + 4 + 10 + 9 + 4 + 2 = 30$.\nSố trung bình:\n$$\\bar{x} = \\frac{1 \\cdot 152{,}5 + 4 \\cdot 157{,}5 + 10 \\cdot 162{,}5 + 9 \\cdot 167{,}5 + 4 \\cdot 172{,}5 + 2 \\cdot 177{,}5}{30} = \\frac{496}{3}.$$\nPhương sai:\n$$s^2 = \\frac{1}{n}\\left(m_1 x_1^2 + \\dots + m_k x_k^2\\right) - (\\bar{x})^2$$\n$$s^2 = \\frac{1 \\cdot 152{,}5^2 + 4 \\cdot 157{,}5^2 + 10 \\cdot 162{,}5^2 + 9 \\cdot 167{,}5^2 + 4 \\cdot 172{,}5^2 + 2 \\cdot 177{,}5^2}{30} - \\left(\\frac{496}{3}\\right)^2 \\approx 34{,}45.$$\nSuy ra độ lệch chuẩn: $s = \\sqrt{s^2} \\approx 5{,}87$."
+    },
+    {
+      "id": "p1_q3_mw6h3c1o_2",
+      "number": 3,
+      "part": "part1",
+      "rawText": "Câu 3: [Mức độ 1] Trong không gian $Oxyz$, khoảng cách từ điểm $A(1;0;0)$ tới mặt phẳng $(P): 2x + 2y - z + 1 = 0$ bằng\nA. $3$.\nB. $\\sqrt{3}$.\nC. $9$.\n<u>D.</u> $1$.\n\nLời giải\nKhoảng cách từ điểm $A$ tới mặt phẳng $(P)$ là:\n$$d(A;(P)) = \\frac{|2 \\cdot 1 + 2 \\cdot 0 - 0 + 1|}{\\sqrt{2^2 + 2^2 + (-1)^2}} = \\frac{3}{3} = 1.$$",
+      "prompt": "[Mức độ 1] Trong không gian $Oxyz$, khoảng cách từ điểm $A(1;0;0)$ tới mặt phẳng $(P): 2x + 2y - z + 1 = 0$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$3$"
+        },
+        {
+          "key": "B",
+          "text": "$\\sqrt{3}$"
+        },
+        {
+          "key": "C",
+          "text": "$9$"
+        },
+        {
+          "key": "D",
+          "text": "$1$"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Khoảng cách từ điểm $A$ tới mặt phẳng $(P)$ là:\n$$d(A;(P)) = \\frac{|2 \\cdot 1 + 2 \\cdot 0 - 0 + 1|}{\\sqrt{2^2 + 2^2 + (-1)^2}} = \\frac{3}{3} = 1.$$"
+    },
+    {
+      "id": "p1_q4_mw6h3c1p_3",
+      "number": 4,
+      "part": "part1",
+      "rawText": "Câu 4: [Mức độ 1] Cho $\\int_0^1 f(x)\\,\\mathrm{d}x = 1$ và $\\int_0^2 f(x)\\,\\mathrm{d}x = -4$. Tích phân $\\int_1^2 f(x)\\,\\mathrm{d}x$ bằng\nA. $5$.\nB. $-3$.\n<u>C.</u> $-5$.\nD. $3$.\n\nLời giải\nTa có:\n$$\\int_0^1 f(x)\\,\\mathrm{d}x + \\int_1^2 f(x)\\,\\mathrm{d}x = \\int_0^2 f(x)\\,\\mathrm{d}x \\implies 1 + \\int_1^2 f(x)\\,\\mathrm{d}x = -4 \\implies \\int_1^2 f(x)\\,\\mathrm{d}x = -5.$$",
+      "prompt": "[Mức độ 1] Cho $\\int_0^1 f(x)\\,\\mathrm{d}x = 1$ và $\\int_0^2 f(x)\\,\\mathrm{d}x = -4$. Tích phân $\\int_1^2 f(x)\\,\\mathrm{d}x$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$5$"
+        },
+        {
+          "key": "B",
+          "text": "$-3$"
+        },
+        {
+          "key": "C",
+          "text": "$-5$"
+        },
+        {
+          "key": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ta có:\n$$\\int_0^1 f(x)\\,\\mathrm{d}x + \\int_1^2 f(x)\\,\\mathrm{d}x = \\int_0^2 f(x)\\,\\mathrm{d}x \\implies 1 + \\int_1^2 f(x)\\,\\mathrm{d}x = -4 \\implies \\int_1^2 f(x)\\,\\mathrm{d}x = -5.$$"
+    },
+    {
+      "id": "p1_q5_mw6h3c1u_4",
+      "number": 5,
+      "part": "part1",
+      "rawText": "Câu 5: [Mức độ 1] Cho hàm số $y = f(x)$. Biết rằng phần hình phẳng $S_1$ và $S_2$ có diện tích lần lượt bằng $7$ và $2$. Tích phân $\\int_{-1}^4 f(x)\\,\\mathrm{d}x$ bằng\nA. $9$.\nB. $-5$.\nC. $-9$.\n<u>D.</u> $5$.\n\nLời giải\nVì phần hình phẳng $S_1$ và $S_2$ có diện tích lần lượt bằng $7$ và $2$, đồng thời phần $S_1$ nằm phía trên trục hoành, phần $S_2$ nằm phía dưới trục hoành nên:\n$$\\int_{-1}^2 f(x)\\,\\mathrm{d}x = 7 \\quad \\text{và} \\quad \\int_2^4 f(x)\\,\\mathrm{d}x = -2.$$\nTa có:\n$$\\int_{-1}^4 f(x)\\,\\mathrm{d}x = \\int_{-1}^2 f(x)\\,\\mathrm{d}x + \\int_2^4 f(x)\\,\\mathrm{d}x = 7 + (-2) = 5.$$",
+      "prompt": "[Mức độ 1] Cho hàm số $y = f(x)$. Biết rằng phần hình phẳng $S_1$ và $S_2$ có diện tích lần lượt bằng $7$ và $2$. Tích phân $\\int_{-1}^4 f(x)\\,\\mathrm{d}x$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$9$"
+        },
+        {
+          "key": "B",
+          "text": "$-5$"
+        },
+        {
+          "key": "C",
+          "text": "$-9$"
+        },
+        {
+          "key": "D",
+          "text": "$5$"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Vì phần hình phẳng $S_1$ và $S_2$ có diện tích lần lượt bằng $7$ và $2$, đồng thời phần $S_1$ nằm phía trên trục hoành, phần $S_2$ nằm phía dưới trục hoành nên:\n$$\\int_{-1}^2 f(x)\\,\\mathrm{d}x = 7 \\quad \\text{và} \\quad \\int_2^4 f(x)\\,\\mathrm{d}x = -2.$$\nTa có:\n$$\\int_{-1}^4 f(x)\\,\\mathrm{d}x = \\int_{-1}^2 f(x)\\,\\mathrm{d}x + \\int_2^4 f(x)\\,\\mathrm{d}x = 7 + (-2) = 5.$$"
+    },
+    {
+      "id": "p1_q6_mw6h3c20_5",
+      "number": 6,
+      "part": "part1",
+      "rawText": "Câu 6: [Mức độ 1] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Tổng $\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD}$ bằng\n<u>A.</u> $4\\vec{SO}$.\nB. $8\\vec{SO}$.\nC. $3\\vec{SO}$.\nD. $2\\vec{SO}$.\n\nLời giải\nVì $ABCD$ là hình bình hành tâm $O$ nên $O$ là trung điểm của $AC$ và $BD$.\nKhi đó:\n$$\\vec{SA} + \\vec{SC} = 2\\vec{SO}$$\n$$\\vec{SB} + \\vec{SD} = 2\\vec{SO}$$\nSuy ra $\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = 4\\vec{SO}$.",
+      "prompt": "[Mức độ 1] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Tổng $\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD}$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$4\\vec{SO}$"
+        },
+        {
+          "key": "B",
+          "text": "$8\\vec{SO}$"
+        },
+        {
+          "key": "C",
+          "text": "$3\\vec{SO}$"
+        },
+        {
+          "key": "D",
+          "text": "$2\\vec{SO}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Vì $ABCD$ là hình bình hành tâm $O$ nên $O$ là trung điểm của $AC$ và $BD$.\nKhi đó:\n$$\\vec{SA} + \\vec{SC} = 2\\vec{SO}$$\n$$\\vec{SB} + \\vec{SD} = 2\\vec{SO}$$\nSuy ra $\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = 4\\vec{SO}$."
+    },
+    {
+      "id": "p1_q7_mw6h3c22_6",
+      "number": 7,
+      "part": "part1",
+      "rawText": "Câu 7: [Mức độ 1] Đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 - 2x}{x + 1}$ có phương trình là\nA. $y = x - 1$.\n<u>B.</u> $y = x - 3$.\nC. $y = x + 1$.\nD. $y = x$.\n\nLời giải\nTa có $y = f(x) = \\frac{x^2 - 2x}{x + 1} = x - 3 + \\frac{3}{x + 1}$.\nLại có $\\lim_{x \\to \\pm\\infty} [f(x) - (x - 3)] = \\lim_{x \\to \\pm\\infty} \\frac{3}{x + 1} = 0$.\nDo đó đường thẳng $y = x - 3$ là tiệm cận xiên của đồ thị hàm số.",
+      "prompt": "[Mức độ 1] Đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 - 2x}{x + 1}$ có phương trình là",
+      "options": [
+        {
+          "key": "A",
+          "text": "$y = x - 1$"
+        },
+        {
+          "key": "B",
+          "text": "$y = x - 3$"
+        },
+        {
+          "key": "C",
+          "text": "$y = x + 1$"
+        },
+        {
+          "key": "D",
+          "text": "$y = x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ta có $y = f(x) = \\frac{x^2 - 2x}{x + 1} = x - 3 + \\frac{3}{x + 1}$.\nLại có $\\lim_{x \\to \\pm\\infty} [f(x) - (x - 3)] = \\lim_{x \\to \\pm\\infty} \\frac{3}{x + 1} = 0$.\nDo đó đường thẳng $y = x - 3$ là tiệm cận xiên của đồ thị hàm số."
+    },
+    {
+      "id": "p1_q8_mw6h3c24_7",
+      "number": 8,
+      "part": "part1",
+      "rawText": "Câu 8: [Mức độ 2] Trong không gian $Oxyz$, cho hai điểm $A(1;-2;3)$ và $B(3;1;1)$. Đường thẳng $AB$ có phương trình là\nA. $\\frac{x - 1}{4} = \\frac{y + 2}{-1} = \\frac{z - 3}{4}$.\nB. $\\frac{x - 4}{1} = \\frac{y + 1}{-2} = \\frac{z - 4}{3}$.\n<u>C.</u> $\\frac{x - 1}{2} = \\frac{y + 2}{3} = \\frac{z - 3}{-2}$.\nD. $\\frac{x - 2}{1} = \\frac{y - 3}{-2} = \\frac{z + 2}{3}$.\n\nLời giải\nĐường thẳng $AB$ đi qua điểm $A(1;-2;3)$ và có một vectơ chỉ phương là $\\vec{u} = \\vec{AB} = (2;3;-2)$.\nPhương trình chính tắc của đường thẳng $AB$ là:\n$$\\frac{x - 1}{2} = \\frac{y + 2}{3} = \\frac{z - 3}{-2}.$$",
+      "prompt": "[Mức độ 2] Trong không gian $Oxyz$, cho hai điểm $A(1;-2;3)$ và $B(3;1;1)$. Đường thẳng $AB$ có phương trình là",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\frac{x - 1}{4} = \\frac{y + 2}{-1} = \\frac{z - 3}{4}$"
+        },
+        {
+          "key": "B",
+          "text": "$\\frac{x - 4}{1} = \\frac{y + 1}{-2} = \\frac{z - 4}{3}$"
+        },
+        {
+          "key": "C",
+          "text": "$\\frac{x - 1}{2} = \\frac{y + 2}{3} = \\frac{z - 3}{-2}$"
+        },
+        {
+          "key": "D",
+          "text": "$\\frac{x - 2}{1} = \\frac{y - 3}{-2} = \\frac{z + 2}{3}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Đường thẳng $AB$ đi qua điểm $A(1;-2;3)$ và có một vectơ chỉ phương là $\\vec{u} = \\vec{AB} = (2;3;-2)$.\nPhương trình chính tắc của đường thẳng $AB$ là:\n$$\\frac{x - 1}{2} = \\frac{y + 2}{3} = \\frac{z - 3}{-2}.$$"
+    },
+    {
+      "id": "p1_q9_mw6h3c28_8",
+      "number": 9,
+      "part": "part1",
+      "rawText": "Câu 9: [Mức độ 2] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SD = a\\sqrt{3}$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng\nA. $90^\\circ$.\nB. $30^\\circ$.\n<u>C.</u> $45^\\circ$.\nD. $60^\\circ$.\n\nLời giải\nXét tam giác $SAD$ vuông tại $A$ có:\n$$SA = \\sqrt{SD^2 - AD^2} = \\sqrt{(a\\sqrt{3})^2 - a^2} = a\\sqrt{2}.$$\nHình vuông $ABCD$ cạnh $a \\implies AC = a\\sqrt{2}$.\nTa có $SA \\perp (ABCD)$ nên hình chiếu của $SC$ lên $(ABCD)$ là $AC$.\nSuy ra $(SC,(ABCD)) = \\widehat{SCA}$.\nXét tam giác $SAC$ vuông tại $A$:\n$$\\tan \\widehat{SCA} = \\frac{SA}{AC} = \\frac{a\\sqrt{2}}{a\\sqrt{2}} = 1 \\implies \\widehat{SCA} = 45^\\circ.$$",
+      "prompt": "[Mức độ 2] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SD = a\\sqrt{3}$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$90^\\circ$"
+        },
+        {
+          "key": "B",
+          "text": "$30^\\circ$"
+        },
+        {
+          "key": "C",
+          "text": "$45^\\circ$"
+        },
+        {
+          "key": "D",
+          "text": "$60^\\circ$"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Xét tam giác $SAD$ vuông tại $A$ có:\n$$SA = \\sqrt{SD^2 - AD^2} = \\sqrt{(a\\sqrt{3})^2 - a^2} = a\\sqrt{2}.$$\nHình vuông $ABCD$ cạnh $a \\implies AC = a\\sqrt{2}$.\nTa có $SA \\perp (ABCD)$ nên hình chiếu của $SC$ lên $(ABCD)$ là $AC$.\nSuy ra $(SC,(ABCD)) = \\widehat{SCA}$.\nXét tam giác $SAC$ vuông tại $A$:\n$$\\tan \\widehat{SCA} = \\frac{SA}{AC} = \\frac{a\\sqrt{2}}{a\\sqrt{2}} = 1 \\implies \\widehat{SCA} = 45^\\circ.$$"
+    },
+    {
+      "id": "p1_q10_mw6h3c29_9",
+      "number": 10,
+      "part": "part1",
+      "rawText": "Câu 10: [Mức độ 2] Giả sử nhiệt độ $T^\\circ\\text{C}$ của một loại đồ uống được xác định theo công thức:\n$$T = 22 + 50e^{-\\frac{1}{8}t}, \\quad t \\ge 0$$\ntrong đó $t$ (phút) là khoảng thời gian tính từ lúc pha chế đồ uống đó xong. Hỏi sau bao lâu kể từ lúc pha chế xong thì nhiệt độ của đồ uống đó là $40^\\circ\\text{C}$ (kết quả làm tròn đến hàng đơn vị)?\nA. $7$.\n<u>B.</u> $8$.\nC. $9$.\nD. $10$.\n\nLời giải\nTa có:\n$$T = 40 \\iff 22 + 50e^{-\\frac{1}{8}t} = 40 \\iff 50e^{-\\frac{1}{8}t} = 18 \\iff e^{-\\frac{1}{8}t} = \\frac{9}{25} \\iff -\\frac{1}{8}t = \\ln\\frac{9}{25} \\iff t \\approx 8\\text{ (phút)}.$$",
+      "prompt": "[Mức độ 2] Giả sử nhiệt độ $T^\\circ\\text{C}$ của một loại đồ uống được xác định theo công thức:\n$$T = 22 + 50e^{-\\frac{1}{8}t}, \\quad t \\ge 0$$\ntrong đó $t$ (phút) là khoảng thời gian tính từ lúc pha chế đồ uống đó xong. Hỏi sau bao lâu kể từ lúc pha chế xong thì nhiệt độ của đồ uống đó là $40^\\circ\\text{C}$ (kết quả làm tròn đến hàng đơn vị)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "$7$"
+        },
+        {
+          "key": "B",
+          "text": "$8$"
+        },
+        {
+          "key": "C",
+          "text": "$9$"
+        },
+        {
+          "key": "D",
+          "text": "$10$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ta có:\n$$T = 40 \\iff 22 + 50e^{-\\frac{1}{8}t} = 40 \\iff 50e^{-\\frac{1}{8}t} = 18 \\iff e^{-\\frac{1}{8}t} = \\frac{9}{25} \\iff -\\frac{1}{8}t = \\ln\\frac{9}{25} \\iff t \\approx 8\\text{ (phút)}.$$"
+    },
+    {
+      "id": "p1_q11_mw6h3c2b_10",
+      "number": 11,
+      "part": "part1",
+      "rawText": "Câu 11: [Mức độ 2] Họ nguyên hàm của hàm số $f(x) = \\sin^2 x$ là\n<u>A.</u> $\\frac{x}{2} - \\frac{\\sin 2x}{4} + C$.\nB. $\\frac{x}{2} + \\frac{\\sin 2x}{4} + C$.\nC. $\\frac{x}{2} - \\frac{\\sin 2x}{2} + C$.\nD. $\\frac{x}{2} + \\frac{\\sin 2x}{2} + C$.\n\nLời giải\n$$\\int \\sin^2 x\\,\\mathrm{d}x = \\int \\frac{1 - \\cos 2x}{2}\\,\\mathrm{d}x = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C.$$",
+      "prompt": "[Mức độ 2] Họ nguyên hàm của hàm số $f(x) = \\sin^2 x$ là",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\frac{x}{2} - \\frac{\\sin 2x}{4} + C$"
+        },
+        {
+          "key": "B",
+          "text": "$\\frac{x}{2} + \\frac{\\sin 2x}{4} + C$"
+        },
+        {
+          "key": "C",
+          "text": "$\\frac{x}{2} - \\frac{\\sin 2x}{2} + C$"
+        },
+        {
+          "key": "D",
+          "text": "$\\frac{x}{2} + \\frac{\\sin 2x}{2} + C$"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "$$\\int \\sin^2 x\\,\\mathrm{d}x = \\int \\frac{1 - \\cos 2x}{2}\\,\\mathrm{d}x = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C.$$"
+    },
+    {
+      "id": "p1_q12_mw6h3c2c_11",
+      "number": 12,
+      "part": "part1",
+      "rawText": "Câu 12: [Mức độ 1] Trong không gian $Oxyz$, mặt cầu $(C): x^2 + y^2 + z^2 - 4x + 4y - 2z + 5 = 0$ có bán kính bằng\nA. $4$.\nB. $\\sqrt{2}$.\nC. $3$.\n<u>D.</u> $2$.\n\nLời giải\nTa có:\n$$x^2 + y^2 + z^2 - 4x + 4y - 2z + 5 = 0 \\iff (x - 2)^2 + (y + 2)^2 + (z - 1)^2 = 4.$$\nVậy mặt cầu có bán kính $R = \\sqrt{4} = 2$.",
+      "prompt": "[Mức độ 1] Trong không gian $Oxyz$, mặt cầu $(C): x^2 + y^2 + z^2 - 4x + 4y - 2z + 5 = 0$ có bán kính bằng",
+      "options": [
+        {
+          "key": "A",
+          "text": "$4$"
+        },
+        {
+          "key": "B",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "key": "C",
+          "text": "$3$"
+        },
+        {
+          "key": "D",
+          "text": "$2$"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ta có:\n$$x^2 + y^2 + z^2 - 4x + 4y - 2z + 5 = 0 \\iff (x - 2)^2 + (y + 2)^2 + (z - 1)^2 = 4.$$\nVậy mặt cầu có bán kính $R = \\sqrt{4} = 2$."
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2_q1_mw6h3c2n_0",
+      "number": 13,
+      "part": "part2",
+      "rawText": "Câu 13: Có hai phác đồ điều trị $A$ và $B$ cho một loại bệnh. Phác đồ $A$ có xác suất chữa khỏi bệnh là $60\\%$ và xác suất gây tác dụng phụ nghiêm trọng là $5\\%$. Phác đồ $B$ có xác suất chữa khỏi bệnh là $70\\%$ và xác suất gây tác dụng phụ nghiêm trọng là $10\\%$. Một bệnh nhân được điều trị ngẫu nhiên bằng một trong hai phác đồ (xác suất chọn mỗi phác đồ là $50\\%$).\na) [Mức độ 1] Xác suất bệnh nhân điều trị bằng phác đồ $A$ và được chữa khỏi bệnh là $0{,}6$. (Sai)\n<u>b)</u> [Mức độ 2] Xác suất để bệnh nhân bị tác dụng phụ nghiêm trọng là $0{,}075$. (Đúng)\n<u>c)</u> [Mức độ 3] Nếu biết bệnh nhân này gặp tác dụng phụ nghiêm trọng thì xác suất bệnh nhân đã được điều trị bằng phác đồ $B$ lớn hơn $0{,}65$. (Đúng)\nd) [Mức độ 3] Biết rằng trong mỗi phác đồ điều trị thì biến cố “bệnh nhân được chữa khỏi bệnh” và biến cố “bệnh nhân không bị tác dụng phụ nghiêm trọng” là độc lập với nhau. Xác suất bệnh nhân khỏi bệnh và không bị tác dụng phụ nghiêm trọng là $0{,}6$. (Sai)\n\nLời giải:\nGọi $A$ là biến cố bệnh nhân được điều trị bằng phác đồ $A$, thì $\\bar{A}$ là biến cố bệnh nhân được điều trị bằng phác đồ $B$. Ta có $P(A) = P(\\bar{A}) = 0{,}5$.\nGọi $X$ là biến cố bệnh nhân được chữa khỏi bệnh. Ta có $P(X \\mid A) = 0{,}6$; $P(X \\mid \\bar{A}) = 0{,}7$.\nGọi $Y$ là biến cố bệnh nhân bị tác dụng phụ nghiêm trọng. Ta có $P(Y \\mid A) = 0{,}05$; $P(Y \\mid \\bar{A}) = 0{,}1$.\na) Xác suất bệnh nhân điều trị bằng phác đồ $A$ và được chữa khỏi bệnh là:\n$$P(AX) = P(A) \\cdot P(X \\mid A) = 0{,}5 \\cdot 0{,}6 = 0{,}3 \\ne 0{,}6.$$ Suy ra ý a) Sai.\nb) Xác suất để bệnh nhân bị tác dụng phụ nghiêm trọng là:\n$$P(Y) = P(A) \\cdot P(Y \\mid A) + P(\\bar{A}) \\cdot P(Y \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}05 + 0{,}5 \\cdot 0{,}1 = 0{,}075.$$ Suy ra ý b) Đúng.\nc) Nếu biết bệnh nhân này gặp tác dụng phụ nghiêm trọng thì xác suất bệnh nhân đã được điều trị bằng phác đồ $B$ là:\n$$P(\\bar{A} \\mid Y) = \\frac{P(\\bar{A}Y)}{P(Y)} = \\frac{P(\\bar{A}) \\cdot P(Y \\mid \\bar{A})}{P(Y)} = \\frac{0{,}5 \\cdot 0{,}1}{0{,}075} = \\frac{2}{3} \\approx 0{,}67 > 0{,}65.$$ Suy ra ý c) Đúng.\nd) Ta có $P(X) = P(A) \\cdot P(X \\mid A) + P(\\bar{A}) \\cdot P(X \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}6 + 0{,}5 \\cdot 0{,}7 = 0{,}65$.\nTrong mỗi phác đồ, biến cố khỏi bệnh và biến cố không bị tác dụng phụ là độc lập:\n$$P(X\\bar{Y} \\mid A) = P(X \\mid A) \\cdot P(\\bar{Y} \\mid A) = 0{,}6 \\cdot (1 - 0{,}05) = 0{,}6 \\cdot 0{,}95 = 0{,}57.$$\n$$P(X\\bar{Y} \\mid \\bar{A}) = P(X \\mid \\bar{A}) \\cdot P(\\bar{Y} \\mid \\bar{A}) = 0{,}7 \\cdot (1 - 0{,}1) = 0{,}7 \\cdot 0{,}9 = 0{,}63.$$\nDo đó:\n$$P(X\\bar{Y}) = P(A) \\cdot P(X\\bar{Y} \\mid A) + P(\\bar{A}) \\cdot P(X\\bar{Y} \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}57 + 0{,}5 \\cdot 0{,}63 = 0{,}60.$$\n(Hoặc tính theo lời giải đề bài: $P(X\\bar{Y}) = 0{,}65 \\cdot (1 - 0{,}075) = 0{,}60125 \\ne 0{,}6$). Suy ra ý d) Sai.",
+      "prompt": "Có hai phác đồ điều trị $A$ và $B$ cho một loại bệnh. Phác đồ $A$ có xác suất chữa khỏi bệnh là $60\\%$ và xác suất gây tác dụng phụ nghiêm trọng là $5\\%$. Phác đồ $B$ có xác suất chữa khỏi bệnh là $70\\%$ và xác suất gây tác dụng phụ nghiêm trọng là $10\\%$. Một bệnh nhân được điều trị ngẫu nhiên bằng một trong hai phác đồ (xác suất chọn mỗi phác đồ là $50\\%$).",
+      "items": [
+        {
+          "key": "a",
+          "text": "[Mức độ 1] Xác suất bệnh nhân điều trị bằng phác đồ $A$ và được chữa khỏi bệnh là $0{,}6$",
+          "correctAnswer": false
+        },
+        {
+          "key": "b",
+          "text": "[Mức độ 2] Xác suất để bệnh nhân bị tác dụng phụ nghiêm trọng là $0{,}075$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "[Mức độ 3] Nếu biết bệnh nhân này gặp tác dụng phụ nghiêm trọng thì xác suất bệnh nhân đã được điều trị bằng phác đồ $B$ lớn hơn $0{,}65$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "[Mức độ 3] Biết rằng trong mỗi phác đồ điều trị thì biến cố “bệnh nhân được chữa khỏi bệnh” và biến cố “bệnh nhân không bị tác dụng phụ nghiêm trọng” là độc lập với nhau. Xác suất bệnh nhân khỏi bệnh và không bị tác dụng phụ nghiêm trọng là $0{,}6$",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "Gọi $A$ là biến cố bệnh nhân được điều trị bằng phác đồ $A$, thì $\\bar{A}$ là biến cố bệnh nhân được điều trị bằng phác đồ $B$. Ta có $P(A) = P(\\bar{A}) = 0{,}5$.\nGọi $X$ là biến cố bệnh nhân được chữa khỏi bệnh. Ta có $P(X \\mid A) = 0{,}6$; $P(X \\mid \\bar{A}) = 0{,}7$.\nGọi $Y$ là biến cố bệnh nhân bị tác dụng phụ nghiêm trọng. Ta có $P(Y \\mid A) = 0{,}05$; $P(Y \\mid \\bar{A}) = 0{,}1$.\na) Xác suất bệnh nhân điều trị bằng phác đồ $A$ và được chữa khỏi bệnh là:\n$$P(AX) = P(A) \\cdot P(X \\mid A) = 0{,}5 \\cdot 0{,}6 = 0{,}3 \\ne 0{,}6.$$ Suy ra ý a) Sai.\nb) Xác suất để bệnh nhân bị tác dụng phụ nghiêm trọng là:\n$$P(Y) = P(A) \\cdot P(Y \\mid A) + P(\\bar{A}) \\cdot P(Y \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}05 + 0{,}5 \\cdot 0{,}1 = 0{,}075.$$ Suy ra ý b) Đúng.\nc) Nếu biết bệnh nhân này gặp tác dụng phụ nghiêm trọng thì xác suất bệnh nhân đã được điều trị bằng phác đồ $B$ là:\n$$P(\\bar{A} \\mid Y) = \\frac{P(\\bar{A}Y)}{P(Y)} = \\frac{P(\\bar{A}) \\cdot P(Y \\mid \\bar{A})}{P(Y)} = \\frac{0{,}5 \\cdot 0{,}1}{0{,}075} = \\frac{2}{3} \\approx 0{,}67 > 0{,}65.$$ Suy ra ý c) Đúng.\nd) Ta có $P(X) = P(A) \\cdot P(X \\mid A) + P(\\bar{A}) \\cdot P(X \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}6 + 0{,}5 \\cdot 0{,}7 = 0{,}65$.\nTrong mỗi phác đồ, biến cố khỏi bệnh và biến cố không bị tác dụng phụ là độc lập:\n$$P(X\\bar{Y} \\mid A) = P(X \\mid A) \\cdot P(\\bar{Y} \\mid A) = 0{,}6 \\cdot (1 - 0{,}05) = 0{,}6 \\cdot 0{,}95 = 0{,}57.$$\n$$P(X\\bar{Y} \\mid \\bar{A}) = P(X \\mid \\bar{A}) \\cdot P(\\bar{Y} \\mid \\bar{A}) = 0{,}7 \\cdot (1 - 0{,}1) = 0{,}7 \\cdot 0{,}9 = 0{,}63.$$\nDo đó:\n$$P(X\\bar{Y}) = P(A) \\cdot P(X\\bar{Y} \\mid A) + P(\\bar{A}) \\cdot P(X\\bar{Y} \\mid \\bar{A}) = 0{,}5 \\cdot 0{,}57 + 0{,}5 \\cdot 0{,}63 = 0{,}60.$$\n(Hoặc tính theo lời giải đề bài: $P(X\\bar{Y}) = 0{,}65 \\cdot (1 - 0{,}075) = 0{,}60125 \\ne 0{,}6$). Suy ra ý d) Sai."
+    },
+    {
+      "id": "p2_q2_mw6h3c2s_1",
+      "number": 14,
+      "part": "part2",
+      "rawText": "Câu 14: Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n$$\\begin{array}{c|ccccccc}\nx & -\\infty & & -2 & & 1 & & 3 & & +\\infty \\\\\n\\hline\ny' & & - & 0 & + & 0 & - & 0 & + & \\\\\n\\hline\ny & +\\infty & & & & 6 & & & & 8 \\\\\n& & \\searrow & & \\nearrow & & \\searrow & & \\nearrow & \\\\\n& & & -2 & & & & 1 & & \n\\end{array}$$\na) [Mức độ 1] Hàm số $y = f(x)$ có hai điểm cực đại. (Sai)\n<u>b)</u> [Mức độ 3] Giá trị nhỏ nhất của hàm số $y = f(\\sqrt{x - 3} + 1)$ trên nửa khoảng $[3;+\\infty)$ là $1$. (Đúng)\n<u>c)</u> [Mức độ 3] Phương trình $f(x) + x^2 - 6x = 0$ có đúng hai nghiệm lớn hơn $1$. (Đúng)\nd) [Mức độ 4] Có đúng $7$ số nguyên $m$ để phương trình $f(\\sqrt{x - 3} + 1) + m(x + 2 - 4\\sqrt{x - 3}) = 10$ có hai nghiệm. (Sai)\n\nLời giải:\na) Sai: Hàm số đã cho có hai điểm cực tiểu ($x = -2, x = 3$) và một điểm cực đại ($x = 1$).\nb) Đúng: Đặt $t = \\sqrt{x - 3} + 1$, với $x \\ge 3 \\implies t \\ge 1$.\nXét hàm số $y = f(t)$ trên $[1;+\\infty)$.\nDựa vào bảng biến thiên, trên $[1;+\\infty)$, hàm số $f(t)$ đạt giá trị nhỏ nhất bằng $1$ tại $t = 3 \\iff \\sqrt{x - 3} + 1 = 3 \\iff x = 7$.\nc) Đúng: Xét hàm số $h(x) = f(x) + x^2 - 6x \\implies h'(x) = f'(x) + 2x - 6$.\nTrên $(1;+\\infty)$: $f'(x) = 0 \\iff x = 3$ và $2x - 6 = 0 \\iff x = 3$.\nSuy ra $h'(x) = 0 \\iff x = 3$.\nTa có: $h(1) = f(1) + 1 - 6 = 6 - 5 = 1 > 0$;\n$h(3) = f(3) + 9 - 18 = 1 - 9 = -8 < 0$;\n$\\lim_{x \\to +\\infty} h(x) = +\\infty$.\nDo đó phương trình $h(x) = 0$ có duy nhất một nghiệm thuộc $(1;3)$ và duy nhất một nghiệm thuộc $(3;+\\infty)$. Vậy phương trình có đúng hai nghiệm lớn hơn $1$.\nd) Sai: Đặt $t = \\sqrt{x - 3} + 1 \\iff x - 3 = (t - 1)^2 \\iff x = t^2 - 2t + 4$ ($t \\ge 1$).\nKhi đó $x + 2 - 4\\sqrt{x - 3} = t^2 - 2t + 4 + 2 - 4(t - 1) = t^2 - 6t + 10$.\nPhương trình trở thành:\n$$f(t) + m(t^2 - 6t + 10) = 10 \\iff m = \\frac{10 - f(t)}{t^2 - 6t + 10} = g(t) \\quad (\\text{vì } t^2 - 6t + 10 = (t - 3)^2 + 1 > 0).$$\nTa có bảng biến thiên của $g(t)$ trên $[1;+\\infty)$:\n- $g(1) = \\frac{10 - f(1)}{1 - 6 + 10} = \\frac{10 - 6}{5} = \\frac{4}{5}$.\n- $g(3) = \\frac{10 - f(3)}{9 - 18 + 10} = \\frac{10 - 1}{1} = 9$.\n- $\\lim_{t \\to +\\infty} g(t) = 0$.\nĐể phương trình có hai nghiệm $x > 3$ thì phương trình $g(t) = m$ phải có 2 nghiệm $t > 1$.\nDựa vào bảng biến thiên của $g(t)$, ta có $\\frac{4}{5} \\le m < 9$.\nDo $m \\in \\mathbb{Z} \\implies m \\in \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, có $8$ giá trị nguyên của $m$.",
+      "prompt": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n$$\\begin{array}{c|ccccccc}\nx & -\\infty & & -2 & & 1 & & 3 & & +\\infty \\\\\n\\hline\ny' & & - & 0 & + & 0 & - & 0 & + & \\\\\n\\hline\ny & +\\infty & & & & 6 & & & & 8 \\\\\n& & \\searrow & & \\nearrow & & \\searrow & & \\nearrow & \\\\\n& & & -2 & & & & 1 & & \n\\end{array}$$",
+      "items": [
+        {
+          "key": "a",
+          "text": "[Mức độ 1] Hàm số $y = f(x)$ có hai điểm cực đại",
+          "correctAnswer": false
+        },
+        {
+          "key": "b",
+          "text": "[Mức độ 3] Giá trị nhỏ nhất của hàm số $y = f(\\sqrt{x - 3} + 1)$ trên nửa khoảng $[3;+\\infty)$ là $1$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "[Mức độ 3] Phương trình $f(x) + x^2 - 6x = 0$ có đúng hai nghiệm lớn hơn $1$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "[Mức độ 4] Có đúng $7$ số nguyên $m$ để phương trình $f(\\sqrt{x - 3} + 1) + m(x + 2 - 4\\sqrt{x - 3}) = 10$ có hai nghiệm",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "a) Sai: Hàm số đã cho có hai điểm cực tiểu ($x = -2, x = 3$) và một điểm cực đại ($x = 1$).\nb) Đúng: Đặt $t = \\sqrt{x - 3} + 1$, với $x \\ge 3 \\implies t \\ge 1$.\nXét hàm số $y = f(t)$ trên $[1;+\\infty)$.\nDựa vào bảng biến thiên, trên $[1;+\\infty)$, hàm số $f(t)$ đạt giá trị nhỏ nhất bằng $1$ tại $t = 3 \\iff \\sqrt{x - 3} + 1 = 3 \\iff x = 7$.\nc) Đúng: Xét hàm số $h(x) = f(x) + x^2 - 6x \\implies h'(x) = f'(x) + 2x - 6$.\nTrên $(1;+\\infty)$: $f'(x) = 0 \\iff x = 3$ và $2x - 6 = 0 \\iff x = 3$.\nSuy ra $h'(x) = 0 \\iff x = 3$.\nTa có: $h(1) = f(1) + 1 - 6 = 6 - 5 = 1 > 0$;\n$h(3) = f(3) + 9 - 18 = 1 - 9 = -8 < 0$;\n$\\lim_{x \\to +\\infty} h(x) = +\\infty$.\nDo đó phương trình $h(x) = 0$ có duy nhất một nghiệm thuộc $(1;3)$ và duy nhất một nghiệm thuộc $(3;+\\infty)$. Vậy phương trình có đúng hai nghiệm lớn hơn $1$.\nd) Sai: Đặt $t = \\sqrt{x - 3} + 1 \\iff x - 3 = (t - 1)^2 \\iff x = t^2 - 2t + 4$ ($t \\ge 1$).\nKhi đó $x + 2 - 4\\sqrt{x - 3} = t^2 - 2t + 4 + 2 - 4(t - 1) = t^2 - 6t + 10$.\nPhương trình trở thành:\n$$f(t) + m(t^2 - 6t + 10) = 10 \\iff m = \\frac{10 - f(t)}{t^2 - 6t + 10} = g(t) \\quad (\\text{vì } t^2 - 6t + 10 = (t - 3)^2 + 1 > 0).$$\nTa có bảng biến thiên của $g(t)$ trên $[1;+\\infty)$:\n- $g(1) = \\frac{10 - f(1)}{1 - 6 + 10} = \\frac{10 - 6}{5} = \\frac{4}{5}$.\n- $g(3) = \\frac{10 - f(3)}{9 - 18 + 10} = \\frac{10 - 1}{1} = 9$.\n- $\\lim_{t \\to +\\infty} g(t) = 0$.\nĐể phương trình có hai nghiệm $x > 3$ thì phương trình $g(t) = m$ phải có 2 nghiệm $t > 1$.\nDựa vào bảng biến thiên của $g(t)$, ta có $\\frac{4}{5} \\le m < 9$.\nDo $m \\in \\mathbb{Z} \\implies m \\in \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, có $8$ giá trị nguyên của $m$."
+    },
+    {
+      "id": "p2_q3_mw6h3c30_2",
+      "number": 15,
+      "part": "part2",
+      "rawText": "Câu 15: Một công ty thiết kế mẫu huy hiệu để tặng cho khách hàng thân thiết của mình. Trong đó $ABCD$ là hình vuông có cạnh bằng $4\\,\\text{cm}$, các đường cong $AOD$ và $BOC$ là một phần của các parabol đỉnh $O$. Với hệ trục tọa độ $Oxy$ (đơn vị trên mỗi trục tọa độ là xentimét) thì điểm $A$ có tung độ bằng $1$. Biết phần tô đậm trong hình vẽ được phủ vàng với chi phí $1\\text{ triệu đồng}/\\text{cm}^2$, phần còn lại được phủ bạc với chi phí $300\\text{ nghìn đồng}/\\text{cm}^2$, các chi phí còn lại là $500\\text{ nghìn đồng}$.\na) [Mức độ 2] Parabol chứa đường cong $AOD$ có phương trình là $y = \\frac{1}{16}x^2$. (Sai)\n<u>b)</u> [Mức độ 2] Parabol chứa đường cong $BOC$ có phương trình là $y = -\\frac{3}{4}x^2$. (Đúng)\nc) [Mức độ 3] Diện tích phần tô đậm trong hình vẽ lớn hơn $5{,}5\\,\\text{cm}^2$. (Sai)\nd) [Mức độ 3] Chi phí sản xuất 1 chiếc huy hiệu như trên nhỏ hơn $9$ triệu đồng. (Sai)\n\nLời giải:\nHình vuông cạnh bằng $4$, điểm $A$ có tung độ bằng $1 \\implies A(-2;1)$.\nTọa độ các đỉnh: $A(-2;1)$, $B(-2;-3)$, $C(2;-3)$, $D(2;1)$.\na) Sai: Parabol $(P_1)$ có đỉnh $O(0;0)$ chứa đường cong $AOD$ có dạng $y = ax^2$.\nĐi qua $D(2;1) \\implies 1 = a \\cdot 2^2 \\implies a = \\frac{1}{4}$.\nVậy parabol chứa đường cong $AOD$ có phương trình là $y = \\frac{1}{4}x^2$.\nb) Đúng: Parabol $(P_2)$ có đỉnh $O(0;0)$ chứa đường cong $BOC$ có dạng $y = cx^2$.\nĐi qua $C(2;-3) \\implies -3 = c \\cdot 2^2 \\implies c = -\\frac{3}{4}$.\nVậy parabol chứa đường cong $BOC$ có phương trình là $y = -\\frac{3}{4}x^2$.\nc) Sai: Diện tích phần tô đậm là:\n$$S = \\int_{-2}^2 \\left(\\frac{1}{4}x^2 - \\left(-\\frac{3}{4}x^2\\right)\\right)\\,\\mathrm{d}x = \\int_{-2}^2 x^2\\,\\mathrm{d}x = \\left.\\frac{x^3}{3}\\right|_{-2}^2 = \\frac{16}{3} \\approx 5{,}33\\,\\text{cm}^2 < 5{,}5\\,\\text{cm}^2.$$\nd) Sai: Diện tích hình vuông là $S_{ABCD} = 4^2 = 16\\,\\text{cm}^2$.\nDiện tích phần không tô đậm (phủ bạc) là $S_{\\text{bạc}} = 16 - \\frac{16}{3} = \\frac{32}{3}\\,\\text{cm}^2$.\nChi phí sản xuất 1 chiếc huy hiệu là:\n$$\\text{Chi phí} = 1 \\cdot \\frac{16}{3} + 0{,}3 \\cdot \\frac{32}{3} + 0{,}5 = \\frac{16}{3} + \\frac{9{,}6}{3} + 0{,}5 = \\frac{25{,}6}{3} + 0{,}5 = \\frac{271}{30} \\approx 9{,}033\\text{ triệu đồng} > 9\\text{ triệu đồng}.$$",
+      "prompt": "Một công ty thiết kế mẫu huy hiệu để tặng cho khách hàng thân thiết của mình. Trong đó $ABCD$ là hình vuông có cạnh bằng $4\\,\\text{cm}$, các đường cong $AOD$ và $BOC$ là một phần của các parabol đỉnh $O$. Với hệ trục tọa độ $Oxy$ (đơn vị trên mỗi trục tọa độ là xentimét) thì điểm $A$ có tung độ bằng $1$. Biết phần tô đậm trong hình vẽ được phủ vàng với chi phí $1\\text{ triệu đồng}/\\text{cm}^2$, phần còn lại được phủ bạc với chi phí $300\\text{ nghìn đồng}/\\text{cm}^2$, các chi phí còn lại là $500\\text{ nghìn đồng}$.",
+      "items": [
+        {
+          "key": "a",
+          "text": "[Mức độ 2] Parabol chứa đường cong $AOD$ có phương trình là $y = \\frac{1}{16}x^2$",
+          "correctAnswer": false
+        },
+        {
+          "key": "b",
+          "text": "[Mức độ 2] Parabol chứa đường cong $BOC$ có phương trình là $y = -\\frac{3}{4}x^2$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "[Mức độ 3] Diện tích phần tô đậm trong hình vẽ lớn hơn $5{,}5\\,\\text{cm}^2$",
+          "correctAnswer": false
+        },
+        {
+          "key": "d",
+          "text": "[Mức độ 3] Chi phí sản xuất 1 chiếc huy hiệu như trên nhỏ hơn $9$ triệu đồng",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "Hình vuông cạnh bằng $4$, điểm $A$ có tung độ bằng $1 \\implies A(-2;1)$.\nTọa độ các đỉnh: $A(-2;1)$, $B(-2;-3)$, $C(2;-3)$, $D(2;1)$.\na) Sai: Parabol $(P_1)$ có đỉnh $O(0;0)$ chứa đường cong $AOD$ có dạng $y = ax^2$.\nĐi qua $D(2;1) \\implies 1 = a \\cdot 2^2 \\implies a = \\frac{1}{4}$.\nVậy parabol chứa đường cong $AOD$ có phương trình là $y = \\frac{1}{4}x^2$.\nb) Đúng: Parabol $(P_2)$ có đỉnh $O(0;0)$ chứa đường cong $BOC$ có dạng $y = cx^2$.\nĐi qua $C(2;-3) \\implies -3 = c \\cdot 2^2 \\implies c = -\\frac{3}{4}$.\nVậy parabol chứa đường cong $BOC$ có phương trình là $y = -\\frac{3}{4}x^2$.\nc) Sai: Diện tích phần tô đậm là:\n$$S = \\int_{-2}^2 \\left(\\frac{1}{4}x^2 - \\left(-\\frac{3}{4}x^2\\right)\\right)\\,\\mathrm{d}x = \\int_{-2}^2 x^2\\,\\mathrm{d}x = \\left.\\frac{x^3}{3}\\right|_{-2}^2 = \\frac{16}{3} \\approx 5{,}33\\,\\text{cm}^2 < 5{,}5\\,\\text{cm}^2.$$\nd) Sai: Diện tích hình vuông là $S_{ABCD} = 4^2 = 16\\,\\text{cm}^2$.\nDiện tích phần không tô đậm (phủ bạc) là $S_{\\text{bạc}} = 16 - \\frac{16}{3} = \\frac{32}{3}\\,\\text{cm}^2$.\nChi phí sản xuất 1 chiếc huy hiệu là:\n$$\\text{Chi phí} = 1 \\cdot \\frac{16}{3} + 0{,}3 \\cdot \\frac{32}{3} + 0{,}5 = \\frac{16}{3} + \\frac{9{,}6}{3} + 0{,}5 = \\frac{25{,}6}{3} + 0{,}5 = \\frac{271}{30} \\approx 9{,}033\\text{ triệu đồng} > 9\\text{ triệu đồng}.$$"
+    },
+    {
+      "id": "p2_q4_mw6h3c34_3",
+      "number": 16,
+      "part": "part2",
+      "rawText": "Câu 16: Trong không gian $Oxyz$, cho các điểm $A(1;1;0)$, $B(5;-3;2)$ và $C(0;4;-1)$. Xét các điểm $M$ thay đổi trong không gian sao cho diện tích tam giác $ABM$ bằng $6\\sqrt{2}$.\na) [Mức độ 2] Đoạn thẳng $AB$ có độ dài bằng $3$. (Sai)\n<u>b)</u> [Mức độ 2] Đường thẳng $AB$ có phương trình là $\\frac{x - 1}{2} = \\frac{y - 1}{-2} = \\frac{z}{1}$. (Đúng)\nc) [Mức độ 3] Khoảng cách từ điểm $C$ tới đường thẳng $AB$ là $2\\sqrt{2}$. (Sai)\n<u>d)</u> [Mức độ 3] Đoạn thẳng $MC$ có độ dài nhỏ nhất bằng $\\sqrt{2}$. (Đúng)\n\nLời giải:\na) Sai: Ta có $\\vec{AB} = (4;-4;2) \\implies AB = \\sqrt{4^2 + (-4)^2 + 2^2} = \\sqrt{36} = 6 \\ne 3$.\nb) Đúng: Vectơ chỉ phương của đường thẳng $AB$ là $\\vec{u} = \\frac{1}{2}\\vec{AB} = (2;-2;1)$.\nĐường thẳng $AB$ đi qua $A(1;1;0)$ có phương trình là: $\\frac{x - 1}{2} = \\frac{y - 1}{-2} = \\frac{z}{1}$.\nc) Sai: Phương trình tham số của $AB$: $\\begin{cases} x = 1 + 2t \\\\ y = 1 - 2t \\\\ z = t \\end{cases}$.\nMặt phẳng $(P)$ qua $C(0;4;-1)$ và vuông góc với $AB$ có VTPT $\\vec{n} = (2;-2;1)$:\n$$(P): 2(x - 0) - 2(y - 4) + 1(z + 1) = 0 \\iff 2x - 2y + z + 9 = 0.$$\nHình chiếu $H$ của $C$ trên $AB$ thỏa mãn:\n$$2(1 + 2t) - 2(1 - 2t) + t + 9 = 0 \\iff 9t + 9 = 0 \\iff t = -1.$$\nSuy ra $H(-1;3;-1)$.\nKhoảng cách từ điểm $C$ tới đường thẳng $AB$ là:\n$$d(C;AB) = CH = \\sqrt{(-1 - 0)^2 + (3 - 4)^2 + (-1 - (-1))^2} = \\sqrt{1 + 1 + 0} = \\sqrt{2} \\ne 2\\sqrt{2}.$$\nd) Đúng: Diện tích tam giác $ABM$ là $S_{ABM} = \\frac{1}{2}d(M;AB) \\cdot AB = 6\\sqrt{2} \\implies d(M;AB) = \\frac{2 \\cdot 6\\sqrt{2}}{6} = 2\\sqrt{2}$.\nGọi $K$ là hình chiếu của $M$ trên $AB$, ta có $MK = 2\\sqrt{2}$.\nTrong khi đó, $H$ là hình chiếu của $C$ trên $AB$ với $CH = \\sqrt{2}$.\nĐoạn thẳng $MC$ đạt giá trị nhỏ nhất khi $K \\equiv H$ và $M, C, H$ thẳng hàng sao cho $C$ nằm giữa $M$ và $H$.\nKhi đó $MC_{\\min} = MK - CH = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$.",
+      "prompt": "Trong không gian $Oxyz$, cho các điểm $A(1;1;0)$, $B(5;-3;2)$ và $C(0;4;-1)$. Xét các điểm $M$ thay đổi trong không gian sao cho diện tích tam giác $ABM$ bằng $6\\sqrt{2}$.",
+      "items": [
+        {
+          "key": "a",
+          "text": "[Mức độ 2] Đoạn thẳng $AB$ có độ dài bằng $3$",
+          "correctAnswer": false
+        },
+        {
+          "key": "b",
+          "text": "[Mức độ 2] Đường thẳng $AB$ có phương trình là $\\frac{x - 1}{2} = \\frac{y - 1}{-2} = \\frac{z}{1}$. (Đúng)",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "[Mức độ 3] Khoảng cách từ điểm $C$ tới đường thẳng $AB$ là $2\\sqrt{2}$",
+          "correctAnswer": false
+        },
+        {
+          "key": "d",
+          "text": "[Mức độ 3] Đoạn thẳng $MC$ có độ dài nhỏ nhất bằng $\\sqrt{2}$. (Đúng)",
+          "correctAnswer": true
+        }
+      ],
+      "explanation": "a) Sai: Ta có $\\vec{AB} = (4;-4;2) \\implies AB = \\sqrt{4^2 + (-4)^2 + 2^2} = \\sqrt{36} = 6 \\ne 3$.\nb) Đúng: Vectơ chỉ phương của đường thẳng $AB$ là $\\vec{u} = \\frac{1}{2}\\vec{AB} = (2;-2;1)$.\nĐường thẳng $AB$ đi qua $A(1;1;0)$ có phương trình là: $\\frac{x - 1}{2} = \\frac{y - 1}{-2} = \\frac{z}{1}$.\nc) Sai: Phương trình tham số của $AB$: $\\begin{cases} x = 1 + 2t \\\\ y = 1 - 2t \\\\ z = t \\end{cases}$.\nMặt phẳng $(P)$ qua $C(0;4;-1)$ và vuông góc với $AB$ có VTPT $\\vec{n} = (2;-2;1)$:\n$$(P): 2(x - 0) - 2(y - 4) + 1(z + 1) = 0 \\iff 2x - 2y + z + 9 = 0.$$\nHình chiếu $H$ của $C$ trên $AB$ thỏa mãn:\n$$2(1 + 2t) - 2(1 - 2t) + t + 9 = 0 \\iff 9t + 9 = 0 \\iff t = -1.$$\nSuy ra $H(-1;3;-1)$.\nKhoảng cách từ điểm $C$ tới đường thẳng $AB$ là:\n$$d(C;AB) = CH = \\sqrt{(-1 - 0)^2 + (3 - 4)^2 + (-1 - (-1))^2} = \\sqrt{1 + 1 + 0} = \\sqrt{2} \\ne 2\\sqrt{2}.$$\nd) Đúng: Diện tích tam giác $ABM$ là $S_{ABM} = \\frac{1}{2}d(M;AB) \\cdot AB = 6\\sqrt{2} \\implies d(M;AB) = \\frac{2 \\cdot 6\\sqrt{2}}{6} = 2\\sqrt{2}$.\nGọi $K$ là hình chiếu của $M$ trên $AB$, ta có $MK = 2\\sqrt{2}$.\nTrong khi đó, $H$ là hình chiếu của $C$ trên $AB$ với $CH = \\sqrt{2}$.\nĐoạn thẳng $MC$ đạt giá trị nhỏ nhất khi $K \\equiv H$ và $M, C, H$ thẳng hàng sao cho $C$ nằm giữa $M$ và $H$.\nKhi đó $MC_{\\min} = MK - CH = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$."
+    }
+  ],
+  "part3": [
+    {
+      "id": "p3_q1_mw6h3c3a_0",
+      "number": 17,
+      "part": "part3",
+      "rawText": "Câu 17: [Mức độ 3] Một nhà máy có hai phân xưởng I và II tương ứng làm ra $40\\%$ và $60\\%$ sản phẩm của nhà máy. Biết rằng tỷ lệ phế phẩm của hai phân xưởng I và II tương ứng là $1\\%$ và $2\\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy thì thấy nó là phế phẩm. Tính xác suất để sản phẩm đó thuộc phân xưởng I.\nĐáp án: 0.25\n\nLời giải:\nGọi $A$ là biến cố \"Sản phẩm là phế phẩm\".\n$B_1$ là biến cố \"Sản phẩm từ phân xưởng I\", $P(B_1) = 0{,}4$.\n$B_2$ là biến cố \"Sản phẩm từ phân xưởng II\", $P(B_2) = 0{,}6$.\nTa có $P(A \\mid B_1) = 0{,}01$; $P(A \\mid B_2) = 0{,}02$.\nXác suất để chọn được phế phẩm là:\n$$P(A) = P(B_1) \\cdot P(A \\mid B_1) + P(B_2) \\cdot P(A \\mid B_2) = 0{,}4 \\cdot 0{,}01 + 0{,}6 \\cdot 0{,}02 = 0{,}016.$$\nXác suất sản phẩm đó thuộc phân xưởng I khi biết nó là phế phẩm là:\n$$P(B_1 \\mid A) = \\frac{P(B_1) \\cdot P(A \\mid B_1)}{P(A)} = \\frac{0{,}4 \\cdot 0{,}01}{0{,}016} = 0{,}25.$$",
+      "prompt": "[Mức độ 3] Một nhà máy có hai phân xưởng I và II tương ứng làm ra $40\\%$ và $60\\%$ sản phẩm của nhà máy. Biết rằng tỷ lệ phế phẩm của hai phân xưởng I và II tương ứng là $1\\%$ và $2\\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy thì thấy nó là phế phẩm. Tính xác suất để sản phẩm đó thuộc phân xưởng I.",
+      "correctAnswer": "0.25",
+      "acceptableAnswers": [
+        "0.25",
+        "0,25"
+      ],
+      "explanation": "Gọi $A$ là biến cố \"Sản phẩm là phế phẩm\".\n$B_1$ là biến cố \"Sản phẩm từ phân xưởng I\", $P(B_1) = 0{,}4$.\n$B_2$ là biến cố \"Sản phẩm từ phân xưởng II\", $P(B_2) = 0{,}6$.\nTa có $P(A \\mid B_1) = 0{,}01$; $P(A \\mid B_2) = 0{,}02$.\nXác suất để chọn được phế phẩm là:\n$$P(A) = P(B_1) \\cdot P(A \\mid B_1) + P(B_2) \\cdot P(A \\mid B_2) = 0{,}4 \\cdot 0{,}01 + 0{,}6 \\cdot 0{,}02 = 0{,}016.$$\nXác suất sản phẩm đó thuộc phân xưởng I khi biết nó là phế phẩm là:\n$$P(B_1 \\mid A) = \\frac{P(B_1) \\cdot P(A \\mid B_1)}{P(A)} = \\frac{0{,}4 \\cdot 0{,}01}{0{,}016} = 0{,}25.$$"
+    },
+    {
+      "id": "p3_q2_mw6h3c3a_1",
+      "number": 18,
+      "part": "part3",
+      "rawText": "Câu 18: [Mức độ 2] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $3$, $SA$ vuông góc với mặt phẳng đáy. Biết số đo của góc nhị diện $[B,SC,D]$ bằng $120^\\circ$. Tính thể tích của khối chóp $S.ABCD$.\nĐáp án: 9\n\nLời giải:\nGọi $O = AC \\cap BD$. Vì $ABCD$ là hình vuông nên $BD \\perp AC$.\nLại có $BD \\perp SA$ (do $SA \\perp (ABCD)$), suy ra $BD \\perp (SAC) \\implies BD \\perp SC$.\nKẻ $OH \\perp SC$ ($H \\in SC$).\nKhi đó $SC \\perp (BHD)$, do đó góc phẳng của góc nhị diện $[B,SC,D]$ là $\\widehat{BHD} = 120^\\circ$.\nVì $\\Delta SBC = \\Delta SDC$ (c-g-c) nên $HB = HD$.\nÁp dụng định lý côsin trong tam giác cân $BHD$ tại $H$:\n$$BD^2 = HB^2 + HD^2 - 2HB \\cdot HD \\cos 120^\\circ = 2HB^2 - 2HB^2\\left(-\\frac{1}{2}\\right) = 3HB^2.$$\nMặt khác $BD = 3\\sqrt{2} \\implies BD^2 = 18$.\nDo đó $3HB^2 = 18 \\implies HB^2 = 6$.\nTam giác $SBC$ vuông tại $B$ có đường cao $BH$:\n$$\\frac{1}{BH^2} = \\frac{1}{BC^2} + \\frac{1}{SB^2} \\implies \\frac{1}{6} = \\frac{1}{3^2} + \\frac{1}{SB^2} \\implies \\frac{1}{SB^2} = \\frac{1}{6} - \\frac{1}{9} = \\frac{1}{18} \\implies SB = 3\\sqrt{2}.$$\nTam giác $SAB$ vuông tại $A$:\n$$SA = \\sqrt{SB^2 - AB^2} = \\sqrt{18 - 9} = 3.$$\nThể tích khối chóp $S.ABCD$ là:\n$$V = \\frac{1}{3} \\cdot S_{ABCD} \\cdot SA = \\frac{1}{3} \\cdot 3^2 \\cdot 3 = 9.$$",
+      "prompt": "[Mức độ 2] Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $3$, $SA$ vuông góc với mặt phẳng đáy. Biết số đo của góc nhị diện $[B,SC,D]$ bằng $120^\\circ$. Tính thể tích của khối chóp $S.ABCD$.",
+      "correctAnswer": "9",
+      "acceptableAnswers": [
+        "9"
+      ],
+      "explanation": "Gọi $O = AC \\cap BD$. Vì $ABCD$ là hình vuông nên $BD \\perp AC$.\nLại có $BD \\perp SA$ (do $SA \\perp (ABCD)$), suy ra $BD \\perp (SAC) \\implies BD \\perp SC$.\nKẻ $OH \\perp SC$ ($H \\in SC$).\nKhi đó $SC \\perp (BHD)$, do đó góc phẳng của góc nhị diện $[B,SC,D]$ là $\\widehat{BHD} = 120^\\circ$.\nVì $\\Delta SBC = \\Delta SDC$ (c-g-c) nên $HB = HD$.\nÁp dụng định lý côsin trong tam giác cân $BHD$ tại $H$:\n$$BD^2 = HB^2 + HD^2 - 2HB \\cdot HD \\cos 120^\\circ = 2HB^2 - 2HB^2\\left(-\\frac{1}{2}\\right) = 3HB^2.$$\nMặt khác $BD = 3\\sqrt{2} \\implies BD^2 = 18$.\nDo đó $3HB^2 = 18 \\implies HB^2 = 6$.\nTam giác $SBC$ vuông tại $B$ có đường cao $BH$:\n$$\\frac{1}{BH^2} = \\frac{1}{BC^2} + \\frac{1}{SB^2} \\implies \\frac{1}{6} = \\frac{1}{3^2} + \\frac{1}{SB^2} \\implies \\frac{1}{SB^2} = \\frac{1}{6} - \\frac{1}{9} = \\frac{1}{18} \\implies SB = 3\\sqrt{2}.$$\nTam giác $SAB$ vuông tại $A$:\n$$SA = \\sqrt{SB^2 - AB^2} = \\sqrt{18 - 9} = 3.$$\nThể tích khối chóp $S.ABCD$ là:\n$$V = \\frac{1}{3} \\cdot S_{ABCD} \\cdot SA = \\frac{1}{3} \\cdot 3^2 \\cdot 3 = 9.$$"
+    },
+    {
+      "id": "p3_q3_mw6h3c3b_2",
+      "number": 19,
+      "part": "part3",
+      "rawText": "Câu 19: [Mức độ 2] Giả sử chi phí đặt hàng và vận chuyển $C$ (đơn vị: triệu đồng) của một linh kiện được sử dụng trong sản xuất một sản phẩm được xác định theo công thức \n$$C = \\frac{19200000}{x^2} + \\frac{27x}{x + 3000}, \\quad x \\ge 1,$$\ntrong đó $x$ là số linh kiện được đặt hàng và vận chuyển. Tìm $x$ để chi phí đặt hàng và vận chuyển cho mỗi linh kiện trên là nhỏ nhất.\nĐáp án: 2400\n\nLời giải:\nTa có:\n$$C'(x) = -\\frac{38400000}{x^3} + \\frac{27 \\cdot 3000}{(x + 3000)^2} = -\\frac{38400000}{x^3} + \\frac{81000}{(x + 3000)^2}.$$\nCho $C'(x) = 0$:\n$$\\frac{38400000}{x^3} = \\frac{81000}{(x + 3000)^2} \\iff 12800(x + 3000)^2 = 27x^3$$\n$$\\iff 27x^3 - 12800x^2 - 76800000x - 115200000000 = 0$$\n$$\\iff (x - 2400)(27x^2 + 52000x + 48000000) = 0 \\iff x = 2400.$$\nLập bảng biến thiên của hàm số $C(x)$ trên $[1;+\\infty)$, ta thấy $C(x)$ đạt giá trị nhỏ nhất tại $x = 2400$.",
+      "prompt": "[Mức độ 2] Giả sử chi phí đặt hàng và vận chuyển $C$ (đơn vị: triệu đồng) của một linh kiện được sử dụng trong sản xuất một sản phẩm được xác định theo công thức \n$$C = \\frac{19200000}{x^2} + \\frac{27x}{x + 3000}, \\quad x \\ge 1,$$\ntrong đó $x$ là số linh kiện được đặt hàng và vận chuyển. Tìm $x$ để chi phí đặt hàng và vận chuyển cho mỗi linh kiện trên là nhỏ nhất.",
+      "correctAnswer": "2400",
+      "acceptableAnswers": [
+        "2400"
+      ],
+      "explanation": "Ta có:\n$$C'(x) = -\\frac{38400000}{x^3} + \\frac{27 \\cdot 3000}{(x + 3000)^2} = -\\frac{38400000}{x^3} + \\frac{81000}{(x + 3000)^2}.$$\nCho $C'(x) = 0$:\n$$\\frac{38400000}{x^3} = \\frac{81000}{(x + 3000)^2} \\iff 12800(x + 3000)^2 = 27x^3$$\n$$\\iff 27x^3 - 12800x^2 - 76800000x - 115200000000 = 0$$\n$$\\iff (x - 2400)(27x^2 + 52000x + 48000000) = 0 \\iff x = 2400.$$\nLập bảng biến thiên của hàm số $C(x)$ trên $[1;+\\infty)$, ta thấy $C(x)$ đạt giá trị nhỏ nhất tại $x = 2400$."
+    },
+    {
+      "id": "p3_q4_mw6h3c3b_3",
+      "number": 20,
+      "part": "part3",
+      "rawText": "Câu 20: [Mức độ 3] Trong không gian $Oxyz$, cho điểm $A(1;-1;2)$, đường thẳng $d: \\frac{x + 1}{2} = \\frac{y}{1} = \\frac{z - 2}{1}$ và mặt phẳng $(P): x + y - 2z + 5 = 0$. Xét đường thẳng $\\Delta$ cắt $d$ và $(P)$ tại hai điểm $M, N$ sao cho $A$ là trung điểm của $MN$. Biết vectơ $\\vec{u} = (1;a;b)$ là một vectơ chỉ phương của $\\Delta$. Tính $a + b$.\nĐáp án: 2.5\n\nLời giải:\nPhương trình tham số của $d$: $\\begin{cases} x = -1 + 2t \\\\ y = t \\\\ z = 2 + t \\end{cases}$.\nVì $M \\in d \\implies M(-1 + 2t; t; 2 + t)$.\nDo $A(1;-1;2)$ là trung điểm của $MN$ nên tọa độ của điểm $N$ là:\n$$\\begin{cases} x_N = 2x_A - x_M = 2 \\cdot 1 - (-1 + 2t) = 3 - 2t \\\\ y_N = 2y_A - y_M = 2 \\cdot (-1) - t = -2 - t \\\\ z_N = 2z_A - z_M = 2 \\cdot 2 - (2 + t) = 2 - t \\end{cases}$$\nĐiểm $N \\in (P) \\implies (3 - 2t) + (-2 - t) - 2(2 - t) + 5 = 0 \\iff -t + 2 = 0 \\iff t = 2$.\nVới $t = 2 \\implies M(3;2;4)$ và $N(-1;-4;0)$.\nSuy ra $\\vec{MN} = (-4;-6;-4) = -4\\left(1; \\frac{3}{2}; 1\\right)$.\nDo đó vectơ chỉ phương của $\\Delta$ là $\\vec{u} = \\left(1; \\frac{3}{2}; 1\\right) \\implies a = \\frac{3}{2}, b = 1$.\nVậy $a + b = \\frac{3}{2} + 1 = 2{,}5$.",
+      "prompt": "[Mức độ 3] Trong không gian $Oxyz$, cho điểm $A(1;-1;2)$, đường thẳng $d: \\frac{x + 1}{2} = \\frac{y}{1} = \\frac{z - 2}{1}$ và mặt phẳng $(P): x + y - 2z + 5 = 0$. Xét đường thẳng $\\Delta$ cắt $d$ và $(P)$ tại hai điểm $M, N$ sao cho $A$ là trung điểm của $MN$. Biết vectơ $\\vec{u} = (1;a;b)$ là một vectơ chỉ phương của $\\Delta$. Tính $a + b$.",
+      "correctAnswer": "2.5",
+      "acceptableAnswers": [
+        "2.5",
+        "2,5"
+      ],
+      "explanation": "Phương trình tham số của $d$: $\\begin{cases} x = -1 + 2t \\\\ y = t \\\\ z = 2 + t \\end{cases}$.\nVì $M \\in d \\implies M(-1 + 2t; t; 2 + t)$.\nDo $A(1;-1;2)$ là trung điểm của $MN$ nên tọa độ của điểm $N$ là:\n$$\\begin{cases} x_N = 2x_A - x_M = 2 \\cdot 1 - (-1 + 2t) = 3 - 2t \\\\ y_N = 2y_A - y_M = 2 \\cdot (-1) - t = -2 - t \\\\ z_N = 2z_A - z_M = 2 \\cdot 2 - (2 + t) = 2 - t \\end{cases}$$\nĐiểm $N \\in (P) \\implies (3 - 2t) + (-2 - t) - 2(2 - t) + 5 = 0 \\iff -t + 2 = 0 \\iff t = 2$.\nVới $t = 2 \\implies M(3;2;4)$ và $N(-1;-4;0)$.\nSuy ra $\\vec{MN} = (-4;-6;-4) = -4\\left(1; \\frac{3}{2}; 1\\right)$.\nDo đó vectơ chỉ phương của $\\Delta$ là $\\vec{u} = \\left(1; \\frac{3}{2}; 1\\right) \\implies a = \\frac{3}{2}, b = 1$.\nVậy $a + b = \\frac{3}{2} + 1 = 2{,}5$."
+    },
+    {
+      "id": "p3_q5_mw6h3c3b_4",
+      "number": 21,
+      "part": "part3",
+      "rawText": "Câu 21: [Mức độ 3] Một chiếc thang dài $9$ mét tựa vào một bức tường thẳng đứng trên một mặt đất bằng phẳng. Khi đầu dưới của thang di chuyển (trên mặt đất) ra xa bức tường với vận tốc không đổi là $2\\,(\\text{m}/\\text{s})$ thì đầu trên cùng của thang sẽ trượt xuống dọc theo bức tường. Khi điểm đầu thang cách mặt đất $3$ mét thì tốc độ di chuyển của nó bằng bao nhiêu? (đơn vị: $\\text{m}/\\text{s}$ và kết quả làm tròn đến hàng phần trăm)\nĐáp án: 5.66\n\nLời giải:\nGọi $x(t)$ là khoảng cách từ chân thang đến tường và $y(t)$ là chiều cao của đầu trên chiếc thang so với mặt đất tại thời điểm $t$.\nTheo định lý Pythagore:\n$$x^2(t) + y^2(t) = 9^2 = 81.$$\nĐạo hàm hai vế theo thời gian $t$:\n$$2x(t)x'(t) + 2y(t)y'(t) = 0 \\implies y'(t) = -\\frac{x(t)x'(t)}{y(t)}.$$\nKhi đầu thang cách mặt đất $3\\,\\text{m}$, tức $y = 3\\,\\text{m}$:\n$$x = \\sqrt{81 - 3^2} = \\sqrt{72} = 6\\sqrt{2}\\,\\text{m}.$$\nBiết vận tốc đầu dưới ra xa tường là $x'(t) = 2\\,(\\text{m}/\\text{s})$, ta có:\n$$|y'(t)| = \\frac{x(t) \\cdot x'(t)}{y(t)} = \\frac{6\\sqrt{2} \\cdot 2}{3} = 4\\sqrt{2} \\approx 5{,}66\\,(\\text{m}/\\text{s}).$$",
+      "prompt": "[Mức độ 3] Một chiếc thang dài $9$ mét tựa vào một bức tường thẳng đứng trên một mặt đất bằng phẳng. Khi đầu dưới của thang di chuyển (trên mặt đất) ra xa bức tường với vận tốc không đổi là $2\\,(\\text{m}/\\text{s})$ thì đầu trên cùng của thang sẽ trượt xuống dọc theo bức tường. Khi điểm đầu thang cách mặt đất $3$ mét thì tốc độ di chuyển của nó bằng bao nhiêu? (đơn vị: $\\text{m}/\\text{s}$ và)\nĐáp án: 5.66",
+      "correctAnswer": "làm ",
+      "acceptableAnswers": [
+        "làm "
+      ],
+      "explanation": "Gọi $x(t)$ là khoảng cách từ chân thang đến tường và $y(t)$ là chiều cao của đầu trên chiếc thang so với mặt đất tại thời điểm $t$.\nTheo định lý Pythagore:\n$$x^2(t) + y^2(t) = 9^2 = 81.$$\nĐạo hàm hai vế theo thời gian $t$:\n$$2x(t)x'(t) + 2y(t)y'(t) = 0 \\implies y'(t) = -\\frac{x(t)x'(t)}{y(t)}.$$\nKhi đầu thang cách mặt đất $3\\,\\text{m}$, tức $y = 3\\,\\text{m}$:\n$$x = \\sqrt{81 - 3^2} = \\sqrt{72} = 6\\sqrt{2}\\,\\text{m}.$$\nBiết vận tốc đầu dưới ra xa tường là $x'(t) = 2\\,(\\text{m}/\\text{s})$, ta có:\n$$|y'(t)| = \\frac{x(t) \\cdot x'(t)}{y(t)} = \\frac{6\\sqrt{2} \\cdot 2}{3} = 4\\sqrt{2} \\approx 5{,}66\\,(\\text{m}/\\text{s}).$$"
+    },
+    {
+      "id": "p3_q6_mw6h3c3b_5",
+      "number": 22,
+      "part": "part3",
+      "rawText": "Câu 22: [Mức độ 3] Cho hai khối trụ có bán kính đáy bằng $3$ và có trục là hai đường thẳng cắt nhau và vuông góc với nhau. Gọi $(H)$ là phần giao nhau của hai khối trụ đó. Tính thể tích của $(H)$.\nĐáp án: 144\n\nLời giải:\nGắn hệ tọa độ $Oxyz$ sao cho trục của hai khối trụ trùng với trục $Ox$ và trục $Oy$.\nKhối trụ thứ nhất có trục là $Ox$ nên phương trình là $y^2 + z^2 \\le 3^2$.\nKhối trụ thứ hai có trục là $Oy$ nên phương trình là $x^2 + z^2 \\le 3^2$.\nCắt phần giao nhau $(H)$ bởi mặt phẳng vuông góc với trục $Oz$ tại điểm có cao độ $z$ (với $-3 \\le z \\le 3$).\nKhi đó ta có:\n$$x^2 \\le 9 - z^2 \\iff -\\sqrt{9 - z^2} \\le x \\le \\sqrt{9 - z^2}$$\n$$y^2 \\le 9 - z^2 \\iff -\\sqrt{9 - z^2} \\le y \\le \\sqrt{9 - z^2}.$$\nThiết diện thu được là một hình vuông có cạnh bằng $2\\sqrt{9 - z^2}$.\nDiện tích của thiết diện là:\n$$S(z) = \\left(2\\sqrt{9 - z^2}\\right)^2 = 4(9 - z^2).$$\nThể tích của phần chung $(H)$ là:\n$$V = \\int_{-3}^3 S(z)\\,\\mathrm{d}z = \\int_{-3}^3 4(9 - z^2)\\,\\mathrm{d}z = 4 \\left.\\left(9z - \\frac{z^3}{3}\\right)\\right|_{-3}^3 = 4(18 - (-18)) = 4 \\cdot 36 = 144.$$",
+      "prompt": "[Mức độ 3] Cho hai khối trụ có bán kính đáy bằng $3$ và có trục là hai đường thẳng cắt nhau và vuông góc với nhau. Gọi $(H)$ là phần giao nhau của hai khối trụ đó. Tính thể tích của $(H)$.",
+      "correctAnswer": "144",
+      "acceptableAnswers": [
+        "144"
+      ],
+      "explanation": "Gắn hệ tọa độ $Oxyz$ sao cho trục của hai khối trụ trùng với trục $Ox$ và trục $Oy$.\nKhối trụ thứ nhất có trục là $Ox$ nên phương trình là $y^2 + z^2 \\le 3^2$.\nKhối trụ thứ hai có trục là $Oy$ nên phương trình là $x^2 + z^2 \\le 3^2$.\nCắt phần giao nhau $(H)$ bởi mặt phẳng vuông góc với trục $Oz$ tại điểm có cao độ $z$ (với $-3 \\le z \\le 3$).\nKhi đó ta có:\n$$x^2 \\le 9 - z^2 \\iff -\\sqrt{9 - z^2} \\le x \\le \\sqrt{9 - z^2}$$\n$$y^2 \\le 9 - z^2 \\iff -\\sqrt{9 - z^2} \\le y \\le \\sqrt{9 - z^2}.$$\nThiết diện thu được là một hình vuông có cạnh bằng $2\\sqrt{9 - z^2}$.\nDiện tích của thiết diện là:\n$$S(z) = \\left(2\\sqrt{9 - z^2}\\right)^2 = 4(9 - z^2).$$\nThể tích của phần chung $(H)$ là:\n$$V = \\int_{-3}^3 S(z)\\,\\mathrm{d}z = \\int_{-3}^3 4(9 - z^2)\\,\\mathrm{d}z = 4 \\left.\\left(9z - \\frac{z^3}{3}\\right)\\right|_{-3}^3 = 4(18 - (-18)) = 4 \\cdot 36 = 144.$$"
+    }
+  ],
+  "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec"
+}
