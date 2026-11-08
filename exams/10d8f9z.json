@@ -1,0 +1,546 @@
+{
+  "metadata": {
+    "id": "exam_mw7trensd4za",
+    "title": "De ON Toan 8 Giua HK1 - LHP1",
+    "durationMinutes": 50,
+    "shuffleMode": "none",
+    "passcode": "",
+    "showSolutionAfterSubmit": true,
+    "allowRetake": false,
+    "createdAt": "2026-11-08T12:44:55.672Z",
+    "totalQuestions": {
+      "part1": 12,
+      "part2": 4,
+      "part3": 6,
+      "total": 22
+    },
+    "partScores": {
+      "part1Total": 3,
+      "part2Total": 4,
+      "part3Total": 3
+    }
+  },
+  "part1": [
+    {
+      "id": "p1_q1_mw7trelc_0",
+      "number": 1,
+      "part": "part1",
+      "rawText": "<b>Câu 1.</b> Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?</p>\n<p>A.  $2x \\cdot  3{y}^{2}$  </p>\n<p><b><u>B</u></b>.  $-5{x}^{3}{y}^{2}z$ </p>\n<p>C.  $3{x}^{2} + y$ </p>\n<p>D.  $4{x}^{2}y \\cdot  x$ </p>\n<p><b>Lời giải</b></p>\n<p>Đơn thức  $-5{x}^{3}{y}^{2}z$  chỉ gồm tích của một số với các biến, mỗi biến chỉ viết 1 lần dưới dạng lũy thừa mũ nguyên dương.</p>\n<p>",
+      "prompt": "Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$2x \\cdot  3{y}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$-5{x}^{3}{y}^{2}z$"
+        },
+        {
+          "key": "C",
+          "text": "$3{x}^{2} + y$"
+        },
+        {
+          "key": "D",
+          "text": "$4{x}^{2}y \\cdot  x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Đơn thức  $-5{x}^{3}{y}^{2}z$  chỉ gồm tích của một số với các biến, mỗi biến chỉ viết 1 lần dưới dạng lũy thừa mũ nguyên dương.</p>\n<p>"
+    },
+    {
+      "id": "p1_q2_mw7trelq_1",
+      "number": 2,
+      "part": "part1",
+      "rawText": "<b>Câu 2.</b> Bậc của đa thức  $P = 3{x}^{4}y - 2{x}^{2}{y}^{3} + 5{x}^{4}y + 2{x}^{2}{y}^{3} - 7$  sau khi thu gọn là:</p>\n<p>A. 4</p>\n<p><b><u>B</u></b>. 5</p>\n<p>C. 6</p>\n<p>D. 7</p>\n<p><b>Lời giải</b></p>\n<p>Thu gọn  $P = 8{x}^{4}y - 7$ . Hạng tử  $8{x}^{4}y$  có bậc là  $4 + 1 = 5$ .</p>\n<p>",
+      "prompt": "ậc của đa thức  $P = 3{x}^{4}y - 2{x}^{2}{y}^{3} + 5{x}^{4}y + 2{x}^{2}{y}^{3} - 7$  sau khi thu gọn là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Thu gọn  $P = 8{x}^{4}y - 7$ . Hạng tử  $8{x}^{4}y$  có bậc là  $4 + 1 = 5$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q3_mw7trelv_2",
+      "number": 3,
+      "part": "part1",
+      "rawText": "<b>Câu 3.</b> Cặp đơn thức nào sau đây đồng dạng với nhau?</p>\n<p>A.  $3{x}^{2}y$  và  $3x{y}^{2}$ </p>\n<p><b><u>B</u></b>.  $-2{x}^{3}{y}^{2}$  và  $\\frac{1}{2}{x}^{3}{y}^{2}$ </p>\n<p>C.  $5{x}^{4}$  và  $5{y}^{4}$ </p>\n<p>D.  $4{x}^{2}{y}^{3}$  và  $4{x}^{3}{y}^{3}$ </p>\n<p><b>Lời giải</b></p>\n<p>Hai đơn thức đồng dạng có phần biến giống hệt nhau là  ${x}^{3}{y}^{2}$ .</p>\n<p>",
+      "prompt": "Cặp đơn thức nào sau đây đồng dạng với nhau?</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$3{x}^{2}y$  và  $3x{y}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$-2{x}^{3}{y}^{2}$  và  $\\frac{1}{2}{x}^{3}{y}^{2}$"
+        },
+        {
+          "key": "C",
+          "text": "$5{x}^{4}$  và  $5{y}^{4}$"
+        },
+        {
+          "key": "D",
+          "text": "$4{x}^{2}{y}^{3}$  và  $4{x}^{3}{y}^{3}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Hai đơn thức đồng dạng có phần biến giống hệt nhau là  ${x}^{3}{y}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q4_mw7trem4_3",
+      "number": 4,
+      "part": "part1",
+      "rawText": "<b>Câu 4.</b> Thực hiện phép nhân đơn thức  $2{x}^{2}y$  với đa thức  $(3x - y)$ , ta được kết quả là:</p>\n<p><b><u>A</u></b>.  $6{x}^{3}y - 2{x}^{2}{y}^{2}$ </p>\n<p>B.  $6{x}^{2}y - 2{x}^{2}{y}^{2}$ </p>\n<p>C.  $6{x}^{3}y + 2{x}^{2}{y}^{2}$ </p>\n<p>D.  $5{x}^{3}y - 2{x}^{2}{y}^{2}$ </p>\n<p><b>Lời giải</b></p>\n<p>Nhân đơn thức với đa thức:  $2{x}^{2}y \\cdot  3x - 2{x}^{2}y \\cdot  y = 6{x}^{3}y - 2{x}^{2}{y}^{2}$ .</p>\n<p>",
+      "prompt": "Thực hiện phép nhân đơn thức  $2{x}^{2}y$  với đa thức  $(3x - y)$ , ta được kết quả là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$6{x}^{3}y - 2{x}^{2}{y}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$6{x}^{2}y - 2{x}^{2}{y}^{2}$"
+        },
+        {
+          "key": "C",
+          "text": "$6{x}^{3}y + 2{x}^{2}{y}^{2}$"
+        },
+        {
+          "key": "D",
+          "text": "$5{x}^{3}y - 2{x}^{2}{y}^{2}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "<p>Nhân đơn thức với đa thức:  $2{x}^{2}y \\cdot  3x - 2{x}^{2}y \\cdot  y = 6{x}^{3}y - 2{x}^{2}{y}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q5_mw7trem8_4",
+      "number": 5,
+      "part": "part1",
+      "rawText": "<b>Câu 5.</b> Kết quả của phép chia  $(12{x}^{4}{y}^{3} - 8{x}^{3}{y}^{2}) : (4{x}^{2}{y}^{2})$  là:</p>\n<p>A.  $3{x}^{2}y - 2{x}^{2}$ </p>\n<p><b><u>B</u></b>.  $3{x}^{2}y - 2x$ </p>\n<p>C.  $3xy - 2$ </p>\n<p>D.  $3{x}^{2} - 2xy$ </p>\n<p><b>Lời giải</b></p>\n<p>Chia từng hạng tử:  $12{x}^{4}{y}^{3} : 4{x}^{2}{y}^{2} - 8{x}^{3}{y}^{2} : 4{x}^{2}{y}^{2} = 3{x}^{2}y - 2x$ .</p>\n<p>",
+      "prompt": "Kết quả của phép chia  $(12{x}^{4}{y}^{3} - 8{x}^{3}{y}^{2}) : (4{x}^{2}{y}^{2})$  là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$3{x}^{2}y - 2{x}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$3{x}^{2}y - 2x$"
+        },
+        {
+          "key": "C",
+          "text": "$3xy - 2$"
+        },
+        {
+          "key": "D",
+          "text": "$3{x}^{2} - 2xy$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Chia từng hạng tử:  $12{x}^{4}{y}^{3} : 4{x}^{2}{y}^{2} - 8{x}^{3}{y}^{2} : 4{x}^{2}{y}^{2} = 3{x}^{2}y - 2x$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q6_mw7tremd_5",
+      "number": 6,
+      "part": "part1",
+      "rawText": "<b>Câu 6.</b> Khai triển hằng đẳng thức  ${(2x - 3y)}^{2}$  ta được kết quả là:</p>\n<p>A.  $4{x}^{2} - 6xy + 9{y}^{2}$ </p>\n<p>B.  $2{x}^{2} - 12xy + 3{y}^{2}$ </p>\n<p><b><u>C</u></b>.  $4{x}^{2} - 12xy + 9{y}^{2}$ </p>\n<p>D.  $4{x}^{2} + 12xy + 9{y}^{2}$ </p>\n<p><b>Lời giải</b></p>\n<p>Khai triển  ${(2x - 3y)}^{2} = 4{x}^{2} - 12xy + 9{y}^{2}$ .</p>\n<p>",
+      "prompt": "Khai triển hằng đẳng thức  ${(2x - 3y)}^{2}$  ta được kết quả là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$4{x}^{2} - 6xy + 9{y}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$2{x}^{2} - 12xy + 3{y}^{2}$"
+        },
+        {
+          "key": "C",
+          "text": "$4{x}^{2} - 12xy + 9{y}^{2}$"
+        },
+        {
+          "key": "D",
+          "text": "$4{x}^{2} + 12xy + 9{y}^{2}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "<p>Khai triển  ${(2x - 3y)}^{2} = 4{x}^{2} - 12xy + 9{y}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q7_mw7tremg_6",
+      "number": 7,
+      "part": "part1",
+      "rawText": "<b>Câu 7.</b> Biểu thức  $(x + 4)(x - 4)$  viết dưới dạng hiệu hai bình phương là:</p>\n<p>A.  ${x}^{2} - 4$ </p>\n<p><b><u>B</u></b>.  ${x}^{2} - 16$ </p>\n<p>C.  ${x}^{2} - 8$ </p>\n<p>D.  ${(x - 4)}^{2}$ </p>\n<p><b>Lời giải</b></p>\n<p>Hiệu hai bình phương:  $(x + 4)(x - 4) = {x}^{2} - 16$ .</p>\n<p>",
+      "prompt": "iểu thức  $(x + 4)(x - 4)$  viết dưới dạng hiệu hai bình phương là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "${x}^{2} - 4$"
+        },
+        {
+          "key": "B",
+          "text": "${x}^{2} - 16$"
+        },
+        {
+          "key": "C",
+          "text": "${x}^{2} - 8$"
+        },
+        {
+          "key": "D",
+          "text": "${(x - 4)}^{2}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Hiệu hai bình phương:  $(x + 4)(x - 4) = {x}^{2} - 16$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q8_mw7tremj_7",
+      "number": 8,
+      "part": "part1",
+      "rawText": "<b>Câu 8.</b> Đa thức  ${x}^{2} - 6x + 9$  được viết dưới dạng bình phương của một hiệu là:</p>\n<p>A.  ${(x + 3)}^{2}$ </p>\n<p><b><u>B</u></b>.  ${(x - 3)}^{2}$ </p>\n<p>C.  ${(x - 9)}^{2}$ </p>\n<p>D.  ${(x - 6)}^{2}$ </p>\n<p><b>Lời giải</b></p>\n<p> ${x}^{2} - 6x + 9 = {(x - 3)}^{2}$ .</p>\n<p>",
+      "prompt": "Đa thức  ${x}^{2} - 6x + 9$  được viết dưới dạng bình phương của một hiệu là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "${(x + 3)}^{2}$"
+        },
+        {
+          "key": "B",
+          "text": "${(x - 3)}^{2}$"
+        },
+        {
+          "key": "C",
+          "text": "${(x - 9)}^{2}$"
+        },
+        {
+          "key": "D",
+          "text": "${(x - 6)}^{2}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p> ${x}^{2} - 6x + 9 = {(x - 3)}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q9_mw7tremn_8",
+      "number": 9,
+      "part": "part1",
+      "rawText": "<b>Câu 9.</b> Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:</p>\n<p>A.  $180^\\circ$ </p>\n<p><b><u>B</u></b>.  $360^\\circ$ </p>\n<p>C.  $90^\\circ$ </p>\n<p>D.  $540^\\circ$ </p>\n<p><b>Lời giải</b></p>\n<p>Tổng bốn góc của tứ giác lồi luôn bằng  $360^\\circ$ .</p>\n<p>",
+      "prompt": "Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "$180^\\circ$"
+        },
+        {
+          "key": "B",
+          "text": "$360^\\circ$"
+        },
+        {
+          "key": "C",
+          "text": "$90^\\circ$"
+        },
+        {
+          "key": "D",
+          "text": "$540^\\circ$"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Tổng bốn góc của tứ giác lồi luôn bằng  $360^\\circ$ .</p>\n<p>"
+    },
+    {
+      "id": "p1_q10_mw7tremp_9",
+      "number": 10,
+      "part": "part1",
+      "rawText": "<b>Câu 10.</b> Hình thang cân là hình thang có:</p>\n<p>A. Hai cạnh bên song song</p>\n<p><b><u>B</u></b>. Hai góc kề một đáy bằng nhau</p>\n<p>C. Hai cạnh đáy bằng nhau</p>\n<p>D. Hai góc đối bằng nhau</p>\n<p><b>Lời giải</b></p>\n<p>Định nghĩa hình thang cân: hai góc kề một đáy bằng nhau.</p>\n<p>",
+      "prompt": "Hình thang cân là hình thang có:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hai cạnh bên song song"
+        },
+        {
+          "key": "B",
+          "text": "Hai góc kề một đáy bằng nhau"
+        },
+        {
+          "key": "C",
+          "text": "Hai cạnh đáy bằng nhau"
+        },
+        {
+          "key": "D",
+          "text": "Hai góc đối bằng nhau"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Định nghĩa hình thang cân: hai góc kề một đáy bằng nhau.</p>\n<p>"
+    },
+    {
+      "id": "p1_q11_mw7tremr_10",
+      "number": 11,
+      "part": "part1",
+      "rawText": "<b>Câu 11.</b> Khẳng định nào sau đây về hình bình hành là <b>sai</b>?</p>\n<p>A. Các cạnh đối bằng nhau</p>\n<p>B. Các góc đối bằng nhau</p>\n<p>C. Hai đường chéo cắt nhau tại trung điểm của mỗi đường</p>\n<p><b><u>D</u></b>. Hai đường chéo vuông góc với nhau</p>\n<p><b>Lời giải</b></p>\n<p>Hai đường chéo hình bình hành nói chung không vuông góc.</p>\n<p>",
+      "prompt": "Khẳng định nào sau đây về hình bình hành là <b>sai</b>?</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "Các cạnh đối bằng nhau"
+        },
+        {
+          "key": "B",
+          "text": "Các góc đối bằng nhau"
+        },
+        {
+          "key": "C",
+          "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
+        },
+        {
+          "key": "D",
+          "text": "Hai đường chéo vuông góc với nhau"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "<p>Hai đường chéo hình bình hành nói chung không vuông góc.</p>\n<p>"
+    },
+    {
+      "id": "p1_q12_mw7tremt_11",
+      "number": 12,
+      "part": "part1",
+      "rawText": "<b>Câu 12.</b> Hình bình hành có một góc vuông là:</p>\n<p>A. Hình thoi</p>\n<p><b><u>B</u></b>. Hình chữ nhật</p>\n<p>C. Hình thang cân</p>\n<p>D. Hình vuông</p>\n<p><b>Lời giải</b></p>\n<p>Hình bình hành có một góc vuông là hình chữ nhật.</p>",
+      "prompt": "Hình bình hành có một góc vuông là:</p>",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hình thoi"
+        },
+        {
+          "key": "B",
+          "text": "Hình chữ nhật"
+        },
+        {
+          "key": "C",
+          "text": "Hình thang câ"
+        },
+        {
+          "key": "D",
+          "text": "Hình vuông"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p>Hình bình hành có một góc vuông là hình chữ nhật."
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2_q1_mw7tren9_0",
+      "number": 1,
+      "part": "part2",
+      "rawText": "<b>Câu 1.</b> Cho hai đa thức  $A = 3{x}^{2}y - 2xy + {y}^{2}$  và  $B = {x}^{2}y + 2xy - 3{y}^{2} + 5$ .</p>\n<p><u>a</u>) Bậc của đa thức  $A$  bằng  $3$ .</p>\n<p><u>b</u>) Tổng  $A + B = 4{x}^{2}y - 2{y}^{2} + 5$ .</p>\n<p><u>c</u>) Hiệu  $A - B = 2{x}^{2}y - 4xy + 4{y}^{2} - 5$ .</p>\n<p><u>d</u>) Tại  $x = 1, y = -1$ , giá trị của đa thức  $A + B$  bằng  $-1$ .</p>\n<p><b>Lời giải</b></p>\n<p>- Ý a) [<b>Đúng</b>]: Hạng tử  $3{x}^{2}y$  có bậc  $2 + 1 = 3$ .</p>\n<p>- Ý b) [<b>Đúng</b>]:  $A + B = 4{x}^{2}y - 2{y}^{2} + 5$ .</p>\n<p>- Ý c) [<b>Đúng</b>]:  $A - B = 2{x}^{2}y - 4xy + 4{y}^{2} - 5$ .</p>\n<p>- Ý d) [<b>Đúng</b>]:  $4{(1)}^{2}(-1) - 2{(-1)}^{2} + 5 = -1$ .</p>\n<p>",
+      "prompt": "Cho hai đa thức  $A = 3{x}^{2}y - 2xy + {y}^{2}$  và  $B = {x}^{2}y + 2xy - 3{y}^{2} + 5$ .</p>",
+      "items": [
+        {
+          "key": "a",
+          "text": "ậc của đa thức  $A$  bằng  $3$",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "Tổng  $A + B = 4{x}^{2}y - 2{y}^{2} + 5$",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "Hiệu  $A - B = 2{x}^{2}y - 4xy + 4{y}^{2} - 5$",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "Tại  $x = 1, y = -1$ , giá trị của đa thức  $A + B$  bằng  $-1$",
+          "correctAnswer": true
+        }
+      ],
+      "explanation": "<p>- Ý a) [<b>Đúng</b>]: Hạng tử  $3{x}^{2}y$  có bậc  $2 + 1 = 3$ .</p>\n<p>- Ý b) [<b>Đúng</b>]:  $A + B = 4{x}^{2}y - 2{y}^{2} + 5$ .</p>\n<p>- Ý c) [<b>Đúng</b>]:  $A - B = 2{x}^{2}y - 4xy + 4{y}^{2} - 5$ .</p>\n<p>- Ý d) [<b>Đúng</b>]:  $4{(1)}^{2}(-1) - 2{(-1)}^{2} + 5 = -1$ .</p>\n<p>"
+    },
+    {
+      "id": "p2_q2_mw7trend_1",
+      "number": 2,
+      "part": "part2",
+      "rawText": "<b>Câu 2.</b> Cho biểu thức  $M = {(x - 2y)}^{2} + {(x + 2y)}^{2} - 2({x}^{2} - 4{y}^{2})$ .</p>\n<p><u>a</u>) Khai triển  ${(x - 2y)}^{2} = {x}^{2} - 4xy + 4{y}^{2}$ .</p>\n<p><u>b</u>) Khai triển  ${(x + 2y)}^{2} = {x}^{2} + 4xy + 4{y}^{2}$ .</p>\n<p>c) Rút gọn biểu thức  $M$  ta được kết quả  $M = 8{y}^{2}$ .</p>\n<p>d) Giá trị của biểu thức  $M$  phụ thuộc vào giá trị của biến  $x$ .</p>\n<p><b>Lời giải</b></p>\n<p>- Ý a) [<b>Đúng</b>]: Bình phương một hiệu.</p>\n<p>- Ý b) [<b>Đúng</b>]: Bình phương một tổng.</p>\n<p>- Ý c) [<b>Sai</b>]:  $M = 16{y}^{2}$  (không phải  $8{y}^{2}$ ).</p>\n<p>- Ý d) [<b>Sai</b>]:  $M = 16{y}^{2}$  độc lập với  $x$ .</p>\n<p>",
+      "prompt": "Cho biểu thức  $M = {(x - 2y)}^{2} + {(x + 2y)}^{2} - 2({x}^{2} - 4{y}^{2})$ .</p>",
+      "items": [
+        {
+          "key": "a",
+          "text": "Khai triển  ${(x - 2y)}^{2} = {x}^{2} - 4xy + 4{y}^{2}$",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "Khai triển  ${(x + 2y)}^{2} = {x}^{2} + 4xy + 4{y}^{2}$",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "Rút gọn biểu thức  $M$  ta được kết quả  $M = 8{y}^{2}$",
+          "correctAnswer": false
+        },
+        {
+          "key": "d",
+          "text": "Giá trị của biểu thức  $M$  phụ thuộc vào giá trị của biến  $x$",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "<p>- Ý a) [<b>Đúng</b>]: Bình phương một hiệu.</p>\n<p>- Ý b) [<b>Đúng</b>]: Bình phương một tổng.</p>\n<p>- Ý c) [<b>Sai</b>]:  $M = 16{y}^{2}$  (không phải  $8{y}^{2}$ ).</p>\n<p>- Ý d) [<b>Sai</b>]:  $M = 16{y}^{2}$  độc lập với  $x$ .</p>\n<p>"
+    },
+    {
+      "id": "p2_q3_mw7treng_2",
+      "number": 3,
+      "part": "part2",
+      "rawText": "<b>Câu 3.</b> Cho tứ giác  $ABCD$  có  $\\vec{A} = 70^\\circ , \\vec{B} = 110^\\circ , \\vec{C} = 80^\\circ$ .</p>\n<p><u>a</u>) Tứ giác  $ABCD$  là tứ giác lồi.</p>\n<p><u>b</u>) Số đo của góc  $D$  bằng  $100^\\circ$ .</p>\n<p><u>c</u>) Hai đường thẳng  $AD$  và  $BC$  song song với nhau.</p>\n<p><u>d</u>) Tứ giác  $ABCD$  là hình thang có đáy  $AD$  và  $BC$ .</p>\n<p><b>Lời giải</b></p>\n<p>- Ý a) [<b>Đúng</b>]: Tứ giác lồi.</p>\n<p>- Ý b) [<b>Đúng</b>]:  $\\vec{D} = 360^\\circ  - 260^\\circ  = 100^\\circ$ .</p>\n<p>- Ý c) [<b>Đúng</b>]:  $\\vec{A} + \\vec{B} = 180^\\circ  \\Rightarrow AD \\parallel  BC$ .</p>\n<p>- Ý d) [<b>Đúng</b>]: Tứ giác có  $AD \\parallel  BC$  là hình thang.</p>\n<p>",
+      "prompt": "Cho tứ giác  $ABCD$  có  $\\vec{A} = 70^\\circ , \\vec{B} = 110^\\circ , \\vec{C} = 80^\\circ$ .</p>",
+      "items": [
+        {
+          "key": "a",
+          "text": "Tứ giác  $ABCD$  là tứ giác lồi",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "ố đo của góc  $D$  bằng  $100^\\circ$",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "Hai đường thẳng  $AD$  và  $BC$  song song với nhau",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "Tứ giác  $ABCD$  là hình thang có đáy  $AD$  và  $BC$",
+          "correctAnswer": true
+        }
+      ],
+      "explanation": "<p>- Ý a) [<b>Đúng</b>]: Tứ giác lồi.</p>\n<p>- Ý b) [<b>Đúng</b>]:  $\\vec{D} = 360^\\circ  - 260^\\circ  = 100^\\circ$ .</p>\n<p>- Ý c) [<b>Đúng</b>]:  $\\vec{A} + \\vec{B} = 180^\\circ  \\Rightarrow AD \\parallel  BC$ .</p>\n<p>- Ý d) [<b>Đúng</b>]: Tứ giác có  $AD \\parallel  BC$  là hình thang.</p>\n<p>"
+    },
+    {
+      "id": "p2_q4_mw7trenl_3",
+      "number": 4,
+      "part": "part2",
+      "rawText": "<b>Câu 4.</b> Cho tam giác  $ABC$  vuông tại  $A$ , trung tuyến  $AM$ . Kẻ  $MD \\perp  AB$  tại  $D$  và  $ME \\perp  AC$  tại  $E$ .</p>\n<p><u>a</u>) Tứ giác  $ADME$  có 3 góc vuông nên là hình chữ nhật.</p>\n<p><u>b</u>) Điểm  $D$  là trung điểm của  $AB$  và  $E$  là trung điểm của  $AC$ .</p>\n<p><u>c</u>) Độ dài đoạn thẳng  $DE$  bằng một nửa độ dài đoạn thẳng  $BC$ .</p>\n<p>d) Nếu tam giác  $ABC$  vuông cân tại  $A$  thì  $ADME$  là hình bình hành nhưng không phải hình vuông.</p>\n<p><b>Lời giải</b></p>\n<p>- Ý a) [<b>Đúng</b>]: Có 3 góc vuông.</p>\n<p>- Ý b) [<b>Đúng</b>]: Tính chất trung điểm.</p>\n<p>- Ý c) [<b>Đúng</b>]:  $DE = AM = \\frac{1}{2}BC$ .</p>\n<p>- Ý d) [<b>Sai</b>]: Khi  $\\Delta  ABC$  vuông cân thì  $ADME$  là hình vuông.</p>",
+      "prompt": "Cho tam giác  $ABC$  vuông tại  $A$ , trung tuyến  $AM$ . Kẻ  $MD \\perp  AB$  tại  $D$  và  $ME \\perp  AC$  tại  $E$ .</p>",
+      "items": [
+        {
+          "key": "a",
+          "text": "Tứ giác  $ADME$  có 3 góc vuông nên là hình chữ nhật",
+          "correctAnswer": true
+        },
+        {
+          "key": "b",
+          "text": "Điểm  $D$  là trung điểm của  $AB$  và  $E$  là trung điểm của  $AC$",
+          "correctAnswer": true
+        },
+        {
+          "key": "c",
+          "text": "Độ dài đoạn thẳng  $DE$  bằng một nửa độ dài đoạn thẳng  $BC$",
+          "correctAnswer": true
+        },
+        {
+          "key": "d",
+          "text": "ếu tam giác  $ABC$  vuông cân tại  $A$  thì  $ADME$  là hình bình hành nhưng không phải hình vuông",
+          "correctAnswer": false
+        }
+      ],
+      "explanation": "<p>- Ý a) [<b>Đúng</b>]: Có 3 góc vuông.</p>\n<p>- Ý b) [<b>Đúng</b>]: Tính chất trung điểm.</p>\n<p>- Ý c) [<b>Đúng</b>]:  $DE = AM = \\frac{1}{2}BC$ .</p>\n<p>- Ý d) [<b>Sai</b>]: Khi  $\\Delta  ABC$  vuông cân thì  $ADME$  là hình vuông."
+    }
+  ],
+  "part3": [
+    {
+      "id": "p3_q1_mw7trenp_0",
+      "number": 1,
+      "part": "part3",
+      "rawText": "<b>Câu 1.</b> Tính hệ số của đơn thức thu gọn  $M = -3{x}^{2}y \\cdot  \\le ft(\\frac{2}{3}x{y}^{3}) \\cdot  (-{x}^{2})$ .</p>\n<p><b>ĐS:</b>  $2$ .</p>\n<p><b>Lời giải</b></p>\n<p>  $M = 2{x}^{5}{y}^{4}$ . Hệ số là 2.</p>\n<p>",
+      "prompt": "Tính hệ số của đơn thức thu gọn  $M = -3{x}^{2}y \\cdot  \\le ft(\\frac{2}{3}x{y}^{3}) \\cdot  (-{x}^{2})$ .</p>",
+      "correctAnswer": "2",
+      "acceptableAnswers": [
+        "2"
+      ],
+      "explanation": "<p>  $M = 2{x}^{5}{y}^{4}$ . Hệ số là 2.</p>\n<p>"
+    },
+    {
+      "id": "p3_q2_mw7trenp_1",
+      "number": 2,
+      "part": "part3",
+      "rawText": "<b>Câu 2.</b> Tính giá trị của biểu thức  $P = {x}^{2} - 10x + 25$  tại  $x = 105$ .</p>\n<p><b>ĐS:</b>  $10000$ .</p>\n<p><b>Lời giải</b></p>\n<p>  $P = {(x - 5)}^{2} = 10{0}^{2} = 10000$ .</p>\n<p>",
+      "prompt": "Tính giá trị của biểu thức  $P = {x}^{2} - 10x + 25$  tại  $x = 105$ .</p>",
+      "correctAnswer": "1000",
+      "acceptableAnswers": [
+        "1000"
+      ],
+      "explanation": "<p>  $P = {(x - 5)}^{2} = 10{0}^{2} = 10000$ .</p>\n<p>"
+    },
+    {
+      "id": "p3_q3_mw7trenp_2",
+      "number": 3,
+      "part": "part3",
+      "rawText": "<b>Câu 3.</b> Cho đa thức  $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$ . Tính giá trị của  $Q$  khi  $x = 2026$ .</p>\n<p><b>ĐS:</b>  $5$ .</p>\n<p><b>Lời giải</b></p>\n<p>  $Q = 5$  không phụ thuộc vào  $x$ .</p>\n<p>",
+      "prompt": "Cho đa thức  $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$ . Tính giá trị của  $Q$  khi  $x = 2026$ .</p>",
+      "correctAnswer": "5",
+      "acceptableAnswers": [
+        "5"
+      ],
+      "explanation": "<p>  $Q = 5$  không phụ thuộc vào  $x$ .</p>\n<p>"
+    },
+    {
+      "id": "p3_q4_mw7trenp_3",
+      "number": 4,
+      "part": "part3",
+      "rawText": "<b>Câu 4.</b> Cho hình thang cân  $ABCD$  ( $AB \\parallel  CD$ ) có  $\\vec{D} = 45^\\circ$ , đường cao  $AH = 4 cm$ , đáy nhỏ  $AB = 2 cm$ . Tính diện tích hình thang cân  $ABCD$  theo đơn vị  ${cm}^{2}$ .</p>\n<p><b>ĐS:</b>  $24$ </p>\n<p><b>Lời giải</b></p>\n<p>  $S = \\frac{(2 + 10) \\cdot  4}{2} = 24{cm}^{2}$ .</p>\n<p>",
+      "prompt": "Cho hình thang cân  $ABCD$  ( $AB \\parallel  CD$ ) có  $\\vec{D} = 45^\\circ$ , đường cao  $AH = 4 cm$ , đáy nhỏ  $AB = 2 cm$ . Tính diện tích hình thang cân  $ABCD$  theo đơn vị  ${cm}^{2}$ .</p>",
+      "correctAnswer": "24",
+      "acceptableAnswers": [
+        "24"
+      ],
+      "explanation": "<p>  $S = \\frac{(2 + 10) \\cdot  4}{2} = 24{cm}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p3_q5_mw7trenq_4",
+      "number": 5,
+      "part": "part3",
+      "rawText": "<b>Câu 5.</b> Một hình chữ nhật có chu vi bằng  $28 cm$  và độ dài đường chéo bằng  $10 cm$ . Tính diện tích của hình chữ nhật đó theo đơn vị  ${cm}^{2}$ .</p>\n<p><b>ĐS:</b>  $48$ </p>\n<p><b>Lời giải</b></p>\n<p>  $S = ab = 48{cm}^{2}$ .</p>\n<p>",
+      "prompt": "Một hình chữ nhật có chu vi bằng  $28 cm$  và độ dài đường chéo bằng  $10 cm$ . Tính diện tích của hình chữ nhật đó theo đơn vị  ${cm}^{2}$ .</p>",
+      "correctAnswer": "48",
+      "acceptableAnswers": [
+        "48"
+      ],
+      "explanation": "<p>  $S = ab = 48{cm}^{2}$ .</p>\n<p>"
+    },
+    {
+      "id": "p3_q6_mw7trens_5",
+      "number": 6,
+      "part": "part3",
+      "rawText": "<b>Câu 6.</b> Cho hình thoi  $ABCD$  có  $\\vec{A} = 60^\\circ$  và chu vi bằng  $24 cm$ . Tính độ dài đường chéo ngắn  $BD$  theo đơn vị  $cm$ .</p>\n<p><b>ĐS:</b>  $6$ </p>\n<p><b>Lời giải</b></p>\n<p>Tam giác  $ABD$  đều nên  $BD = 6 cm$ .</p>",
+      "prompt": "Cho hình thoi  $ABCD$  có  $\\vec{A} = 60^\\circ$  và chu vi bằng  $24 cm$ . Tính độ dài đường chéo ngắn  $BD$  theo đơn vị  $cm$ .</p>",
+      "correctAnswer": "6",
+      "acceptableAnswers": [
+        "6"
+      ],
+      "explanation": "<p>Tam giác  $ABD$  đều nên  $BD = 6 cm$ ."
+    }
+  ],
+  "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec"
+}
