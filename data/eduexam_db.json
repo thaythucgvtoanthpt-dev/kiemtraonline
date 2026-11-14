@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T15:37:32.216Z",
+  "updatedAt": "2026-11-14T16:00:08.023Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1279,6 +1279,15 @@
       "password": "123456",
       "createdAt": "2026-11-12T03:55:30.124Z",
       "updatedAt": "2026-11-12T03:55:30.124Z"
+    },
+    {
+      "studentCode": "PHONG",
+      "fullName": "Thanh Phong",
+      "className": "TOÁN THẦY THÚC",
+      "schoolName": "Toán thầy Thúc",
+      "password": "123456",
+      "createdAt": "2026-11-14T15:40:14.150Z",
+      "updatedAt": "2026-11-14T15:40:14.150Z"
     }
   ],
   "examsCatalog": [
@@ -1439,6 +1448,53 @@
       "assignedStudentCodes": [],
       "openAt": "",
       "closeAt": ""
+    },
+    {
+      "shortId": "rdlz5",
+      "examId": "rdlz5",
+      "grade": "12",
+      "assignedClasses": [
+        "12B1TVK",
+        "12B2TVK"
+      ],
+      "assignedStudentCodes": [],
+      "openAt": "",
+      "closeAt": "",
+      "passcode": "",
+      "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
+      "studentLink": "https://toanthaythuc.vercel.app/s/rdlz5",
+      "directUrl": "/s/rdlz5",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "isPublished": true,
+      "createdAt": "rdlz5",
+      "updatedAt": "rdlz5"
+    },
+    {
+      "shortId": "rdlz5",
+      "examId": "exam_mwgkpeio1rsn",
+      "grade": "12",
+      "assignedClasses": [
+        "12B1TVK",
+        "12B2TVK"
+      ],
+      "assignedStudentCodes": [
+        "SON01",
+        "T1",
+        "T2"
+      ],
+      "openAt": "",
+      "closeAt": "",
+      "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
+      "studentLink": "/s/rdlz5",
+      "directUrl": "/s/rdlz5",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "isPublished": true,
+      "createdAt": "2026-11-14T15:41:21.216Z",
+      "updatedAt": "2026-11-14T15:59:05.369Z"
     }
   ],
   "exams": {
