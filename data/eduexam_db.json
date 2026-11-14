@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T14:29:28.060Z",
+  "updatedAt": "2026-11-14T14:51:00.810Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1283,54 +1283,22 @@
   ],
   "examsCatalog": [
     {
-      "shortId": "cki01",
-      "examId": "exam_mw95zfznsyza",
-      "grade": "12",
-      "title": "ĐỢT 5 TỔ 5-GIẢI ĐỀ HK1-2025-2026-TRƯỜNG THPT CHUYÊN LÊ KHIẾT-QUẢNG NGÃI",
-      "studentLink": "http://localhost:3000/s/cki01",
-      "directUrl": "http://localhost:3000/s/cki01",
-      "durationMinutes": 90,
-      "totalQuestions": 22,
-      "createdAt": "2026-11-09T11:14:52.211Z",
-      "updatedAt": "2026-11-09T11:28:50.438Z",
-      "assignedClasses": [],
-      "assignedStudentCodes": [],
-      "openAt": "",
-      "closeAt": ""
-    },
-    {
-      "shortId": "on-tap-cki",
-      "examId": "exam_mw8imx9dsdwo",
-      "grade": "12",
-      "title": "ÔN TẬP CKI",
-      "studentLink": "http://localhost:3000/s/on-tap-cki",
-      "directUrl": "http://localhost:3000/s/on-tap-cki",
-      "durationMinutes": 90,
-      "totalQuestions": 22,
-      "createdAt": "2026-11-09T00:21:16.897Z",
-      "updatedAt": "2026-11-09T11:09:17.558Z",
-      "assignedClasses": [],
-      "assignedStudentCodes": [],
-      "openAt": "",
-      "closeAt": ""
-    },
-    {
       "shortId": "de-on-toan-8-giua-hk1-lhp1",
       "examId": "exam_mw7xldaxeeqi",
       "grade": "12",
+      "assignedClasses": [],
+      "assignedStudentCodes": [],
+      "openAt": "",
+      "closeAt": "",
       "title": "De ON Toan 8 Giua HK1 - LHP1",
       "studentLink": "/s/de-on-toan-8-giua-hk1-lhp1",
       "directUrl": "/s/de-on-toan-8-giua-hk1-lhp1",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/de-on-toan-8-giua-hk1-lhp1.json",
       "durationMinutes": 50,
       "totalQuestions": 22,
+      "isPublished": true,
       "createdAt": "2026-11-08T14:32:12.441Z",
-      "updatedAt": "2026-11-08T14:32:12.441Z",
-      "assignedClasses": [],
-      "assignedStudentCodes": [],
-      "openAt": "",
-      "closeAt": "",
-      "isPublished": true
+      "updatedAt": "2026-11-08T14:32:12.441Z"
     },
     {
       "shortId": "10d8f9z",
@@ -1439,9 +1407,588 @@
       "isPublished": true,
       "createdAt": "2026-11-09T12:45:25.666Z",
       "updatedAt": "2026-11-09T12:45:25.666Z"
+    },
+    {
+      "shortId": "cki01",
+      "examId": "exam_mw95zfznsyza",
+      "grade": "12",
+      "title": "ĐỢT 5 TỔ 5-GIẢI ĐỀ HK1-2025-2026-TRƯỜNG THPT CHUYÊN LÊ KHIẾT-QUẢNG NGÃI",
+      "studentLink": "http://localhost:3000/s/cki01",
+      "directUrl": "http://localhost:3000/s/cki01",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "createdAt": "2026-11-09T11:14:52.211Z",
+      "updatedAt": "2026-11-09T11:28:50.438Z",
+      "assignedClasses": [],
+      "assignedStudentCodes": [],
+      "openAt": "",
+      "closeAt": ""
+    },
+    {
+      "shortId": "on-tap-cki",
+      "examId": "exam_mw8imx9dsdwo",
+      "grade": "12",
+      "title": "ÔN TẬP CKI",
+      "studentLink": "http://localhost:3000/s/on-tap-cki",
+      "directUrl": "http://localhost:3000/s/on-tap-cki",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "createdAt": "2026-11-09T00:21:16.897Z",
+      "updatedAt": "2026-11-09T11:09:17.558Z",
+      "assignedClasses": [],
+      "assignedStudentCodes": [],
+      "openAt": "",
+      "closeAt": ""
     }
   ],
   "exams": {
+    "de-on-toan-8-giua-hk1-lhp1": {
+      "metadata": {
+        "id": "exam_mw7xldaxeeqi",
+        "title": "De ON Toan 8 Giua HK1 - LHP1",
+        "durationMinutes": 50,
+        "shuffleMode": "none",
+        "passcode": "",
+        "showSolutionAfterSubmit": true,
+        "allowRetake": false,
+        "createdAt": "2026-11-08T14:32:12.441Z",
+        "totalQuestions": {
+          "part1": 12,
+          "part2": 4,
+          "part3": 6,
+          "total": 22
+        },
+        "partScores": {
+          "part1Total": 3,
+          "part2Total": 4,
+          "part3Total": 3
+        }
+      },
+      "part1": [
+        {
+          "id": "p1_q1_mw7xld9z_0",
+          "number": 1,
+          "part": "part1",
+          "rawText": "Câu 1: Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?\nA. $2x \\cdot 3y^2$\n<u>B.</u> $-5x^3y^2z$\nC. $3x^2 + y$\nD. $4x^2y \\cdot x$\nLời giải:\nĐơn thức $-5x^3y^2z$ chỉ gồm tích của một số với các biến, mỗi biến chỉ viết một lần dưới dạng lũy thừa với số mũ nguyên dương.",
+          "prompt": "Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?",
+          "options": [
+            {
+              "key": "A",
+              "text": "$2x \\cdot 3y^2$"
+            },
+            {
+              "key": "B",
+              "text": "$-5x^3y^2z$"
+            },
+            {
+              "key": "C",
+              "text": "$3x^2 + y$"
+            },
+            {
+              "key": "D",
+              "text": "$4x^2y \\cdot x$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đơn thức $-5x^3y^2z$ chỉ gồm tích của một số với các biến, mỗi biến chỉ viết một lần dưới dạng lũy thừa với số mũ nguyên dương."
+        },
+        {
+          "id": "p1_q2_mw7xlda5_1",
+          "number": 2,
+          "part": "part1",
+          "rawText": "Câu 2: Bậc của đa thức $P = 3x^4y - 2x^2y^3 + 5x^4y + 2x^2y^3 - 7$ sau khi thu gọn là:\nA. $4$\n<u>B.</u> $5$\nC. $6$\nD. $7$\nLời giải:\nThu gọn đa thức: $P = (3x^4y + 5x^4y) + (-2x^2y^3 + 2x^2y^3) - 7 = 8x^4y - 7$.\nHạng tử $8x^4y$ có bậc là $4 + 1 = 5$, nên bậc của đa thức $P$ là $5$.",
+          "prompt": "ậc của đa thức $P = 3x^4y - 2x^2y^3 + 5x^4y + 2x^2y^3 - 7$ sau khi thu gọn là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$4$"
+            },
+            {
+              "key": "B",
+              "text": "$5$"
+            },
+            {
+              "key": "C",
+              "text": "$6$"
+            },
+            {
+              "key": "D",
+              "text": "$7$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Thu gọn đa thức: $P = (3x^4y + 5x^4y) + (-2x^2y^3 + 2x^2y^3) - 7 = 8x^4y - 7$.\nHạng tử $8x^4y$ có bậc là $4 + 1 = 5$, nên bậc của đa thức $P$ là $5$."
+        },
+        {
+          "id": "p1_q3_mw7xlda9_2",
+          "number": 3,
+          "part": "part1",
+          "rawText": "Câu 3: Cặp đơn thức nào sau đây đồng dạng với nhau?\nA. $3x^2y$ và $3xy^2$\n<u>B.</u> $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$\nC. $5x^4$ và $5y^4$\nD. $4x^2y^3$ và $4x^3y^3$\nLời giải:\nHai đơn thức đồng dạng là hai đơn thức có hệ số khác $0$ và có cùng phần biến. Cặp đơn thức $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$ có phần biến giống nhau là $x^3y^2$.",
+          "prompt": "Cặp đơn thức nào sau đây đồng dạng với nhau?",
+          "options": [
+            {
+              "key": "A",
+              "text": "$3x^2y$ và $3xy^2$"
+            },
+            {
+              "key": "B",
+              "text": "$-2x^3y^2$ và $\\frac{1}{2}x^3y^2$"
+            },
+            {
+              "key": "C",
+              "text": "$5x^4$ và $5y^4$"
+            },
+            {
+              "key": "D",
+              "text": "$4x^2y^3$ và $4x^3y^3$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Hai đơn thức đồng dạng là hai đơn thức có hệ số khác $0$ và có cùng phần biến. Cặp đơn thức $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$ có phần biến giống nhau là $x^3y^2$."
+        },
+        {
+          "id": "p1_q4_mw7xldab_3",
+          "number": 4,
+          "part": "part1",
+          "rawText": "Câu 4: Thực hiện phép nhân đơn thức $2x^2y$ với đa thức $(3x - y)$, ta được kết quả là:\n<u>A.</u> $6x^3y - 2x^2y^2$\nB. $6x^2y - 2x^2y^2$\nC. $6x^3y + 2x^2y^2$\nD. $5x^3y - 2x^2y^2$\nLời giải:\nTa có: $2x^2y(3x - y) = 2x^2y \\cdot 3x - 2x^2y \\cdot y = 6x^3y - 2x^2y^2$.",
+          "prompt": "Thực hiện phép nhân đơn thức $2x^2y$ với đa thức $(3x - y)$, ta được kết quả là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$6x^3y - 2x^2y^2$"
+            },
+            {
+              "key": "B",
+              "text": "$6x^2y - 2x^2y^2$"
+            },
+            {
+              "key": "C",
+              "text": "$6x^3y + 2x^2y^2$"
+            },
+            {
+              "key": "D",
+              "text": "$5x^3y - 2x^2y^2$"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Ta có: $2x^2y(3x - y) = 2x^2y \\cdot 3x - 2x^2y \\cdot y = 6x^3y - 2x^2y^2$."
+        },
+        {
+          "id": "p1_q5_mw7xldac_4",
+          "number": 5,
+          "part": "part1",
+          "rawText": "Câu 5: Kết quả của phép chia $(12x^4y^3 - 8x^3y^2) : (4x^2y^2)$ là:\nA. $3x^2y - 2x^2$\n<u>B.</u> $3x^2y - 2x$\nC. $3xy - 2$\nD. $3x^2 - 2xy$\nLời giải:\nTa có: $(12x^4y^3 - 8x^3y^2) : (4x^2y^2) = 12x^4y^3 : 4x^2y^2 - 8x^3y^2 : 4x^2y^2 = 3x^2y - 2x$.",
+          "prompt": "Kết quả của phép chia $(12x^4y^3 - 8x^3y^2) : (4x^2y^2)$ là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$3x^2y - 2x^2$"
+            },
+            {
+              "key": "B",
+              "text": "$3x^2y - 2x$"
+            },
+            {
+              "key": "C",
+              "text": "$3xy - 2$"
+            },
+            {
+              "key": "D",
+              "text": "$3x^2 - 2xy$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ta có: $(12x^4y^3 - 8x^3y^2) : (4x^2y^2) = 12x^4y^3 : 4x^2y^2 - 8x^3y^2 : 4x^2y^2 = 3x^2y - 2x$."
+        },
+        {
+          "id": "p1_q6_mw7xldad_5",
+          "number": 6,
+          "part": "part1",
+          "rawText": "Câu 6: Khai triển hằng đẳng thức $(2x - 3y)^2$ ta được kết quả là:\nA. $4x^2 - 6xy + 9y^2$\nB. $2x^2 - 12xy + 3y^2$\n<u>C.</u> $4x^2 - 12xy + 9y^2$\nD. $4x^2 + 12xy + 9y^2$\nLời giải:\nÁp dụng hằng đẳng thức bình phương của một hiệu: $(2x - 3y)^2 = (2x)^2 - 2 \\cdot 2x \\cdot 3y + (3y)^2 = 4x^2 - 12xy + 9y^2$.",
+          "prompt": "Khai triển hằng đẳng thức $(2x - 3y)^2$ ta được kết quả là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$4x^2 - 6xy + 9y^2$"
+            },
+            {
+              "key": "B",
+              "text": "$2x^2 - 12xy + 3y^2$"
+            },
+            {
+              "key": "C",
+              "text": "$4x^2 - 12xy + 9y^2$"
+            },
+            {
+              "key": "D",
+              "text": "$4x^2 + 12xy + 9y^2$"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Áp dụng hằng đẳng thức bình phương của một hiệu: $(2x - 3y)^2 = (2x)^2 - 2 \\cdot 2x \\cdot 3y + (3y)^2 = 4x^2 - 12xy + 9y^2$."
+        },
+        {
+          "id": "p1_q7_mw7xldaf_6",
+          "number": 7,
+          "part": "part1",
+          "rawText": "Câu 7: Biểu thức $(x + 4)(x - 4)$ viết dưới dạng hiệu hai bình phương là:\nA. $x^2 - 4$\n<u>B.</u> $x^2 - 16$\nC. $x^2 - 8$\nD. $(x - 4)^2$\nLời giải:\nÁp dụng hằng đẳng thức hiệu hai bình phương: $(x + 4)(x - 4) = x^2 - 4^2 = x^2 - 16$.",
+          "prompt": "iểu thức $(x + 4)(x - 4)$ viết dưới dạng hiệu hai bình phương là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$x^2 - 4$"
+            },
+            {
+              "key": "B",
+              "text": "$x^2 - 16$"
+            },
+            {
+              "key": "C",
+              "text": "$x^2 - 8$"
+            },
+            {
+              "key": "D",
+              "text": "$(x - 4)^2$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Áp dụng hằng đẳng thức hiệu hai bình phương: $(x + 4)(x - 4) = x^2 - 4^2 = x^2 - 16$."
+        },
+        {
+          "id": "p1_q8_mw7xldag_7",
+          "number": 8,
+          "part": "part1",
+          "rawText": "Câu 8: Đa thức $x^2 - 6x + 9$ được viết dưới dạng bình phương của một hiệu là:\nA. $(x + 3)^2$\n<u>B.</u> $(x - 3)^2$\nC. $(x - 9)^2$\nD. $(x - 6)^2$\nLời giải:\nTa có: $x^2 - 6x + 9 = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$.",
+          "prompt": "Đa thức $x^2 - 6x + 9$ được viết dưới dạng bình phương của một hiệu là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$(x + 3)^2$"
+            },
+            {
+              "key": "B",
+              "text": "$(x - 3)^2$"
+            },
+            {
+              "key": "C",
+              "text": "$(x - 9)^2$"
+            },
+            {
+              "key": "D",
+              "text": "$(x - 6)^2$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ta có: $x^2 - 6x + 9 = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$."
+        },
+        {
+          "id": "p1_q9_mw7xldah_8",
+          "number": 9,
+          "part": "part1",
+          "rawText": "Câu 9: Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:\nA. $180^\\circ$\n<u>B.</u> $360^\\circ$\nC. $90^\\circ$\nD. $540^\\circ$\nLời giải:\nTổng các góc của một tứ giác lồi luôn bằng $360^\\circ$.",
+          "prompt": "Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:",
+          "options": [
+            {
+              "key": "A",
+              "text": "$180^\\circ$"
+            },
+            {
+              "key": "B",
+              "text": "$360^\\circ$"
+            },
+            {
+              "key": "C",
+              "text": "$90^\\circ$"
+            },
+            {
+              "key": "D",
+              "text": "$540^\\circ$"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Tổng các góc của một tứ giác lồi luôn bằng $360^\\circ$."
+        },
+        {
+          "id": "p1_q10_mw7xldai_9",
+          "number": 10,
+          "part": "part1",
+          "rawText": "Câu 10: Hình thang cân là hình thang có:\nA. Hai cạnh bên song song\n<u>B.</u> Hai góc kề một đáy bằng nhau\nC. Hai cạnh đáy bằng nhau\nD. Hai góc đối bằng nhau\nLời giải:\nTheo định nghĩa, hình thang cân là hình thang có hai góc kề một đáy bằng nhau.",
+          "prompt": "Hình thang cân là hình thang có:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hai cạnh bên song song"
+            },
+            {
+              "key": "B",
+              "text": "Hai góc kề một đáy bằng nhau"
+            },
+            {
+              "key": "C",
+              "text": "Hai cạnh đáy bằng nhau"
+            },
+            {
+              "key": "D",
+              "text": "Hai góc đối bằng nhau"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Theo định nghĩa, hình thang cân là hình thang có hai góc kề một đáy bằng nhau."
+        },
+        {
+          "id": "p1_q11_mw7xldak_10",
+          "number": 11,
+          "part": "part1",
+          "rawText": "Câu 11: Khẳng định nào sau đây về hình bình hành là <b>sai</b>?\nA. Các cạnh đối bằng nhau\nB. Các góc đối bằng nhau\nC. Hai đường chéo cắt nhau tại trung điểm của mỗi đường\n<u>D.</u> Hai đường chéo vuông góc với nhau\nLời giải:\nTrong hình bình hành nói chung, hai đường chéo không vuông góc với nhau (chỉ vuông góc khi là hình thoi hoặc hình vuông).",
+          "prompt": "Khẳng định nào sau đây về hình bình hành là <b>sai</b>?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Các cạnh đối bằng nhau"
+            },
+            {
+              "key": "B",
+              "text": "Các góc đối bằng nhau"
+            },
+            {
+              "key": "C",
+              "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
+            },
+            {
+              "key": "D",
+              "text": "Hai đường chéo vuông góc với nhau"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Trong hình bình hành nói chung, hai đường chéo không vuông góc với nhau (chỉ vuông góc khi là hình thoi hoặc hình vuông)."
+        },
+        {
+          "id": "p1_q12_mw7xldal_11",
+          "number": 12,
+          "part": "part1",
+          "rawText": "Câu 12: Hình bình hành có một góc vuông là:\nA. Hình thoi\n<u>B.</u> Hình chữ nhật\nC. Hình thang cân\nD. Hình vuông\nLời giải:\nDấu hiệu nhận biết: Hình bình hành có một góc vuông là hình chữ nhật.",
+          "prompt": "Hình bình hành có một góc vuông là:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hình thoi"
+            },
+            {
+              "key": "B",
+              "text": "Hình chữ nhật"
+            },
+            {
+              "key": "C",
+              "text": "Hình thang câ"
+            },
+            {
+              "key": "D",
+              "text": "Hình vuông"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Dấu hiệu nhận biết: Hình bình hành có một góc vuông là hình chữ nhật."
+        }
+      ],
+      "part2": [
+        {
+          "id": "p2_q1_mw7xldan_0",
+          "number": 1,
+          "part": "part2",
+          "rawText": "Câu 1: Cho hai đa thức $A = 3x^2y - 2xy + y^2$ và $B = x^2y + 2xy - 3y^2 + 5$.\n<u>a)</u> Bậc của đa thức $A$ bằng $3$. (Đúng)\n<u>b)</u> Tổng $A + B = 4x^2y - 2y^2 + 5$. (Đúng)\n<u>c)</u> Hiệu $A - B = 2x^2y - 4xy + 4y^2 - 5$. (Đúng)\n<u>d)</u> Tại $x = 1$, $y = -1$, giá trị của đa thức $A + B$ bằng $-1$. (Đúng)\nLời giải:\n- Ý a) Đúng: Đa thức $A$ có các hạng tử $3x^2y$ (bậc 3), $-2xy$ (bậc 2), $y^2$ (bậc 2), do đó bậc của $A$ là $3$.\n- Ý b) Đúng: $A + B = (3x^2y + x^2y) + (-2xy + 2xy) + (y^2 - 3y^2) + 5 = 4x^2y - 2y^2 + 5$.\n- Ý c) Đúng: $A - B = (3x^2y - x^2y) + (-2xy - 2xy) + (y^2 + 3y^2) - 5 = 2x^2y - 4xy + 4y^2 - 5$.\n- Ý d) Đúng: Thay $x = 1$, $y = -1$ vào biểu thức $A + B$: $4 \\cdot 1^2 \\cdot (-1) - 2 \\cdot (-1)^2 + 5 = -4 - 2 + 5 = -1$.",
+          "prompt": "Cho hai đa thức $A = 3x^2y - 2xy + y^2$ và $B = x^2y + 2xy - 3y^2 + 5$.",
+          "items": [
+            {
+              "key": "a",
+              "text": "ậc của đa thức $A$ bằng $3$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "b",
+              "text": "Tổng $A + B = 4x^2y - 2y^2 + 5$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "c",
+              "text": "Hiệu $A - B = 2x^2y - 4xy + 4y^2 - 5$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "d",
+              "text": "Tại $x = 1$, $y = -1$, giá trị của đa thức $A + B$ bằng $-1$. (Đúng)",
+              "correctAnswer": true
+            }
+          ],
+          "explanation": "Ý a) Đúng: Đa thức $A$ có các hạng tử $3x^2y$ (bậc 3), $-2xy$ (bậc 2), $y^2$ (bậc 2), do đó bậc của $A$ là $3$.\n- Ý b) Đúng: $A + B = (3x^2y + x^2y) + (-2xy + 2xy) + (y^2 - 3y^2) + 5 = 4x^2y - 2y^2 + 5$.\n- Ý c) Đúng: $A - B = (3x^2y - x^2y) + (-2xy - 2xy) + (y^2 + 3y^2) - 5 = 2x^2y - 4xy + 4y^2 - 5$.\n- Ý d) Đúng: Thay $x = 1$, $y = -1$ vào biểu thức $A + B$: $4 \\cdot 1^2 \\cdot (-1) - 2 \\cdot (-1)^2 + 5 = -4 - 2 + 5 = -1$."
+        },
+        {
+          "id": "p2_q2_mw7xldao_1",
+          "number": 2,
+          "part": "part2",
+          "rawText": "Câu 2: Cho biểu thức $M = (x - 2y)^2 + (x + 2y)^2 - 2(x^2 - 4y^2)$.\n<u>a)</u> Khai triển $(x - 2y)^2 = x^2 - 4xy + 4y^2$. (Đúng)\n<u>b)</u> Khai triển $(x + 2y)^2 = x^2 + 4xy + 4y^2$. (Đúng)\nc) Rút gọn biểu thức $M$ ta được kết quả $M = 8y^2$. (Sai)\nd) Giá trị của biểu thức $M$ phụ thuộc vào giá trị của biến $x$. (Sai)\nLời giải:\n- Ý a) Đúng: Theo hằng đẳng thức bình phương của một hiệu.\n- Ý b) Đúng: Theo hằng đẳng thức bình phương của một tổng.\n- Ý c) Sai: \n$M = (x^2 - 4xy + 4y^2) + (x^2 + 4xy + 4y^2) - 2x^2 + 8y^2$\n$M = 2x^2 + 8y^2 - 2x^2 + 8y^2 = 16y^2 \\neq 8y^2$.\n- Ý d) Sai: Biểu thức rút gọn là $M = 16y^2$, hoàn toàn không phụ thuộc vào giá trị của biến $x$.",
+          "prompt": "Cho biểu thức $M = (x - 2y)^2 + (x + 2y)^2 - 2(x^2 - 4y^2)$.",
+          "items": [
+            {
+              "key": "a",
+              "text": "Khai triển $(x - 2y)^2 = x^2 - 4xy + 4y^2$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "b",
+              "text": "Khai triển $(x + 2y)^2 = x^2 + 4xy + 4y^2$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "c",
+              "text": "Rút gọn biểu thức $M$ ta được kết quả $M = 8y^2$",
+              "correctAnswer": false
+            },
+            {
+              "key": "d",
+              "text": "Giá trị của biểu thức $M$ phụ thuộc vào giá trị của biến $x$",
+              "correctAnswer": false
+            }
+          ],
+          "explanation": "Ý a) Đúng: Theo hằng đẳng thức bình phương của một hiệu.\n- Ý b) Đúng: Theo hằng đẳng thức bình phương của một tổng.\n- Ý c) Sai: \n$M = (x^2 - 4xy + 4y^2) + (x^2 + 4xy + 4y^2) - 2x^2 + 8y^2$\n$M = 2x^2 + 8y^2 - 2x^2 + 8y^2 = 16y^2 \\neq 8y^2$.\n- Ý d) Sai: Biểu thức rút gọn là $M = 16y^2$, hoàn toàn không phụ thuộc vào giá trị của biến $x$."
+        },
+        {
+          "id": "p2_q3_mw7xldar_2",
+          "number": 3,
+          "part": "part2",
+          "rawText": "Câu 3: Cho tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ$, $\\widehat{B} = 110^\\circ$, $\\widehat{C} = 80^\\circ$.\n<u>a)</u> Tứ giác $ABCD$ là tứ giác lồi. (Đúng)\n<u>b)</u> Số đo của góc $D$ bằng $100^\\circ$. (Đúng)\n<u>c)</u> Hai đường thẳng $AD$ và $BC$ song song với nhau. (Đúng)\n<u>d)</u> Tứ giác $ABCD$ là hình thang có đáy $AD$ và $BC$. (Đúng)\nLời giải:\n- Ý a) Đúng: Tứ giác $ABCD$ có các góc đều nhỏ hơn $180^\\circ$ nên là tứ giác lồi.\n- Ý b) Đúng: $\\widehat{D} = 360^\\circ - (\\widehat{A} + \\widehat{B} + \\widehat{C}) = 360^\\circ - (70^\\circ + 110^\\circ + 80^\\circ) = 100^\\circ$.\n- Ý c) Đúng: Ta có $\\widehat{A} + \\widehat{B} = 70^\\circ + 110^\\circ = 180^\\circ$. Mà hai góc này ở vị trí trong cùng phía nên $AD \\parallel BC$.\n- Ý d) Đúng: Tứ giác $ABCD$ có $AD \\parallel BC$ nên là hình thang với hai đáy là $AD$ và $BC$.",
+          "prompt": "Cho tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ$, $\\widehat{B} = 110^\\circ$, $\\widehat{C} = 80^\\circ$.",
+          "items": [
+            {
+              "key": "a",
+              "text": "Tứ giác $ABCD$ là tứ giác lồi. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "b",
+              "text": "ố đo của góc $D$ bằng $100^\\circ$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "c",
+              "text": "Hai đường thẳng $AD$ và $BC$ song song với nhau. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "d",
+              "text": "Tứ giác $ABCD$ là hình thang có đáy $AD$ và $BC$. (Đúng)",
+              "correctAnswer": true
+            }
+          ],
+          "explanation": "Ý a) Đúng: Tứ giác $ABCD$ có các góc đều nhỏ hơn $180^\\circ$ nên là tứ giác lồi.\n- Ý b) Đúng: $\\widehat{D} = 360^\\circ - (\\widehat{A} + \\widehat{B} + \\widehat{C}) = 360^\\circ - (70^\\circ + 110^\\circ + 80^\\circ) = 100^\\circ$.\n- Ý c) Đúng: Ta có $\\widehat{A} + \\widehat{B} = 70^\\circ + 110^\\circ = 180^\\circ$. Mà hai góc này ở vị trí trong cùng phía nên $AD \\parallel BC$.\n- Ý d) Đúng: Tứ giác $ABCD$ có $AD \\parallel BC$ nên là hình thang với hai đáy là $AD$ và $BC$."
+        },
+        {
+          "id": "p2_q4_mw7xldav_3",
+          "number": 4,
+          "part": "part2",
+          "rawText": "Câu 4: Cho tam giác $ABC$ vuông tại $A$, trung tuyến $AM$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.\n<u>a)</u> Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật. (Đúng)\n<u>b)</u> Điểm $D$ là trung điểm của $AB$ và $E$ là trung điểm của $AC$. (Đúng)\n<u>c)</u> Độ dài đoạn thẳng $DE$ bằng một nửa độ dài đoạn thẳng $BC$. (Đúng)\nd) Nếu tam giác $ABC$ vuông cân tại $A$ thì $ADME$ là hình bình hành nhưng không phải hình vuông. (Sai)\nLời giải:\n- Ý a) Đúng: Tứ giác $ADME$ có $\\widehat{DAE} = 90^\\circ$, $\\widehat{ADM} = 90^\\circ$, $\\widehat{AEM} = 90^\\circ$ nên là hình chữ nhật.\n- Ý b) Đúng: Vì $M$ là trung điểm của $BC$ và $MD \\parallel AC$ (cùng $\\perp AB$) nên $MD$ là đường trung bình của tam giác $ABC$, suy ra $D$ là trung điểm của $AB$. Tương tự, $E$ là trung điểm của $AC$.\n- Ý c) Đúng: Do $ADME$ là hình chữ nhật nên hai đường chéo bằng nhau: $DE = AM$. Mà trong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền $AM = \\frac{1}{2}BC$, suy ra $DE = \\frac{1}{2}BC$.\n- Ý d) Sai: Khi tam giác $ABC$ vuông cân tại $A$ thì $AB = AC$, suy ra $AD = AE$. Hình chữ nhật $ADME$ có hai cạnh kề bằng nhau ($AD = AE$) nên là hình vuông.",
+          "prompt": "Cho tam giác $ABC$ vuông tại $A$, trung tuyến $AM$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.",
+          "items": [
+            {
+              "key": "a",
+              "text": "Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "b",
+              "text": "Điểm $D$ là trung điểm của $AB$ và $E$ là trung điểm của $AC$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "c",
+              "text": "Độ dài đoạn thẳng $DE$ bằng một nửa độ dài đoạn thẳng $BC$. (Đúng)",
+              "correctAnswer": true
+            },
+            {
+              "key": "d",
+              "text": "ếu tam giác $ABC$ vuông cân tại $A$ thì $ADME$ là hình bình hành nhưng không phải hình vuông",
+              "correctAnswer": false
+            }
+          ],
+          "explanation": "Ý a) Đúng: Tứ giác $ADME$ có $\\widehat{DAE} = 90^\\circ$, $\\widehat{ADM} = 90^\\circ$, $\\widehat{AEM} = 90^\\circ$ nên là hình chữ nhật.\n- Ý b) Đúng: Vì $M$ là trung điểm của $BC$ và $MD \\parallel AC$ (cùng $\\perp AB$) nên $MD$ là đường trung bình của tam giác $ABC$, suy ra $D$ là trung điểm của $AB$. Tương tự, $E$ là trung điểm của $AC$.\n- Ý c) Đúng: Do $ADME$ là hình chữ nhật nên hai đường chéo bằng nhau: $DE = AM$. Mà trong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền $AM = \\frac{1}{2}BC$, suy ra $DE = \\frac{1}{2}BC$.\n- Ý d) Sai: Khi tam giác $ABC$ vuông cân tại $A$ thì $AB = AC$, suy ra $AD = AE$. Hình chữ nhật $ADME$ có hai cạnh kề bằng nhau ($AD = AE$) nên là hình vuông."
+        }
+      ],
+      "part3": [
+        {
+          "id": "p3_q1_mw7xldaw_0",
+          "number": 1,
+          "part": "part3",
+          "rawText": "Câu 1: Tính hệ số của đơn thức thu gọn $M = -3x^2y \\cdot \\left(\\frac{2}{3}xy^3\\right) \\cdot (-x^2)$.\nĐáp án: 2\nLời giải:\nTa có: $M = \\left[-3 \\cdot \\frac{2}{3} \\cdot (-1)\\right] \\cdot (x^2 \\cdot x \\cdot x^2) \\cdot (y \\cdot y^3) = 2x^5y^4$.\nVậy hệ số của đơn thức là $2$.",
+          "prompt": "Tính hệ số của đơn thức thu gọn $M = -3x^2y \\cdot \\left(\\frac{2}{3}xy^3\\right) \\cdot (-x^2)$.",
+          "correctAnswer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Ta có: $M = \\left[-3 \\cdot \\frac{2}{3} \\cdot (-1)\\right] \\cdot (x^2 \\cdot x \\cdot x^2) \\cdot (y \\cdot y^3) = 2x^5y^4$.\nVậy hệ số của đơn thức là $2$."
+        },
+        {
+          "id": "p3_q2_mw7xldaw_1",
+          "number": 2,
+          "part": "part3",
+          "rawText": "Câu 2: Tính giá trị của biểu thức $P = x^2 - 10x + 25$ tại $x = 105$.\nĐáp án: 10000\nLời giải:\nTa có: $P = (x - 5)^2$.\nThay $x = 105$ vào biểu thức, ta được: $P = (105 - 5)^2 = 100^2 = 10000$.",
+          "prompt": "Tính giá trị của biểu thức $P = x^2 - 10x + 25$ tại $x = 105$.",
+          "correctAnswer": "1000",
+          "acceptableAnswers": [
+            "1000"
+          ],
+          "explanation": "Ta có: $P = (x - 5)^2$.\nThay $x = 105$ vào biểu thức, ta được: $P = (105 - 5)^2 = 100^2 = 10000$."
+        },
+        {
+          "id": "p3_q3_mw7xldaw_2",
+          "number": 3,
+          "part": "part3",
+          "rawText": "Câu 3: Cho đa thức $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$. Tính giá trị của $Q$ khi $x = 2026$.\nĐáp án: 5\nLời giải:\nRút gọn đa thức $Q$:\n$Q = 2x^2 + 3x - 2x - 3 - 2x^2 - 2x + x + 8 = (2x^2 - 2x^2) + (3x - 2x - 2x + x) + (-3 + 8) = 5$.\nVì giá trị của $Q$ không phụ thuộc vào biến $x$ nên khi $x = 2026$ thì $Q = 5$.",
+          "prompt": "Cho đa thức $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$. Tính giá trị của $Q$ khi $x = 2026$.",
+          "correctAnswer": "5",
+          "acceptableAnswers": [
+            "5"
+          ],
+          "explanation": "Rút gọn đa thức $Q$:\n$Q = 2x^2 + 3x - 2x - 3 - 2x^2 - 2x + x + 8 = (2x^2 - 2x^2) + (3x - 2x - 2x + x) + (-3 + 8) = 5$.\nVì giá trị của $Q$ không phụ thuộc vào biến $x$ nên khi $x = 2026$ thì $Q = 5$."
+        },
+        {
+          "id": "p3_q4_mw7xldaw_3",
+          "number": 4,
+          "part": "part3",
+          "rawText": "Câu 4: Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 45^\\circ$, đường cao $AH = 4\\text{ cm}$, đáy nhỏ $AB = 2\\text{ cm}$. Tính diện tích hình thang cân $ABCD$ theo đơn vị $\\text{cm}^2$.\nĐáp án: 24\nLời giải:\nKẻ đường cao $BK \\perp CD$ ($K \\in CD$).\nTứ giác $ABKH$ có $AB \\parallel HK$ và $AH \\parallel BK$ (cùng $\\perp CD$), $\\widehat{AHK} = 90^\\circ$ nên $ABKH$ là hình chữ nhật, suy ra $HK = AB = 2\\text{ cm}$ và $BK = AH = 4\\text{ cm}$.\nTam giác $AHD$ vuông tại $H$ có $\\widehat{D} = 45^\\circ$ nên tam giác $AHD$ vuông cân tại $H$, suy ra $DH = AH = 4\\text{ cm}$.\nDo $ABCD$ là hình thang cân nên $CK = DH = 4\\text{ cm}$.\nĐộ dài đáy lớn $CD$ là: $CD = DH + HK + KC = 4 + 2 + 4 = 10\\text{ cm}$.\nDiện tích hình thang cân $ABCD$ là:\n$S = \\frac{(AB + CD) \\cdot AH}{2} = \\frac{(2 + 10) \\cdot 4}{2} = 24\\text{ cm}^2$.",
+          "prompt": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 45^\\circ$, đường cao $AH = 4\\text{ cm}$, đáy nhỏ $AB = 2\\text{ cm}$. Tính diện tích hình thang cân $ABCD$ theo đơn vị $\\text{cm}^2$.",
+          "correctAnswer": "24",
+          "acceptableAnswers": [
+            "24"
+          ],
+          "explanation": "Kẻ đường cao $BK \\perp CD$ ($K \\in CD$).\nTứ giác $ABKH$ có $AB \\parallel HK$ và $AH \\parallel BK$ (cùng $\\perp CD$), $\\widehat{AHK} = 90^\\circ$ nên $ABKH$ là hình chữ nhật, suy ra $HK = AB = 2\\text{ cm}$ và $BK = AH = 4\\text{ cm}$.\nTam giác $AHD$ vuông tại $H$ có $\\widehat{D} = 45^\\circ$ nên tam giác $AHD$ vuông cân tại $H$, suy ra $DH = AH = 4\\text{ cm}$.\nDo $ABCD$ là hình thang cân nên $CK = DH = 4\\text{ cm}$.\nĐộ dài đáy lớn $CD$ là: $CD = DH + HK + KC = 4 + 2 + 4 = 10\\text{ cm}$.\nDiện tích hình thang cân $ABCD$ là:\n$S = \\frac{(AB + CD) \\cdot AH}{2} = \\frac{(2 + 10) \\cdot 4}{2} = 24\\text{ cm}^2$."
+        },
+        {
+          "id": "p3_q5_mw7xldaw_4",
+          "number": 5,
+          "part": "part3",
+          "rawText": "Câu 5: Một hình chữ nhật có chu vi bằng $28\\text{ cm}$ và độ dài đường chéo bằng $10\\text{ cm}$. Tính diện tích của hình chữ nhật đó theo đơn vị $\\text{cm}^2$.\nĐáp án: 48\nLời giải:\nGọi chiều dài và chiều rộng của hình chữ nhật lần lượt là $a$ và $b$ ($a, b > 0$).\nNửa chu vi của hình chữ nhật là: $a + b = 28 : 2 = 14\\text{ cm}$.\nTheo định lý Pythagore, độ dài đường chéo thỏa mãn: $a^2 + b^2 = 10^2 = 100$.\nTa có: $(a + b)^2 = a^2 + 2ab + b^2$\n$\\Rightarrow 14^2 = 100 + 2ab$\n$\\Rightarrow 196 = 100 + 2ab \\Rightarrow 2ab = 96 \\Rightarrow ab = 48$.\nVậy diện tích hình chữ nhật là $S = ab = 48\\text{ cm}^2$.",
+          "prompt": "Một hình chữ nhật có chu vi bằng $28\\text{ cm}$ và độ dài đường chéo bằng $10\\text{ cm}$. Tính diện tích của hình chữ nhật đó theo đơn vị $\\text{cm}^2$.",
+          "correctAnswer": "48",
+          "acceptableAnswers": [
+            "48"
+          ],
+          "explanation": "Gọi chiều dài và chiều rộng của hình chữ nhật lần lượt là $a$ và $b$ ($a, b > 0$).\nNửa chu vi của hình chữ nhật là: $a + b = 28 : 2 = 14\\text{ cm}$.\nTheo định lý Pythagore, độ dài đường chéo thỏa mãn: $a^2 + b^2 = 10^2 = 100$.\nTa có: $(a + b)^2 = a^2 + 2ab + b^2$\n$\\Rightarrow 14^2 = 100 + 2ab$\n$\\Rightarrow 196 = 100 + 2ab \\Rightarrow 2ab = 96 \\Rightarrow ab = 48$.\nVậy diện tích hình chữ nhật là $S = ab = 48\\text{ cm}^2$."
+        },
+        {
+          "id": "p3_q6_mw7xldax_5",
+          "number": 6,
+          "part": "part3",
+          "rawText": "Câu 6: Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và chu vi bằng $24\\text{ cm}$. Tính độ dài đường chéo ngắn $BD$ theo đơn vị $\\text{cm}$.\nĐáp án: 6\nLời giải:\nĐộ dài cạnh của hình thoi $ABCD$ là: $AB = 24 : 4 = 6\\text{ cm}$.\nVì $ABCD$ là hình thoi nên $AB = AD$.\nTam giác $ABD$ có $AB = AD$ và $\\widehat{A} = 60^\\circ$ nên tam giác $ABD$ là tam giác đều.\nDo đó, $BD = AB = 6\\text{ cm}$.",
+          "prompt": "Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và chu vi bằng $24\\text{ cm}$. Tính độ dài đường chéo ngắn $BD$ theo đơn vị $\\text{cm}$.",
+          "correctAnswer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Độ dài cạnh của hình thoi $ABCD$ là: $AB = 24 : 4 = 6\\text{ cm}$.\nVì $ABCD$ là hình thoi nên $AB = AD$.\nTam giác $ABD$ có $AB = AD$ và $\\widehat{A} = 60^\\circ$ nên tam giác $ABD$ là tam giác đều.\nDo đó, $BD = AB = 6\\text{ cm}$."
+        }
+      ],
+      "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec",
+      "githubRawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/de-on-toan-8-giua-hk1-lhp1.json"
+    },
     "10d8f9z": {
       "metadata": {
         "id": "exam_mw7trensd4za",
@@ -2537,553 +3084,6 @@
       ],
       "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec",
       "githubRawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/b76ecf0.json"
-    },
-    "de-on-toan-8-giua-hk1-lhp1": {
-      "metadata": {
-        "id": "exam_mw7xldaxeeqi",
-        "title": "De ON Toan 8 Giua HK1 - LHP1",
-        "durationMinutes": 50,
-        "shuffleMode": "none",
-        "passcode": "",
-        "showSolutionAfterSubmit": true,
-        "allowRetake": false,
-        "createdAt": "2026-11-08T14:32:12.441Z",
-        "totalQuestions": {
-          "part1": 12,
-          "part2": 4,
-          "part3": 6,
-          "total": 22
-        },
-        "partScores": {
-          "part1Total": 3,
-          "part2Total": 4,
-          "part3Total": 3
-        }
-      },
-      "part1": [
-        {
-          "id": "p1_q1_mw7xld9z_0",
-          "number": 1,
-          "part": "part1",
-          "rawText": "Câu 1: Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?\nA. $2x \\cdot 3y^2$\n<u>B.</u> $-5x^3y^2z$\nC. $3x^2 + y$\nD. $4x^2y \\cdot x$\nLời giải:\nĐơn thức $-5x^3y^2z$ chỉ gồm tích của một số với các biến, mỗi biến chỉ viết một lần dưới dạng lũy thừa với số mũ nguyên dương.",
-          "prompt": "Trong các biểu thức đại số sau, biểu thức nào là đơn thức thu gọn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "$2x \\cdot 3y^2$"
-            },
-            {
-              "key": "B",
-              "text": "$-5x^3y^2z$"
-            },
-            {
-              "key": "C",
-              "text": "$3x^2 + y$"
-            },
-            {
-              "key": "D",
-              "text": "$4x^2y \\cdot x$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Đơn thức $-5x^3y^2z$ chỉ gồm tích của một số với các biến, mỗi biến chỉ viết một lần dưới dạng lũy thừa với số mũ nguyên dương."
-        },
-        {
-          "id": "p1_q2_mw7xlda5_1",
-          "number": 2,
-          "part": "part1",
-          "rawText": "Câu 2: Bậc của đa thức $P = 3x^4y - 2x^2y^3 + 5x^4y + 2x^2y^3 - 7$ sau khi thu gọn là:\nA. $4$\n<u>B.</u> $5$\nC. $6$\nD. $7$\nLời giải:\nThu gọn đa thức: $P = (3x^4y + 5x^4y) + (-2x^2y^3 + 2x^2y^3) - 7 = 8x^4y - 7$.\nHạng tử $8x^4y$ có bậc là $4 + 1 = 5$, nên bậc của đa thức $P$ là $5$.",
-          "prompt": "ậc của đa thức $P = 3x^4y - 2x^2y^3 + 5x^4y + 2x^2y^3 - 7$ sau khi thu gọn là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$4$"
-            },
-            {
-              "key": "B",
-              "text": "$5$"
-            },
-            {
-              "key": "C",
-              "text": "$6$"
-            },
-            {
-              "key": "D",
-              "text": "$7$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Thu gọn đa thức: $P = (3x^4y + 5x^4y) + (-2x^2y^3 + 2x^2y^3) - 7 = 8x^4y - 7$.\nHạng tử $8x^4y$ có bậc là $4 + 1 = 5$, nên bậc của đa thức $P$ là $5$."
-        },
-        {
-          "id": "p1_q3_mw7xlda9_2",
-          "number": 3,
-          "part": "part1",
-          "rawText": "Câu 3: Cặp đơn thức nào sau đây đồng dạng với nhau?\nA. $3x^2y$ và $3xy^2$\n<u>B.</u> $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$\nC. $5x^4$ và $5y^4$\nD. $4x^2y^3$ và $4x^3y^3$\nLời giải:\nHai đơn thức đồng dạng là hai đơn thức có hệ số khác $0$ và có cùng phần biến. Cặp đơn thức $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$ có phần biến giống nhau là $x^3y^2$.",
-          "prompt": "Cặp đơn thức nào sau đây đồng dạng với nhau?",
-          "options": [
-            {
-              "key": "A",
-              "text": "$3x^2y$ và $3xy^2$"
-            },
-            {
-              "key": "B",
-              "text": "$-2x^3y^2$ và $\\frac{1}{2}x^3y^2$"
-            },
-            {
-              "key": "C",
-              "text": "$5x^4$ và $5y^4$"
-            },
-            {
-              "key": "D",
-              "text": "$4x^2y^3$ và $4x^3y^3$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Hai đơn thức đồng dạng là hai đơn thức có hệ số khác $0$ và có cùng phần biến. Cặp đơn thức $-2x^3y^2$ và $\\frac{1}{2}x^3y^2$ có phần biến giống nhau là $x^3y^2$."
-        },
-        {
-          "id": "p1_q4_mw7xldab_3",
-          "number": 4,
-          "part": "part1",
-          "rawText": "Câu 4: Thực hiện phép nhân đơn thức $2x^2y$ với đa thức $(3x - y)$, ta được kết quả là:\n<u>A.</u> $6x^3y - 2x^2y^2$\nB. $6x^2y - 2x^2y^2$\nC. $6x^3y + 2x^2y^2$\nD. $5x^3y - 2x^2y^2$\nLời giải:\nTa có: $2x^2y(3x - y) = 2x^2y \\cdot 3x - 2x^2y \\cdot y = 6x^3y - 2x^2y^2$.",
-          "prompt": "Thực hiện phép nhân đơn thức $2x^2y$ với đa thức $(3x - y)$, ta được kết quả là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$6x^3y - 2x^2y^2$"
-            },
-            {
-              "key": "B",
-              "text": "$6x^2y - 2x^2y^2$"
-            },
-            {
-              "key": "C",
-              "text": "$6x^3y + 2x^2y^2$"
-            },
-            {
-              "key": "D",
-              "text": "$5x^3y - 2x^2y^2$"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Ta có: $2x^2y(3x - y) = 2x^2y \\cdot 3x - 2x^2y \\cdot y = 6x^3y - 2x^2y^2$."
-        },
-        {
-          "id": "p1_q5_mw7xldac_4",
-          "number": 5,
-          "part": "part1",
-          "rawText": "Câu 5: Kết quả của phép chia $(12x^4y^3 - 8x^3y^2) : (4x^2y^2)$ là:\nA. $3x^2y - 2x^2$\n<u>B.</u> $3x^2y - 2x$\nC. $3xy - 2$\nD. $3x^2 - 2xy$\nLời giải:\nTa có: $(12x^4y^3 - 8x^3y^2) : (4x^2y^2) = 12x^4y^3 : 4x^2y^2 - 8x^3y^2 : 4x^2y^2 = 3x^2y - 2x$.",
-          "prompt": "Kết quả của phép chia $(12x^4y^3 - 8x^3y^2) : (4x^2y^2)$ là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$3x^2y - 2x^2$"
-            },
-            {
-              "key": "B",
-              "text": "$3x^2y - 2x$"
-            },
-            {
-              "key": "C",
-              "text": "$3xy - 2$"
-            },
-            {
-              "key": "D",
-              "text": "$3x^2 - 2xy$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Ta có: $(12x^4y^3 - 8x^3y^2) : (4x^2y^2) = 12x^4y^3 : 4x^2y^2 - 8x^3y^2 : 4x^2y^2 = 3x^2y - 2x$."
-        },
-        {
-          "id": "p1_q6_mw7xldad_5",
-          "number": 6,
-          "part": "part1",
-          "rawText": "Câu 6: Khai triển hằng đẳng thức $(2x - 3y)^2$ ta được kết quả là:\nA. $4x^2 - 6xy + 9y^2$\nB. $2x^2 - 12xy + 3y^2$\n<u>C.</u> $4x^2 - 12xy + 9y^2$\nD. $4x^2 + 12xy + 9y^2$\nLời giải:\nÁp dụng hằng đẳng thức bình phương của một hiệu: $(2x - 3y)^2 = (2x)^2 - 2 \\cdot 2x \\cdot 3y + (3y)^2 = 4x^2 - 12xy + 9y^2$.",
-          "prompt": "Khai triển hằng đẳng thức $(2x - 3y)^2$ ta được kết quả là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$4x^2 - 6xy + 9y^2$"
-            },
-            {
-              "key": "B",
-              "text": "$2x^2 - 12xy + 3y^2$"
-            },
-            {
-              "key": "C",
-              "text": "$4x^2 - 12xy + 9y^2$"
-            },
-            {
-              "key": "D",
-              "text": "$4x^2 + 12xy + 9y^2$"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Áp dụng hằng đẳng thức bình phương của một hiệu: $(2x - 3y)^2 = (2x)^2 - 2 \\cdot 2x \\cdot 3y + (3y)^2 = 4x^2 - 12xy + 9y^2$."
-        },
-        {
-          "id": "p1_q7_mw7xldaf_6",
-          "number": 7,
-          "part": "part1",
-          "rawText": "Câu 7: Biểu thức $(x + 4)(x - 4)$ viết dưới dạng hiệu hai bình phương là:\nA. $x^2 - 4$\n<u>B.</u> $x^2 - 16$\nC. $x^2 - 8$\nD. $(x - 4)^2$\nLời giải:\nÁp dụng hằng đẳng thức hiệu hai bình phương: $(x + 4)(x - 4) = x^2 - 4^2 = x^2 - 16$.",
-          "prompt": "iểu thức $(x + 4)(x - 4)$ viết dưới dạng hiệu hai bình phương là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$x^2 - 4$"
-            },
-            {
-              "key": "B",
-              "text": "$x^2 - 16$"
-            },
-            {
-              "key": "C",
-              "text": "$x^2 - 8$"
-            },
-            {
-              "key": "D",
-              "text": "$(x - 4)^2$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Áp dụng hằng đẳng thức hiệu hai bình phương: $(x + 4)(x - 4) = x^2 - 4^2 = x^2 - 16$."
-        },
-        {
-          "id": "p1_q8_mw7xldag_7",
-          "number": 8,
-          "part": "part1",
-          "rawText": "Câu 8: Đa thức $x^2 - 6x + 9$ được viết dưới dạng bình phương của một hiệu là:\nA. $(x + 3)^2$\n<u>B.</u> $(x - 3)^2$\nC. $(x - 9)^2$\nD. $(x - 6)^2$\nLời giải:\nTa có: $x^2 - 6x + 9 = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$.",
-          "prompt": "Đa thức $x^2 - 6x + 9$ được viết dưới dạng bình phương của một hiệu là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$(x + 3)^2$"
-            },
-            {
-              "key": "B",
-              "text": "$(x - 3)^2$"
-            },
-            {
-              "key": "C",
-              "text": "$(x - 9)^2$"
-            },
-            {
-              "key": "D",
-              "text": "$(x - 6)^2$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Ta có: $x^2 - 6x + 9 = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$."
-        },
-        {
-          "id": "p1_q9_mw7xldah_8",
-          "number": 9,
-          "part": "part1",
-          "rawText": "Câu 9: Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:\nA. $180^\\circ$\n<u>B.</u> $360^\\circ$\nC. $90^\\circ$\nD. $540^\\circ$\nLời giải:\nTổng các góc của một tứ giác lồi luôn bằng $360^\\circ$.",
-          "prompt": "Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:",
-          "options": [
-            {
-              "key": "A",
-              "text": "$180^\\circ$"
-            },
-            {
-              "key": "B",
-              "text": "$360^\\circ$"
-            },
-            {
-              "key": "C",
-              "text": "$90^\\circ$"
-            },
-            {
-              "key": "D",
-              "text": "$540^\\circ$"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Tổng các góc của một tứ giác lồi luôn bằng $360^\\circ$."
-        },
-        {
-          "id": "p1_q10_mw7xldai_9",
-          "number": 10,
-          "part": "part1",
-          "rawText": "Câu 10: Hình thang cân là hình thang có:\nA. Hai cạnh bên song song\n<u>B.</u> Hai góc kề một đáy bằng nhau\nC. Hai cạnh đáy bằng nhau\nD. Hai góc đối bằng nhau\nLời giải:\nTheo định nghĩa, hình thang cân là hình thang có hai góc kề một đáy bằng nhau.",
-          "prompt": "Hình thang cân là hình thang có:",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hai cạnh bên song song"
-            },
-            {
-              "key": "B",
-              "text": "Hai góc kề một đáy bằng nhau"
-            },
-            {
-              "key": "C",
-              "text": "Hai cạnh đáy bằng nhau"
-            },
-            {
-              "key": "D",
-              "text": "Hai góc đối bằng nhau"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Theo định nghĩa, hình thang cân là hình thang có hai góc kề một đáy bằng nhau."
-        },
-        {
-          "id": "p1_q11_mw7xldak_10",
-          "number": 11,
-          "part": "part1",
-          "rawText": "Câu 11: Khẳng định nào sau đây về hình bình hành là <b>sai</b>?\nA. Các cạnh đối bằng nhau\nB. Các góc đối bằng nhau\nC. Hai đường chéo cắt nhau tại trung điểm của mỗi đường\n<u>D.</u> Hai đường chéo vuông góc với nhau\nLời giải:\nTrong hình bình hành nói chung, hai đường chéo không vuông góc với nhau (chỉ vuông góc khi là hình thoi hoặc hình vuông).",
-          "prompt": "Khẳng định nào sau đây về hình bình hành là <b>sai</b>?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Các cạnh đối bằng nhau"
-            },
-            {
-              "key": "B",
-              "text": "Các góc đối bằng nhau"
-            },
-            {
-              "key": "C",
-              "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
-            },
-            {
-              "key": "D",
-              "text": "Hai đường chéo vuông góc với nhau"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Trong hình bình hành nói chung, hai đường chéo không vuông góc với nhau (chỉ vuông góc khi là hình thoi hoặc hình vuông)."
-        },
-        {
-          "id": "p1_q12_mw7xldal_11",
-          "number": 12,
-          "part": "part1",
-          "rawText": "Câu 12: Hình bình hành có một góc vuông là:\nA. Hình thoi\n<u>B.</u> Hình chữ nhật\nC. Hình thang cân\nD. Hình vuông\nLời giải:\nDấu hiệu nhận biết: Hình bình hành có một góc vuông là hình chữ nhật.",
-          "prompt": "Hình bình hành có một góc vuông là:",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hình thoi"
-            },
-            {
-              "key": "B",
-              "text": "Hình chữ nhật"
-            },
-            {
-              "key": "C",
-              "text": "Hình thang câ"
-            },
-            {
-              "key": "D",
-              "text": "Hình vuông"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Dấu hiệu nhận biết: Hình bình hành có một góc vuông là hình chữ nhật."
-        }
-      ],
-      "part2": [
-        {
-          "id": "p2_q1_mw7xldan_0",
-          "number": 1,
-          "part": "part2",
-          "rawText": "Câu 1: Cho hai đa thức $A = 3x^2y - 2xy + y^2$ và $B = x^2y + 2xy - 3y^2 + 5$.\n<u>a)</u> Bậc của đa thức $A$ bằng $3$. (Đúng)\n<u>b)</u> Tổng $A + B = 4x^2y - 2y^2 + 5$. (Đúng)\n<u>c)</u> Hiệu $A - B = 2x^2y - 4xy + 4y^2 - 5$. (Đúng)\n<u>d)</u> Tại $x = 1$, $y = -1$, giá trị của đa thức $A + B$ bằng $-1$. (Đúng)\nLời giải:\n- Ý a) Đúng: Đa thức $A$ có các hạng tử $3x^2y$ (bậc 3), $-2xy$ (bậc 2), $y^2$ (bậc 2), do đó bậc của $A$ là $3$.\n- Ý b) Đúng: $A + B = (3x^2y + x^2y) + (-2xy + 2xy) + (y^2 - 3y^2) + 5 = 4x^2y - 2y^2 + 5$.\n- Ý c) Đúng: $A - B = (3x^2y - x^2y) + (-2xy - 2xy) + (y^2 + 3y^2) - 5 = 2x^2y - 4xy + 4y^2 - 5$.\n- Ý d) Đúng: Thay $x = 1$, $y = -1$ vào biểu thức $A + B$: $4 \\cdot 1^2 \\cdot (-1) - 2 \\cdot (-1)^2 + 5 = -4 - 2 + 5 = -1$.",
-          "prompt": "Cho hai đa thức $A = 3x^2y - 2xy + y^2$ và $B = x^2y + 2xy - 3y^2 + 5$.",
-          "items": [
-            {
-              "key": "a",
-              "text": "ậc của đa thức $A$ bằng $3$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "b",
-              "text": "Tổng $A + B = 4x^2y - 2y^2 + 5$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "c",
-              "text": "Hiệu $A - B = 2x^2y - 4xy + 4y^2 - 5$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "d",
-              "text": "Tại $x = 1$, $y = -1$, giá trị của đa thức $A + B$ bằng $-1$. (Đúng)",
-              "correctAnswer": true
-            }
-          ],
-          "explanation": "Ý a) Đúng: Đa thức $A$ có các hạng tử $3x^2y$ (bậc 3), $-2xy$ (bậc 2), $y^2$ (bậc 2), do đó bậc của $A$ là $3$.\n- Ý b) Đúng: $A + B = (3x^2y + x^2y) + (-2xy + 2xy) + (y^2 - 3y^2) + 5 = 4x^2y - 2y^2 + 5$.\n- Ý c) Đúng: $A - B = (3x^2y - x^2y) + (-2xy - 2xy) + (y^2 + 3y^2) - 5 = 2x^2y - 4xy + 4y^2 - 5$.\n- Ý d) Đúng: Thay $x = 1$, $y = -1$ vào biểu thức $A + B$: $4 \\cdot 1^2 \\cdot (-1) - 2 \\cdot (-1)^2 + 5 = -4 - 2 + 5 = -1$."
-        },
-        {
-          "id": "p2_q2_mw7xldao_1",
-          "number": 2,
-          "part": "part2",
-          "rawText": "Câu 2: Cho biểu thức $M = (x - 2y)^2 + (x + 2y)^2 - 2(x^2 - 4y^2)$.\n<u>a)</u> Khai triển $(x - 2y)^2 = x^2 - 4xy + 4y^2$. (Đúng)\n<u>b)</u> Khai triển $(x + 2y)^2 = x^2 + 4xy + 4y^2$. (Đúng)\nc) Rút gọn biểu thức $M$ ta được kết quả $M = 8y^2$. (Sai)\nd) Giá trị của biểu thức $M$ phụ thuộc vào giá trị của biến $x$. (Sai)\nLời giải:\n- Ý a) Đúng: Theo hằng đẳng thức bình phương của một hiệu.\n- Ý b) Đúng: Theo hằng đẳng thức bình phương của một tổng.\n- Ý c) Sai: \n$M = (x^2 - 4xy + 4y^2) + (x^2 + 4xy + 4y^2) - 2x^2 + 8y^2$\n$M = 2x^2 + 8y^2 - 2x^2 + 8y^2 = 16y^2 \\neq 8y^2$.\n- Ý d) Sai: Biểu thức rút gọn là $M = 16y^2$, hoàn toàn không phụ thuộc vào giá trị của biến $x$.",
-          "prompt": "Cho biểu thức $M = (x - 2y)^2 + (x + 2y)^2 - 2(x^2 - 4y^2)$.",
-          "items": [
-            {
-              "key": "a",
-              "text": "Khai triển $(x - 2y)^2 = x^2 - 4xy + 4y^2$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "b",
-              "text": "Khai triển $(x + 2y)^2 = x^2 + 4xy + 4y^2$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "c",
-              "text": "Rút gọn biểu thức $M$ ta được kết quả $M = 8y^2$",
-              "correctAnswer": false
-            },
-            {
-              "key": "d",
-              "text": "Giá trị của biểu thức $M$ phụ thuộc vào giá trị của biến $x$",
-              "correctAnswer": false
-            }
-          ],
-          "explanation": "Ý a) Đúng: Theo hằng đẳng thức bình phương của một hiệu.\n- Ý b) Đúng: Theo hằng đẳng thức bình phương của một tổng.\n- Ý c) Sai: \n$M = (x^2 - 4xy + 4y^2) + (x^2 + 4xy + 4y^2) - 2x^2 + 8y^2$\n$M = 2x^2 + 8y^2 - 2x^2 + 8y^2 = 16y^2 \\neq 8y^2$.\n- Ý d) Sai: Biểu thức rút gọn là $M = 16y^2$, hoàn toàn không phụ thuộc vào giá trị của biến $x$."
-        },
-        {
-          "id": "p2_q3_mw7xldar_2",
-          "number": 3,
-          "part": "part2",
-          "rawText": "Câu 3: Cho tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ$, $\\widehat{B} = 110^\\circ$, $\\widehat{C} = 80^\\circ$.\n<u>a)</u> Tứ giác $ABCD$ là tứ giác lồi. (Đúng)\n<u>b)</u> Số đo của góc $D$ bằng $100^\\circ$. (Đúng)\n<u>c)</u> Hai đường thẳng $AD$ và $BC$ song song với nhau. (Đúng)\n<u>d)</u> Tứ giác $ABCD$ là hình thang có đáy $AD$ và $BC$. (Đúng)\nLời giải:\n- Ý a) Đúng: Tứ giác $ABCD$ có các góc đều nhỏ hơn $180^\\circ$ nên là tứ giác lồi.\n- Ý b) Đúng: $\\widehat{D} = 360^\\circ - (\\widehat{A} + \\widehat{B} + \\widehat{C}) = 360^\\circ - (70^\\circ + 110^\\circ + 80^\\circ) = 100^\\circ$.\n- Ý c) Đúng: Ta có $\\widehat{A} + \\widehat{B} = 70^\\circ + 110^\\circ = 180^\\circ$. Mà hai góc này ở vị trí trong cùng phía nên $AD \\parallel BC$.\n- Ý d) Đúng: Tứ giác $ABCD$ có $AD \\parallel BC$ nên là hình thang với hai đáy là $AD$ và $BC$.",
-          "prompt": "Cho tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ$, $\\widehat{B} = 110^\\circ$, $\\widehat{C} = 80^\\circ$.",
-          "items": [
-            {
-              "key": "a",
-              "text": "Tứ giác $ABCD$ là tứ giác lồi. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "b",
-              "text": "ố đo của góc $D$ bằng $100^\\circ$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "c",
-              "text": "Hai đường thẳng $AD$ và $BC$ song song với nhau. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "d",
-              "text": "Tứ giác $ABCD$ là hình thang có đáy $AD$ và $BC$. (Đúng)",
-              "correctAnswer": true
-            }
-          ],
-          "explanation": "Ý a) Đúng: Tứ giác $ABCD$ có các góc đều nhỏ hơn $180^\\circ$ nên là tứ giác lồi.\n- Ý b) Đúng: $\\widehat{D} = 360^\\circ - (\\widehat{A} + \\widehat{B} + \\widehat{C}) = 360^\\circ - (70^\\circ + 110^\\circ + 80^\\circ) = 100^\\circ$.\n- Ý c) Đúng: Ta có $\\widehat{A} + \\widehat{B} = 70^\\circ + 110^\\circ = 180^\\circ$. Mà hai góc này ở vị trí trong cùng phía nên $AD \\parallel BC$.\n- Ý d) Đúng: Tứ giác $ABCD$ có $AD \\parallel BC$ nên là hình thang với hai đáy là $AD$ và $BC$."
-        },
-        {
-          "id": "p2_q4_mw7xldav_3",
-          "number": 4,
-          "part": "part2",
-          "rawText": "Câu 4: Cho tam giác $ABC$ vuông tại $A$, trung tuyến $AM$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.\n<u>a)</u> Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật. (Đúng)\n<u>b)</u> Điểm $D$ là trung điểm của $AB$ và $E$ là trung điểm của $AC$. (Đúng)\n<u>c)</u> Độ dài đoạn thẳng $DE$ bằng một nửa độ dài đoạn thẳng $BC$. (Đúng)\nd) Nếu tam giác $ABC$ vuông cân tại $A$ thì $ADME$ là hình bình hành nhưng không phải hình vuông. (Sai)\nLời giải:\n- Ý a) Đúng: Tứ giác $ADME$ có $\\widehat{DAE} = 90^\\circ$, $\\widehat{ADM} = 90^\\circ$, $\\widehat{AEM} = 90^\\circ$ nên là hình chữ nhật.\n- Ý b) Đúng: Vì $M$ là trung điểm của $BC$ và $MD \\parallel AC$ (cùng $\\perp AB$) nên $MD$ là đường trung bình của tam giác $ABC$, suy ra $D$ là trung điểm của $AB$. Tương tự, $E$ là trung điểm của $AC$.\n- Ý c) Đúng: Do $ADME$ là hình chữ nhật nên hai đường chéo bằng nhau: $DE = AM$. Mà trong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền $AM = \\frac{1}{2}BC$, suy ra $DE = \\frac{1}{2}BC$.\n- Ý d) Sai: Khi tam giác $ABC$ vuông cân tại $A$ thì $AB = AC$, suy ra $AD = AE$. Hình chữ nhật $ADME$ có hai cạnh kề bằng nhau ($AD = AE$) nên là hình vuông.",
-          "prompt": "Cho tam giác $ABC$ vuông tại $A$, trung tuyến $AM$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.",
-          "items": [
-            {
-              "key": "a",
-              "text": "Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "b",
-              "text": "Điểm $D$ là trung điểm của $AB$ và $E$ là trung điểm của $AC$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "c",
-              "text": "Độ dài đoạn thẳng $DE$ bằng một nửa độ dài đoạn thẳng $BC$. (Đúng)",
-              "correctAnswer": true
-            },
-            {
-              "key": "d",
-              "text": "ếu tam giác $ABC$ vuông cân tại $A$ thì $ADME$ là hình bình hành nhưng không phải hình vuông",
-              "correctAnswer": false
-            }
-          ],
-          "explanation": "Ý a) Đúng: Tứ giác $ADME$ có $\\widehat{DAE} = 90^\\circ$, $\\widehat{ADM} = 90^\\circ$, $\\widehat{AEM} = 90^\\circ$ nên là hình chữ nhật.\n- Ý b) Đúng: Vì $M$ là trung điểm của $BC$ và $MD \\parallel AC$ (cùng $\\perp AB$) nên $MD$ là đường trung bình của tam giác $ABC$, suy ra $D$ là trung điểm của $AB$. Tương tự, $E$ là trung điểm của $AC$.\n- Ý c) Đúng: Do $ADME$ là hình chữ nhật nên hai đường chéo bằng nhau: $DE = AM$. Mà trong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền $AM = \\frac{1}{2}BC$, suy ra $DE = \\frac{1}{2}BC$.\n- Ý d) Sai: Khi tam giác $ABC$ vuông cân tại $A$ thì $AB = AC$, suy ra $AD = AE$. Hình chữ nhật $ADME$ có hai cạnh kề bằng nhau ($AD = AE$) nên là hình vuông."
-        }
-      ],
-      "part3": [
-        {
-          "id": "p3_q1_mw7xldaw_0",
-          "number": 1,
-          "part": "part3",
-          "rawText": "Câu 1: Tính hệ số của đơn thức thu gọn $M = -3x^2y \\cdot \\left(\\frac{2}{3}xy^3\\right) \\cdot (-x^2)$.\nĐáp án: 2\nLời giải:\nTa có: $M = \\left[-3 \\cdot \\frac{2}{3} \\cdot (-1)\\right] \\cdot (x^2 \\cdot x \\cdot x^2) \\cdot (y \\cdot y^3) = 2x^5y^4$.\nVậy hệ số của đơn thức là $2$.",
-          "prompt": "Tính hệ số của đơn thức thu gọn $M = -3x^2y \\cdot \\left(\\frac{2}{3}xy^3\\right) \\cdot (-x^2)$.",
-          "correctAnswer": "2",
-          "acceptableAnswers": [
-            "2"
-          ],
-          "explanation": "Ta có: $M = \\left[-3 \\cdot \\frac{2}{3} \\cdot (-1)\\right] \\cdot (x^2 \\cdot x \\cdot x^2) \\cdot (y \\cdot y^3) = 2x^5y^4$.\nVậy hệ số của đơn thức là $2$."
-        },
-        {
-          "id": "p3_q2_mw7xldaw_1",
-          "number": 2,
-          "part": "part3",
-          "rawText": "Câu 2: Tính giá trị của biểu thức $P = x^2 - 10x + 25$ tại $x = 105$.\nĐáp án: 10000\nLời giải:\nTa có: $P = (x - 5)^2$.\nThay $x = 105$ vào biểu thức, ta được: $P = (105 - 5)^2 = 100^2 = 10000$.",
-          "prompt": "Tính giá trị của biểu thức $P = x^2 - 10x + 25$ tại $x = 105$.",
-          "correctAnswer": "1000",
-          "acceptableAnswers": [
-            "1000"
-          ],
-          "explanation": "Ta có: $P = (x - 5)^2$.\nThay $x = 105$ vào biểu thức, ta được: $P = (105 - 5)^2 = 100^2 = 10000$."
-        },
-        {
-          "id": "p3_q3_mw7xldaw_2",
-          "number": 3,
-          "part": "part3",
-          "rawText": "Câu 3: Cho đa thức $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$. Tính giá trị của $Q$ khi $x = 2026$.\nĐáp án: 5\nLời giải:\nRút gọn đa thức $Q$:\n$Q = 2x^2 + 3x - 2x - 3 - 2x^2 - 2x + x + 8 = (2x^2 - 2x^2) + (3x - 2x - 2x + x) + (-3 + 8) = 5$.\nVì giá trị của $Q$ không phụ thuộc vào biến $x$ nên khi $x = 2026$ thì $Q = 5$.",
-          "prompt": "Cho đa thức $Q = (x - 1)(2x + 3) - 2x(x + 1) + x + 8$. Tính giá trị của $Q$ khi $x = 2026$.",
-          "correctAnswer": "5",
-          "acceptableAnswers": [
-            "5"
-          ],
-          "explanation": "Rút gọn đa thức $Q$:\n$Q = 2x^2 + 3x - 2x - 3 - 2x^2 - 2x + x + 8 = (2x^2 - 2x^2) + (3x - 2x - 2x + x) + (-3 + 8) = 5$.\nVì giá trị của $Q$ không phụ thuộc vào biến $x$ nên khi $x = 2026$ thì $Q = 5$."
-        },
-        {
-          "id": "p3_q4_mw7xldaw_3",
-          "number": 4,
-          "part": "part3",
-          "rawText": "Câu 4: Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 45^\\circ$, đường cao $AH = 4\\text{ cm}$, đáy nhỏ $AB = 2\\text{ cm}$. Tính diện tích hình thang cân $ABCD$ theo đơn vị $\\text{cm}^2$.\nĐáp án: 24\nLời giải:\nKẻ đường cao $BK \\perp CD$ ($K \\in CD$).\nTứ giác $ABKH$ có $AB \\parallel HK$ và $AH \\parallel BK$ (cùng $\\perp CD$), $\\widehat{AHK} = 90^\\circ$ nên $ABKH$ là hình chữ nhật, suy ra $HK = AB = 2\\text{ cm}$ và $BK = AH = 4\\text{ cm}$.\nTam giác $AHD$ vuông tại $H$ có $\\widehat{D} = 45^\\circ$ nên tam giác $AHD$ vuông cân tại $H$, suy ra $DH = AH = 4\\text{ cm}$.\nDo $ABCD$ là hình thang cân nên $CK = DH = 4\\text{ cm}$.\nĐộ dài đáy lớn $CD$ là: $CD = DH + HK + KC = 4 + 2 + 4 = 10\\text{ cm}$.\nDiện tích hình thang cân $ABCD$ là:\n$S = \\frac{(AB + CD) \\cdot AH}{2} = \\frac{(2 + 10) \\cdot 4}{2} = 24\\text{ cm}^2$.",
-          "prompt": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 45^\\circ$, đường cao $AH = 4\\text{ cm}$, đáy nhỏ $AB = 2\\text{ cm}$. Tính diện tích hình thang cân $ABCD$ theo đơn vị $\\text{cm}^2$.",
-          "correctAnswer": "24",
-          "acceptableAnswers": [
-            "24"
-          ],
-          "explanation": "Kẻ đường cao $BK \\perp CD$ ($K \\in CD$).\nTứ giác $ABKH$ có $AB \\parallel HK$ và $AH \\parallel BK$ (cùng $\\perp CD$), $\\widehat{AHK} = 90^\\circ$ nên $ABKH$ là hình chữ nhật, suy ra $HK = AB = 2\\text{ cm}$ và $BK = AH = 4\\text{ cm}$.\nTam giác $AHD$ vuông tại $H$ có $\\widehat{D} = 45^\\circ$ nên tam giác $AHD$ vuông cân tại $H$, suy ra $DH = AH = 4\\text{ cm}$.\nDo $ABCD$ là hình thang cân nên $CK = DH = 4\\text{ cm}$.\nĐộ dài đáy lớn $CD$ là: $CD = DH + HK + KC = 4 + 2 + 4 = 10\\text{ cm}$.\nDiện tích hình thang cân $ABCD$ là:\n$S = \\frac{(AB + CD) \\cdot AH}{2} = \\frac{(2 + 10) \\cdot 4}{2} = 24\\text{ cm}^2$."
-        },
-        {
-          "id": "p3_q5_mw7xldaw_4",
-          "number": 5,
-          "part": "part3",
-          "rawText": "Câu 5: Một hình chữ nhật có chu vi bằng $28\\text{ cm}$ và độ dài đường chéo bằng $10\\text{ cm}$. Tính diện tích của hình chữ nhật đó theo đơn vị $\\text{cm}^2$.\nĐáp án: 48\nLời giải:\nGọi chiều dài và chiều rộng của hình chữ nhật lần lượt là $a$ và $b$ ($a, b > 0$).\nNửa chu vi của hình chữ nhật là: $a + b = 28 : 2 = 14\\text{ cm}$.\nTheo định lý Pythagore, độ dài đường chéo thỏa mãn: $a^2 + b^2 = 10^2 = 100$.\nTa có: $(a + b)^2 = a^2 + 2ab + b^2$\n$\\Rightarrow 14^2 = 100 + 2ab$\n$\\Rightarrow 196 = 100 + 2ab \\Rightarrow 2ab = 96 \\Rightarrow ab = 48$.\nVậy diện tích hình chữ nhật là $S = ab = 48\\text{ cm}^2$.",
-          "prompt": "Một hình chữ nhật có chu vi bằng $28\\text{ cm}$ và độ dài đường chéo bằng $10\\text{ cm}$. Tính diện tích của hình chữ nhật đó theo đơn vị $\\text{cm}^2$.",
-          "correctAnswer": "48",
-          "acceptableAnswers": [
-            "48"
-          ],
-          "explanation": "Gọi chiều dài và chiều rộng của hình chữ nhật lần lượt là $a$ và $b$ ($a, b > 0$).\nNửa chu vi của hình chữ nhật là: $a + b = 28 : 2 = 14\\text{ cm}$.\nTheo định lý Pythagore, độ dài đường chéo thỏa mãn: $a^2 + b^2 = 10^2 = 100$.\nTa có: $(a + b)^2 = a^2 + 2ab + b^2$\n$\\Rightarrow 14^2 = 100 + 2ab$\n$\\Rightarrow 196 = 100 + 2ab \\Rightarrow 2ab = 96 \\Rightarrow ab = 48$.\nVậy diện tích hình chữ nhật là $S = ab = 48\\text{ cm}^2$."
-        },
-        {
-          "id": "p3_q6_mw7xldax_5",
-          "number": 6,
-          "part": "part3",
-          "rawText": "Câu 6: Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và chu vi bằng $24\\text{ cm}$. Tính độ dài đường chéo ngắn $BD$ theo đơn vị $\\text{cm}$.\nĐáp án: 6\nLời giải:\nĐộ dài cạnh của hình thoi $ABCD$ là: $AB = 24 : 4 = 6\\text{ cm}$.\nVì $ABCD$ là hình thoi nên $AB = AD$.\nTam giác $ABD$ có $AB = AD$ và $\\widehat{A} = 60^\\circ$ nên tam giác $ABD$ là tam giác đều.\nDo đó, $BD = AB = 6\\text{ cm}$.",
-          "prompt": "Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và chu vi bằng $24\\text{ cm}$. Tính độ dài đường chéo ngắn $BD$ theo đơn vị $\\text{cm}$.",
-          "correctAnswer": "6",
-          "acceptableAnswers": [
-            "6"
-          ],
-          "explanation": "Độ dài cạnh của hình thoi $ABCD$ là: $AB = 24 : 4 = 6\\text{ cm}$.\nVì $ABCD$ là hình thoi nên $AB = AD$.\nTam giác $ABD$ có $AB = AD$ và $\\widehat{A} = 60^\\circ$ nên tam giác $ABD$ là tam giác đều.\nDo đó, $BD = AB = 6\\text{ cm}$."
-        }
-      ],
-      "googleSheetUrl": "https://script.google.com/macros/s/AKfycbzZifJkm_Y1HlNosgMjPYwP9N0OnYnVlrGZwxHzQNXUtUAoJVxu4PtAmO9p2ZPf_64IOA/exec",
-      "githubRawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/de-on-toan-8-giua-hk1-lhp1.json"
     },
     "e954dcf": {
       "metadata": {
