@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T14:14:31.196Z",
+  "updatedAt": "2026-11-15T14:18:12.889Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -3333,29 +3333,30 @@
   },
   "submissions": [
     {
-      "id": "sub_legacy_11q2r_test01_0_156",
-      "examId": "11q2r",
-      "examTitle": "T1",
+      "id": "sub_legacy_rdlz5_T1_25_156",
+      "examId": "rdlz5",
+      "examTitle": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
       "studentInfo": {
-        "studentId": "HS157",
+        "studentId": "T1",
         "fullName": "Test01",
         "className": "TOÁN THẦY THÚC",
         "schoolName": "Toán thầy Thúc"
       },
-      "submittedAt": "2026-11-15T14:14:28.145Z",
+      "submittedAt": "2026-11-15T14:18:10.239Z",
       "durationSeconds": 0,
-      "totalScore": 0,
+      "totalScore": 0.25,
       "maxScore": 10,
-      "percentage": 0,
+      "percentage": 3,
       "part1Score": 0.25,
       "part1Max": 3,
-      "part2Score": 0.25,
+      "part2Score": 0,
       "part2Max": 4,
       "part3Score": 0,
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6"
     }
   ]
 }
