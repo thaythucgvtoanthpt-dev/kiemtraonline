@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T15:07:58.571Z",
+  "updatedAt": "2026-11-15T15:10:10.497Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -3331,32 +3331,5 @@
       "githubRawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/10d8f9z.json"
     }
   },
-  "submissions": [
-    {
-      "id": "sub_legacy_rdlz5_T1_25_156",
-      "examId": "rdlz5",
-      "examTitle": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
-      "studentInfo": {
-        "studentId": "T1",
-        "fullName": "Test01",
-        "className": "TOÁN THẦY THÚC",
-        "schoolName": "Toán thầy Thúc"
-      },
-      "submittedAt": "2026-11-15T14:18:10.239Z",
-      "durationSeconds": 0,
-      "totalScore": 0.25,
-      "maxScore": 10,
-      "percentage": 3,
-      "part1Score": 0.25,
-      "part1Max": 3,
-      "part2Score": 0,
-      "part2Max": 4,
-      "part3Score": 0,
-      "part3Max": 3,
-      "part1Details": [],
-      "part2Details": [],
-      "part3Details": [],
-      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6"
-    }
-  ]
+  "submissions": []
 }
