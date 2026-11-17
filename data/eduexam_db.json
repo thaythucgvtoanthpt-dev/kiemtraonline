@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T06:01:10.646Z",
+  "updatedAt": "2026-11-17T06:10:21.165Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T06:01:05.313Z",
-      "updatedAt": "2026-11-17T06:01:05.313Z"
+      "createdAt": "2026-11-17T06:10:17.391Z",
+      "updatedAt": "2026-11-17T06:10:17.391Z"
     }
   ],
   "examsCatalog": [
@@ -3408,7 +3408,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     }
   ]
 }
