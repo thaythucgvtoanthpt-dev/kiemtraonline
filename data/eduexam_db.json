@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T08:17:16.620Z",
+  "updatedAt": "2026-11-17T08:17:50.063Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T08:17:07.595Z",
-      "updatedAt": "2026-11-17T08:17:07.595Z"
+      "createdAt": "2026-11-17T08:17:41.956Z",
+      "updatedAt": "2026-11-17T08:17:41.956Z"
     }
   ],
   "examsCatalog": [
@@ -3611,7 +3611,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_1nmg7_T4_1794899783000",
@@ -3637,7 +3638,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_1nmg7_12B1TVK31_1794899783000",
@@ -3663,7 +3665,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     }
   ],
   "publicConfig": {
