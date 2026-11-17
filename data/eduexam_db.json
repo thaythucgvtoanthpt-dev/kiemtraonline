@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T00:52:51.793Z",
+  "updatedAt": "2026-11-17T00:53:12.677Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1467,8 +1467,8 @@
       "closeAt": "",
       "passcode": "",
       "title": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG",
-      "studentLink": "https://toanthaythuc.vercel.app/s/1nmg7",
-      "directUrl": "/s/1nmg7",
+      "studentLink": "http://127.0.0.1:3000/s/1nmg7",
+      "directUrl": "http://127.0.0.1:3000/s/1nmg7",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1nmg7.json",
       "durationMinutes": 50,
       "totalQuestions": 22,
