@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T08:32:26.124Z",
+  "updatedAt": "2026-11-17T08:38:41.120Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T08:31:59.007Z",
-      "updatedAt": "2026-11-17T08:31:59.007Z"
+      "createdAt": "2026-11-17T08:38:41.082Z",
+      "updatedAt": "2026-11-17T08:38:41.082Z"
     }
   ],
   "examsCatalog": [
@@ -1316,7 +1316,7 @@
       "githubPagesUrl": "https://toanthaythuc.vercel.app/s/i0rio",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/i0rio.json",
       "createdAt": "2026-11-17T08:30:01.772Z",
-      "updatedAt": "2026-11-17T08:32:02.083Z",
+      "updatedAt": "2026-11-17T08:32:02.000Z",
       "isPublished": true,
       "publishedAt": "2026-11-17T08:32:02.004Z"
     },
@@ -1560,6 +1560,34 @@
       "startedAt": "2026-11-17T08:03:59.000Z",
       "submittedAt": "2026-11-17T08:03:59.000Z",
       "durationSeconds": 0,
+      "totalScore": 0,
+      "maxScore": 10,
+      "percentage": 0,
+      "part1Score": 0,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": [],
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
+    },
+    {
+      "id": "sub_i0rio_T2_1794904708000",
+      "examId": "i0rio",
+      "examTitle": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG15h30 17/11",
+      "studentInfo": {
+        "studentId": "T2",
+        "fullName": "Test02",
+        "className": "TOÁN THẦY THÚC",
+        "schoolName": "Toán thầy Thúc"
+      },
+      "startedAt": "2026-11-17T08:38:28.000Z",
+      "submittedAt": "2026-11-17T08:38:28.000Z",
+      "durationSeconds": 4,
       "totalScore": 0,
       "maxScore": 10,
       "percentage": 0,
