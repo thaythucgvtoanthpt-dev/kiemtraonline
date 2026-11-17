@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T08:31:10.256Z",
+  "updatedAt": "2026-11-17T08:32:26.124Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T08:30:59.294Z",
-      "updatedAt": "2026-11-17T08:30:59.294Z"
+      "createdAt": "2026-11-17T08:31:59.007Z",
+      "updatedAt": "2026-11-17T08:31:59.007Z"
     }
   ],
   "examsCatalog": [
@@ -1316,9 +1316,9 @@
       "githubPagesUrl": "https://toanthaythuc.vercel.app/s/i0rio",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/i0rio.json",
       "createdAt": "2026-11-17T08:30:01.772Z",
-      "updatedAt": "2026-11-17T08:30:39.000Z",
+      "updatedAt": "2026-11-17T08:32:02.083Z",
       "isPublished": true,
-      "publishedAt": "2026-11-17T08:30:39.328Z"
+      "publishedAt": "2026-11-17T08:32:02.004Z"
     },
     {
       "shortId": "1nmg7",
