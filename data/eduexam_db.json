@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:37:07.308Z",
+  "updatedAt": "2026-11-17T08:08:11.692Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T07:36:59.168Z",
-      "updatedAt": "2026-11-17T07:36:59.168Z"
+      "createdAt": "2026-11-17T08:08:02.248Z",
+      "updatedAt": "2026-11-17T08:08:02.248Z"
     }
   ],
   "examsCatalog": [
@@ -1452,7 +1452,7 @@
     },
     {
       "shortId": "1nmg7",
-      "examId": "exam_mwk3yluytt2p",
+      "examId": "exam_mwkcu9eucn8i",
       "grade": "12",
       "assignedClasses": [
         "12B1TVK",
@@ -1472,7 +1472,7 @@
       "studentLink": "/s/1nmg7",
       "directUrl": "/s/1nmg7",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1nmg7.json",
-      "durationMinutes": 50,
+      "durationMinutes": 90,
       "totalQuestions": 22,
       "isPublished": true,
       "createdAt": "2026-11-17T00:49:44.000Z",
@@ -3505,6 +3505,84 @@
       "part3Details": [],
       "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
       "isAutoSubmitted": false
+    },
+    {
+      "id": "sub_v1_1nmg7_T1_1794902476000",
+      "examId": "1nmg7",
+      "examTitle": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG",
+      "studentInfo": {
+        "studentId": "T1",
+        "fullName": "Test01",
+        "className": "TOÁN THẦY THÚC",
+        "schoolName": "Toán thầy Thúc"
+      },
+      "submittedAt": "2026-11-17T08:01:16.000Z",
+      "durationSeconds": 0,
+      "totalScore": 0,
+      "maxScore": 10,
+      "percentage": 0,
+      "part1Score": 0,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": [],
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6"
+    },
+    {
+      "id": "sub_v1_1nmg7_T4_1794902554000",
+      "examId": "1nmg7",
+      "examTitle": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG",
+      "studentInfo": {
+        "studentId": "T4",
+        "fullName": "Test04",
+        "className": "TOÁN THẦY THÚC",
+        "schoolName": "Toán thầy Thúc"
+      },
+      "submittedAt": "2026-11-17T08:02:34.000Z",
+      "durationSeconds": 0,
+      "totalScore": 0.25,
+      "maxScore": 10,
+      "percentage": 3,
+      "part1Score": 0.25,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": [],
+      "detailsSummary": "PI:1/12 | PII:0/4 | PIII:0/6"
+    },
+    {
+      "id": "sub_v1_1nmg7_12B1TVK31_1794902639000",
+      "examId": "1nmg7",
+      "examTitle": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG",
+      "studentInfo": {
+        "studentId": "12B1TVK31",
+        "fullName": "Phan Văn Tiến",
+        "className": "12B1TVK",
+        "schoolName": "THPT Trần Văn Kỷ"
+      },
+      "submittedAt": "2026-11-17T08:03:59.000Z",
+      "durationSeconds": 0,
+      "totalScore": 0,
+      "maxScore": 10,
+      "percentage": 0,
+      "part1Score": 0,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": [],
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6"
     }
   ],
   "publicConfig": {
