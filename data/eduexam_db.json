@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:12:10.716Z",
+  "updatedAt": "2026-11-17T07:13:21.835Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,11 +1286,42 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-17T07:12:02.630Z",
-      "updatedAt": "2026-11-17T07:12:02.630Z"
+      "createdAt": "2026-11-17T07:13:17.672Z",
+      "updatedAt": "2026-11-17T07:13:17.672Z"
     }
   ],
-  "examsCatalog": [],
+  "examsCatalog": [
+    {
+      "shortId": "1nmg7",
+      "examId": "exam_mwkcu9eucn8i",
+      "grade": "12",
+      "assignedClasses": [
+        "12B1TVK",
+        "12B2TVK",
+        "10B3TVK"
+      ],
+      "assignedStudentCodes": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "openAt": "",
+      "closeAt": "",
+      "title": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "passcode": "",
+      "studentLink": "https://toanthaythuc.vercel.app/s/1nmg7",
+      "directUrl": "https://toanthaythuc.vercel.app/s/1nmg7",
+      "githubPagesUrl": "https://toanthaythuc.vercel.app/s/1nmg7",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1nmg7.json",
+      "createdAt": "2026-11-17T07:12:15.654Z",
+      "updatedAt": "2026-11-17T07:13:07.000Z",
+      "isPublished": true,
+      "publishedAt": "2026-11-17T07:12:44.826Z"
+    }
+  ],
   "exams": {},
   "submissions": []
 }
