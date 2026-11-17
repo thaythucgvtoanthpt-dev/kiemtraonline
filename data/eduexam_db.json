@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T03:29:53.732Z",
+  "updatedAt": "2026-11-17T03:30:24.535Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -3357,5 +3357,28 @@
       "githubRawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/10d8f9z.json"
     }
   },
-  "submissions": []
+  "submissions": [
+    {
+      "id": "smoke_test_sub_1794886224523",
+      "examId": "smoke_exam",
+      "examTitle": "Bai Kiem Tra Smoke Test",
+      "studentInfo": {
+        "studentId": "HS999",
+        "fullName": "Hoc Sinh Smoke Test",
+        "className": "12A1",
+        "schoolName": "THPT Test"
+      },
+      "submittedAt": "2026-11-17T03:30:24.523Z",
+      "timeSpentSeconds": 120,
+      "score": 8.5,
+      "part1Score": 4,
+      "part2Score": 3,
+      "part3Score": 1.5,
+      "part1Answers": {
+        "1": "A"
+      },
+      "part2Answers": {},
+      "part3Answers": {}
+    }
+  ]
 }
