@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T13:22:26.257Z",
+  "updatedAt": "2026-11-18T13:24:32.434Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-18T13:22:18.469Z",
-      "updatedAt": "2026-11-18T13:22:18.469Z"
+      "createdAt": "2026-11-18T13:24:17.453Z",
+      "updatedAt": "2026-11-18T13:24:17.453Z"
     }
   ],
   "examsCatalog": [
