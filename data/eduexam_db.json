@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T10:29:50.561Z",
+  "updatedAt": "2026-11-19T10:30:01.951Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -4375,7 +4375,7 @@
   ],
   "deletedExams": {},
   "publicConfig": {
-    "googleSheetSpreadsheetUrl": "https://docs.google.com/spreadsheets/d/1rTmNYDymS0hU91ZccfhVc5qIiR2-mKMH_3lLGw-8Axw/edit?gid=1467133952#gid=1467133952",
+    "googleSheetSpreadsheetUrl": "https://docs.google.com/spreadsheets/d/1rTmNYDymS0hU91ZccfhVc5qIiR2-mKMH_3lLGw-8Axw/edit?usp=sharing",
     "googleSheetWebhookUrl": "https://script.google.com/macros/s/AKfycbxUMrBrGHbIOCrKC500hDljjGnrFe3Kxao3fbvgs2MJSQiQe3VNx9E5nHO-VhcsB9DTkA/exec"
   }
 }
