@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T10:56:03.714Z",
+  "updatedAt": "2026-11-19T11:02:36.018Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-19T10:55:55.729Z",
-      "updatedAt": "2026-11-19T10:55:55.729Z"
+      "createdAt": "2026-11-19T11:02:18.117Z",
+      "updatedAt": "2026-11-19T11:02:18.117Z"
     }
   ],
   "examsCatalog": [
@@ -4455,6 +4455,8 @@
     }
   ],
   "deletedExams": {},
+  "deletedSubmissions": {},
+  "submissionsClearedAt": 0,
   "publicConfig": {
     "googleSheetSpreadsheetUrl": "https://docs.google.com/spreadsheets/d/1rTmNYDymS0hU91ZccfhVc5qIiR2-mKMH_3lLGw-8Axw/edit?usp=sharing",
     "googleSheetWebhookUrl": "https://script.google.com/macros/s/AKfycbxUMrBrGHbIOCrKC500hDljjGnrFe3Kxao3fbvgs2MJSQiQe3VNx9E5nHO-VhcsB9DTkA/exec"
