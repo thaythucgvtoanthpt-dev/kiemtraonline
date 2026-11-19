@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T10:40:38.787Z",
+  "updatedAt": "2026-11-19T10:40:46.419Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1286,8 +1286,8 @@
       "className": "TOÁN THẦY THÚC",
       "schoolName": "Toán thầy Thúc",
       "password": "123456",
-      "createdAt": "2026-11-19T10:40:30.812Z",
-      "updatedAt": "2026-11-19T10:40:30.812Z"
+      "createdAt": "2026-11-19T10:40:33.030Z",
+      "updatedAt": "2026-11-19T10:40:33.030Z"
     }
   ],
   "examsCatalog": [
@@ -4410,6 +4410,33 @@
         "schoolName": "THPT Trần Văn Kỷ"
       },
       "submittedAt": "2026-11-17T07:16:23.000Z",
+      "durationSeconds": 0,
+      "totalScore": 0,
+      "maxScore": 10,
+      "percentage": 0,
+      "part1Score": 0,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": [],
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
+    },
+    {
+      "id": "sub_i0rio_T1_1794902476000",
+      "examId": "i0rio",
+      "examTitle": "TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG15h30 17/11",
+      "studentInfo": {
+        "studentId": "T1",
+        "fullName": "Test01",
+        "className": "TOÁN THẦY THÚC",
+        "schoolName": "Toán thầy Thúc"
+      },
+      "submittedAt": "2026-11-17T08:01:16.000Z",
       "durationSeconds": 0,
       "totalScore": 0,
       "maxScore": 10,
