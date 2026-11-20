@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:28:08.446Z",
+  "updatedAt": "2026-11-20T14:28:24.191Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1318,32 +1318,6 @@
     }
   ],
   "examsCatalog": [
-    {
-      "shortId": "3v4g9",
-      "examId": "exam_mwk6f7x90onv",
-      "grade": "12",
-      "assignedClasses": [
-        "12B2TVK",
-        "12B1TVK"
-      ],
-      "assignedStudentCodes": [
-        "T1",
-        "T2",
-        "T3"
-      ],
-      "openAt": "",
-      "closeAt": "",
-      "passcode": "",
-      "title": "17/11TOAN-12 C2 BAI-1 1 ĐỀ-TEST-01 HDG ",
-      "studentLink": "http://toanthaythuc.ai.studio/s/3v4g9",
-      "directUrl": "http://toanthaythuc.ai.studio/s/3v4g9",
-      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/3v4g9.json",
-      "durationMinutes": 90,
-      "totalQuestions": 22,
-      "isPublished": true,
-      "createdAt": "2026-11-17T04:13:51.000Z",
-      "updatedAt": "2026-11-17T04:13:51.000Z"
-    },
     {
       "shortId": "i0rio",
       "examId": "exam_mwkfm9t8ywjx",
