@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:02:16.734Z",
+  "updatedAt": "2026-11-20T14:26:58.561Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1630,8 +1630,8 @@
       "openAt": "",
       "closeAt": "",
       "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
-      "studentLink": "/s/rdlz5",
-      "directUrl": "/s/rdlz5",
+      "studentLink": "http://toanthaythuc.ai.studio/s/rdlz5",
+      "directUrl": "http://toanthaythuc.ai.studio/s/rdlz5",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json",
       "durationMinutes": 90,
       "totalQuestions": 22,
@@ -1648,8 +1648,8 @@
       "openAt": "",
       "closeAt": "",
       "title": "TOAN10.CHUONG4. Bài 1. VECTO 001",
-      "studentLink": "/s/1ux3u",
-      "directUrl": "/s/1ux3u",
+      "studentLink": "http://toanthaythuc.ai.studio/s/1ux3u",
+      "directUrl": "http://toanthaythuc.ai.studio/s/1ux3u",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1ux3u.json",
       "durationMinutes": 90,
       "totalQuestions": 22,
@@ -3540,7 +3540,7 @@
   },
   "submissions": [
     {
-      "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795172387330",
+      "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795184814652",
       "examId": "de-kiem-tra",
       "examTitle": "Đề kiểm tra trực tuyến",
       "studentInfo": {
@@ -3549,7 +3549,7 @@
         "className": "12A1",
         "schoolName": "THPT"
       },
-      "submittedAt": "2026-11-20T10:59:47.330Z",
+      "submittedAt": "2026-11-20T14:26:54.652Z",
       "durationSeconds": 0,
       "totalScore": 0,
       "maxScore": 10,
@@ -3784,6 +3784,56 @@
       "part2Score": 3,
       "part2Max": 4,
       "part3Score": 1,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": []
+    },
+    {
+      "id": "sub_rdlz5_T2_1795209274000",
+      "examId": "rdlz5",
+      "examTitle": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
+      "studentInfo": {
+        "studentId": "T2",
+        "fullName": "Test02",
+        "className": "TOÁN THẦY THÚC",
+        "schoolName": "Toán thầy Thúc"
+      },
+      "submittedAt": "2026-11-20T21:14:34.000Z",
+      "durationSeconds": 0,
+      "totalScore": 0.75,
+      "maxScore": 10,
+      "percentage": 8,
+      "part1Score": 0.75,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
+      "part3Max": 3,
+      "part1Details": [],
+      "part2Details": [],
+      "part3Details": []
+    },
+    {
+      "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795172387330",
+      "examId": "de-kiem-tra",
+      "examTitle": "Đề kiểm tra trực tuyến",
+      "studentInfo": {
+        "studentId": "ĐỀKIỂMTRATRỰCTUYẾN",
+        "fullName": "20/11/2026 07:51:34",
+        "className": "12A1",
+        "schoolName": "THPT"
+      },
+      "submittedAt": "2026-11-20T10:59:47.330Z",
+      "durationSeconds": 0,
+      "totalScore": 0,
+      "maxScore": 10,
+      "percentage": 0,
+      "part1Score": 0,
+      "part1Max": 3,
+      "part2Score": 0,
+      "part2Max": 4,
+      "part3Score": 0,
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
