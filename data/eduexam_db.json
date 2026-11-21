@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T14:24:50.572Z",
+  "updatedAt": "2026-11-21T14:24:52.609Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1369,16 +1369,16 @@
       ],
       "openAt": "",
       "closeAt": "",
+      "passcode": "",
       "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
-      "studentLink": "/s/rdlz5",
-      "directUrl": "/s/rdlz5",
+      "studentLink": "http://toanthaythuc.vercel.app/s/rdlz5",
+      "directUrl": "http://toanthaythuc.vercel.app/s/rdlz5",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json",
       "durationMinutes": 90,
       "totalQuestions": 22,
       "isPublished": true,
       "createdAt": "2026-11-14T15:41:21.216Z",
-      "updatedAt": "2026-11-15T01:17:00.112Z",
-      "passcode": "",
-      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json"
+      "updatedAt": "2026-11-21T14:24:41.388Z"
     },
     {
       "shortId": "czp4t",
@@ -1407,7 +1407,7 @@
       "totalQuestions": 22,
       "isPublished": true,
       "createdAt": "2026-11-21T14:01:45.000Z",
-      "updatedAt": "2026-11-21T14:01:45.000Z"
+      "updatedAt": "2026-11-21T14:24:51.441Z"
     }
   ],
   "exams": {},
