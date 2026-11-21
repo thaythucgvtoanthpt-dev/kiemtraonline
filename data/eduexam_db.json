@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T11:44:09.353Z",
+  "updatedAt": "2026-11-21T11:45:13.583Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1621,7 +1621,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:11/12 | PII:4/4 | PIII:1/6"
+      "detailsSummary": "PI:11/12 | PII:4/4 | PIII:1/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795149243000",
@@ -1647,7 +1648,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:0/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795153149000",
@@ -1673,7 +1675,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:7/12 | PII:4/4 | PIII:0/6"
+      "detailsSummary": "PI:7/12 | PII:4/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795153298000",
@@ -1699,7 +1702,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:2/12 | PII:0/4 | PIII:0/6"
+      "detailsSummary": "PI:2/12 | PII:0/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795154203000",
@@ -1725,7 +1729,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:7/12 | PII:4/4 | PIII:3/6"
+      "detailsSummary": "PI:7/12 | PII:4/4 | PIII:3/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795171212000",
@@ -1751,7 +1756,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:9/12 | PII:3/4 | PIII:0/6"
+      "detailsSummary": "PI:9/12 | PII:3/4 | PIII:0/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795172106000",
@@ -1777,7 +1783,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:12/12 | PII:4/4 | PIII:2/6"
+      "detailsSummary": "PI:12/12 | PII:4/4 | PIII:2/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK24_1795187817000",
@@ -1803,7 +1810,8 @@
       "part1Details": [],
       "part2Details": [],
       "part3Details": [],
-      "detailsSummary": "PI:11/12 | PII:4/4 | PIII:1/6"
+      "detailsSummary": "PI:11/12 | PII:4/4 | PIII:1/6",
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795184819454",
@@ -1854,7 +1862,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_T1_1795165423000",
@@ -1879,7 +1888,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK17_1795173910000",
@@ -1904,7 +1914,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795174443000",
@@ -1929,7 +1940,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795178349000",
@@ -1954,7 +1966,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795178498000",
@@ -1979,7 +1992,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK11_1795179403000",
@@ -2004,7 +2018,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795196412000",
@@ -2029,7 +2044,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_12B1TVK09_1795197306000",
@@ -2054,7 +2070,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_rdlz5_T2_1795209274000",
@@ -2079,7 +2096,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795172391382",
@@ -2788,7 +2806,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795184844824",
@@ -2813,7 +2832,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     },
     {
       "id": "sub_de-kiem-tra_ĐỀKIỂMTRATRỰCTUYẾN_1795184875548",
@@ -2838,7 +2858,8 @@
       "part3Max": 3,
       "part1Details": [],
       "part2Details": [],
-      "part3Details": []
+      "part3Details": [],
+      "isAutoSubmitted": false
     }
   ],
   "deletedExams": {},
