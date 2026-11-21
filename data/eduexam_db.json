@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T14:27:45.410Z",
+  "updatedAt": "2026-11-21T14:27:46.678Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1355,32 +1355,6 @@
   ],
   "examsCatalog": [
     {
-      "shortId": "rdlz5",
-      "examId": "exam_mwgkpeio1rsn",
-      "grade": "12",
-      "assignedClasses": [
-        "12B1TVK",
-        "12B2TVK"
-      ],
-      "assignedStudentCodes": [
-        "SON01",
-        "T1",
-        "T2"
-      ],
-      "openAt": "",
-      "closeAt": "",
-      "passcode": "",
-      "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
-      "studentLink": "/s/rdlz5",
-      "directUrl": "/s/rdlz5",
-      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json",
-      "durationMinutes": 90,
-      "totalQuestions": 22,
-      "isPublished": true,
-      "createdAt": "2026-11-14T15:41:21.216Z",
-      "updatedAt": "2026-11-21T14:25:58.922Z"
-    },
-    {
       "shortId": "czp4t",
       "examId": "exam_mwqh5v3vbsfr",
       "grade": "10",
@@ -1406,8 +1380,61 @@
       "durationMinutes": 90,
       "totalQuestions": 22,
       "isPublished": true,
-      "createdAt": "2026-11-21T14:01:45.000Z",
-      "updatedAt": "2026-11-21T14:26:08.862Z"
+      "createdAt": "2026-11-21T13:59:52.507Z",
+      "updatedAt": "2026-11-21T14:26:08.862Z",
+      "publishedAt": "2026-11-21T14:01:40.859Z"
+    },
+    {
+      "shortId": "rdlz5",
+      "examId": "exam_mwgkpeio1rsn",
+      "grade": "12",
+      "assignedClasses": [
+        "12B1TVK",
+        "12B2TVK"
+      ],
+      "assignedStudentCodes": [
+        "SON01",
+        "T1",
+        "T2"
+      ],
+      "openAt": "",
+      "closeAt": "",
+      "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
+      "studentLink": "/s/rdlz5",
+      "directUrl": "/s/rdlz5",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "isPublished": true,
+      "createdAt": "2026-11-14T15:41:21.216Z",
+      "updatedAt": "2026-11-21T14:25:58.922Z",
+      "passcode": "",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json"
+    },
+    {
+      "shortId": "1o540",
+      "examId": "exam_mwqi3gogalkk",
+      "grade": "11",
+      "assignedClasses": [
+        "TEST"
+      ],
+      "assignedStudentCodes": [
+        "UYEN",
+        "BNGAN",
+        "T1"
+      ],
+      "openAt": "",
+      "closeAt": "",
+      "passcode": "",
+      "title": "TOAN11.CHUONG4.BAI1. Đại cương về đường thẳng và mặt phẳng",
+      "studentLink": "https://toanthaythuc.vercel.app/s/1o540",
+      "directUrl": "/s/1o540",
+      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1o540.json",
+      "durationMinutes": 90,
+      "totalQuestions": 22,
+      "isPublished": true,
+      "createdAt": "2026-11-21T14:18:57.000Z",
+      "updatedAt": "2026-11-21T14:27:36.233Z",
+      "publishedAt": "2026-11-21T14:27:06.707Z"
     }
   ],
   "exams": {},
@@ -1736,8 +1763,7 @@
     "on-tap-cki": 1795261696804,
     "on-ta": 1795261696804,
     "on-tap-cki-001": 1795261696804,
-    "on-t": 1795261696804,
-    "1o540": 1795261683160
+    "on-t": 1795261696804
   },
   "deletedSubmissions": {
     "sub_rdlz5_T2_1795184074000": 1795228287590,
