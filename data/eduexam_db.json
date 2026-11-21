@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T11:48:01.618Z",
+  "updatedAt": "2026-11-21T11:48:05.213Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1391,28 +1391,6 @@
       "updatedAt": "2026-11-20T14:21:28.000Z"
     },
     {
-      "shortId": "1o540",
-      "examId": "1o540",
-      "grade": "11",
-      "assignedClasses": [],
-      "assignedStudentCodes": [
-        "BNGAN",
-        "UYEN"
-      ],
-      "openAt": "",
-      "closeAt": "",
-      "passcode": "",
-      "title": "TOAN11.CHUONG4.BAI1. Đại cương về đường thẳng và mặt phẳng",
-      "studentLink": "https://toanthaythuc.vercel.app/s/1o540",
-      "directUrl": "/s/1o540",
-      "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1o540.json",
-      "durationMinutes": 90,
-      "totalQuestions": 22,
-      "isPublished": true,
-      "createdAt": "2026-11-21T03:21:25.000Z",
-      "updatedAt": "2026-11-21T11:42:53.000Z"
-    },
-    {
       "shortId": "exam_mwostukkmpey",
       "examId": "exam_mwostukkmpey",
       "grade": "10",
@@ -1681,7 +1659,10 @@
   "deletedExams": {
     "b76ecf0": 1795261679720,
     "exam_mw6h3c3ben0p": 1795261679720,
-    "khao-sat-chat-luong-lan-1-toan-12-khtn-tphcm": 1795261679720
+    "khao-sat-chat-luong-lan-1-toan-12-khtn-tphcm": 1795261679720,
+    "1o540": 1795261683160,
+    "toan11-chuong4-bai1-dai-cuong-ve-duong-thang-va-mat-phang": 1795261683160,
+    "exam_mwpu8azendhd": 1795261683160
   },
   "deletedSubmissions": {
     "sub_rdlz5_T2_1795184074000": 1795228287590,
