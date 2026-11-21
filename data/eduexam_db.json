@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T14:27:58.013Z",
+  "updatedAt": "2026-11-21T14:28:01.244Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1406,7 +1406,7 @@
       "totalQuestions": 22,
       "isPublished": true,
       "createdAt": "2026-11-14T15:41:21.216Z",
-      "updatedAt": "2026-11-21T14:25:58.922Z",
+      "updatedAt": "2026-11-21T14:28:00.135Z",
       "passcode": "",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/rdlz5.json"
     },
