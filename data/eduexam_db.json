@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T14:27:13.879Z",
+  "updatedAt": "2026-11-21T14:27:16.657Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1412,29 +1412,29 @@
     },
     {
       "shortId": "1o540",
-      "examId": "exam_mwqhtkbcx5qq",
+      "examId": "exam_mwqi3gogalkk",
       "grade": "11",
       "assignedClasses": [
         "TEST"
       ],
       "assignedStudentCodes": [
-        "BNGAN",
         "UYEN",
-        "T1",
-        "T2"
+        "BNGAN",
+        "T1"
       ],
       "openAt": "",
       "closeAt": "",
       "passcode": "",
       "title": "TOAN11.CHUONG4.BAI1. Đại cương về đường thẳng và mặt phẳng",
       "studentLink": "https://toanthaythuc.vercel.app/s/1o540",
-      "directUrl": "/s/1o540",
+      "directUrl": "https://toanthaythuc.vercel.app/s/1o540",
       "rawUrl": "https://raw.githubusercontent.com/thaythucgvtoanthpt-dev/kiemtraonline/main/exams/1o540.json",
       "durationMinutes": 90,
       "totalQuestions": 22,
       "isPublished": true,
       "createdAt": "2026-11-21T14:18:57.000Z",
-      "updatedAt": "2026-11-21T14:24:21.000Z"
+      "updatedAt": "2026-11-21T14:27:15.595Z",
+      "publishedAt": "2026-11-21T14:27:06.707Z"
     }
   ],
   "exams": {},
