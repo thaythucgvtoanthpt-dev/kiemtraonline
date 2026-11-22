@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T14:21:28.045Z",
+  "updatedAt": "2026-11-22T14:21:30.551Z",
   "students": [
     {
       "studentCode": "10B2TVK01",
@@ -1370,8 +1370,8 @@
       "openAt": "",
       "closeAt": "",
       "title": "TOAN12.CHUONG2.BAI1. Vecto trong không gian",
-      "studentLink": "/s/rdlz5",
-      "directUrl": "/s/rdlz5",
+      "studentLink": "http://toanthaythuc.vercel.app/s/rdlz5",
+      "directUrl": "http://toanthaythuc.vercel.app/s/rdlz5",
       "durationMinutes": 90,
       "totalQuestions": 22,
       "isPublished": true,
