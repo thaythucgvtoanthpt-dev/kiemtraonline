@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KiemTraOnline Exam Host</title>
+  <meta name="description" content="Static server hosting EduExam exam payloads, database records, and exam redirect pages." />
+  <meta property="og:title" content="KiemTraOnline Exam Host" />
+  <meta property="og:description" content="Static server hosting EduExam exam payloads, database records, and exam redirect pages." />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    header {
+      margin-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.65rem;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .stat-value {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      padding: 10px 0;
+      border-top: 1px solid var(--border);
+    }
+    li:first-child {
+      border-top: none;
+      padding-top: 2px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.85em;
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>KiemTraOnline Exam Host</h1>
+      <p class="subtitle">Kho lưu trữ tĩnh các đề thi JSON, cơ sở dữ liệu EduExam và liên kết chuyển hướng.</p>
+    </header>
+
+    <div class="stats" id="stats">
+      <div class="stat-card">
+        <div class="stat-label">Đề thi JSON</div>
+        <div class="stat-value" id="stat-exams">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Học sinh (DB)</div>
+        <div class="stat-value" id="stat-students">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Bài nộp (DB)</div>
+        <div class="stat-value" id="stat-submissions">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Liên kết rút gọn</div>
+        <div class="stat-value" id="stat-links">—</div>
+      </div>
+    </div>
+
+    <section>
+      <h2>Kho đề thi (<code>/exams/*.json</code>)</h2>
+      <ul id="exams-list"><li class="meta">Đang tải...</li></ul>
+    </section>
+
+    <section>
+      <h2>Cơ sở dữ liệu (<code>/data/eduexam_db.json</code>)</h2>
+      <ul id="db-list"><li class="meta">Đang tải...</li></ul>
+    </section>
+
+    <section>
+      <h2>Liên kết chuyển hướng <code>/s/*</code></h2>
+      <ul id="short-links-list"><li class="meta">Đang tải...</li></ul>
+    </section>
+
+    <section>
+      <h2>Liên kết chuyển hướng <code>/go/*</code></h2>
+      <ul id="go-links-list"><li class="meta">Đang tải...</li></ul>
+    </section>
+  </main>
+
+  <script>
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    fetch('/api/index')
+      .then((res) => res.json())
+      .then((data) => {
+        const exams = data.exams || [];
+        const goLinks = data.goLinks || [];
+        const shortLinks = data.shortLinks || [];
+        const db = data.db || {};
+
+        document.getElementById('stat-exams').textContent = exams.length;
+        document.getElementById('stat-students').textContent = db.studentsCount ?? 0;
+        document.getElementById('stat-submissions').textContent = db.submissionsCount ?? 0;
+        document.getElementById('stat-links').textContent = goLinks.length + shortLinks.length;
+
+        const examsEl = document.getElementById('exams-list');
+        examsEl.innerHTML = exams.length
+          ? exams
+              .map((exam) => {
+                const details = [
+                  exam.grade ? 'Khối ' + exam.grade : '',
+                  exam.totalQuestions ? exam.totalQuestions + ' câu' : '',
+                  exam.durationMinutes ? exam.durationMinutes + ' phút' : '',
+                ]
+                  .filter(Boolean)
+                  .join(' · ');
+                return (
+                  '<li>' +
+                  '<div><a href="' + escapeHtml(exam.href) + '">' + escapeHtml(exam.title) + '</a></div>' +
+                  '<div class="meta"><code>' + escapeHtml(exam.file) + '</code>' + (details ? ' · ' + escapeHtml(details) : '') + '</div>' +
+                  '</li>'
+                );
+              })
+              .join('')
+          : '<li class="meta">Không có tệp đề thi nào.</li>';
+
+        const dbEl = document.getElementById('db-list');
+        dbEl.innerHTML = db.available
+          ? '<li>' +
+            '<div><a href="/data/eduexam_db.json">/data/eduexam_db.json</a></div>' +
+            '<div class="meta">' +
+            escapeHtml(db.catalogCount) + ' đề trong danh mục · ' +
+            escapeHtml(db.studentsCount) + ' học sinh · ' +
+            escapeHtml(db.submissionsCount) + ' bài nộp' +
+            '</div></li>'
+          : '<li class="meta">Không tìm thấy eduexam_db.json.</li>';
+
+        const renderLinks = (elId, items) => {
+          const el = document.getElementById(elId);
+          el.innerHTML = items.length
+            ? items
+                .map(
+                  (item) =>
+                    '<li>' +
+                    '<div><a href="' + escapeHtml(item.href) + '">' + escapeHtml(item.title) + '</a></div>' +
+                    '<div class="meta"><code>' + escapeHtml(item.href) + '</code></div>' +
+                    '</li>'
+                )
+                .join('')
+            : '<li class="meta">Không có liên kết nào.</li>';
+        };
+
+        renderLinks('short-links-list', shortLinks);
+        renderLinks('go-links-list', goLinks);
+      })
+      .catch(() => {
+        document.getElementById('exams-list').innerHTML =
+          '<li class="meta">Không thể tải danh sách tệp.</li>';
+      });
+  </script>
+</body>
+</html>

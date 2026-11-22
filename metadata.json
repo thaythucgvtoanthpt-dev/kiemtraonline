@@ -1,0 +1,4 @@
+{
+  "name": "KiemTraOnline Exam Host",
+  "description": "Static server hosting EduExam exam payloads, database records, and exam redirect pages."
+}

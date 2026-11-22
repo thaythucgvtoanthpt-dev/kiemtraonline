@@ -1,0 +1,15 @@
+{
+  "name": "kiemtraonline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static server hosting EduExam exam payloads, database records, and exam redirect pages.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node --check server.js",
+    "lint": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
